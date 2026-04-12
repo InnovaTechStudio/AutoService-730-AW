@@ -222,7 +222,57 @@ De manera transversal, el equipo aplicará los siguientes principios:
 
 
 #### 5.1.4. Software Deployment Configuration
-[Pendiente]
+**Landing Page Deployment - HTML, CSS and JavaScript**
+
+**Source Repository Setup**
+<p>
+  Para la publicación de la Landing Page se utilizará un repositorio remoto alojado en GiHub, en el cual se almacenarán todos los archivos fuente correspondientes a la interfaz web estática.
+  Dado que la solución ha sido con HTML, CSS y JavaScript, es indispensable que el archivo principal index.html permanezca en la raíz del repositorio, ya que este será tomado como archivo inicial durante el proceso de despliegue. Del mismo modo, los archivos complementarios como hojas de estilo, scripts e imágenes se organizarán en directorios específicos para facilitar el mantenimiento del proyecto.
+  
+  Ejemplo:
+  ```
+  /
+  |---index.html
+  |---css/
+  |    |__ styles.css
+  |---js/
+  |    |__ main.js
+  |---assets/
+        |__ images/
+  ```
+</p>
+
+**Deployment Process**
+<p>
+  La publicación del sitio se realizará mediante el servicio GitHub Pages, el cual permite desplegar sitios estáticos directamente desde el repositorio.
+  Para habilitar el despliegue, se seguirán los siguientes pasos:
+  - Ingresar al repositorio del proyecto en GitHub
+  - Acceder al apartado Settings
+  - Seleccionar la opción Pages
+  - Elegir la opción Pages
+  - Elegir la rama main como fuente de publicación
+  - Establecer la carpeta raíz /root como directorio de despliegue
+  - Guardar la configuración
+  Una vez completado este proceso, GitHub iniciará automáticamente la generación del sitio web.
+</p>
+
+**Published Access**
+<p>
+  Finalizada la configuración, la plataforma proporcionará un enlace público mediante el cual se podrá acceder a la Landing Page desplegada.
+  La URL seguirá una estructura similar a la siguiente:
+  
+  ```
+  https://<usernanme>.github.io/<repository-name>/
+  ```
+
+  Este enlace corresponderá a la versión oficial publicada del producto.
+</p>
+
+**Version Updates**
+<p>
+  Cada vez que el equipo realice modificaciones en la Landing Page, estas deberán enviarse al repositorio mediante nuevos commits.
+  Al actualizar la rama principal, el servicio GitHub Pages reflejará automáticamente los cambios en la versión publicada, que permitirán mantener el sitio sincronizado con la última versión estable del código fuente.
+</p>
 
 ### 5.2. Landing Page, Services & Applications Implementation
 

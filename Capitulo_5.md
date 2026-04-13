@@ -68,7 +68,6 @@
   </tbody>
 </table>
 
-
 #### 5.1.2. Source Code Management
 <p align="justify">
   Para la gestión, control de versiones del proyecto y seguimiento del proyecto, el equipo utiliza GitHub como plataforma principal de almacenamiento del código fuente y colaboración. Esta herramienta permite mantener un historial detallado de los cambios realizados, facilitar el trabajo en equipo y asegurar la trazabilidad de cada modificación durante el ciclo de desarrollo.
@@ -219,7 +218,6 @@ De manera transversal, el equipo aplicará los siguientes principios:
 - Scalability: estructura preparada para crecimiento futuro.
 - Maintainability: facilidad para futuras modificaciones.
 </p>
-
 
 #### 5.1.4. Software Deployment Configuration
 **Landing Page Deployment - HTML, CSS and JavaScript**

@@ -94,6 +94,131 @@
   De esta manera, el equipo garantiza una gestión eficiente del código fuente, que promueve la mantenibilidad, la colaboración y la escalabilidad del proyecto a lo largo de sus futuras iteraciones.
 </p>
 
+#### 5.1.3. Source Code Style Guide & Conventions
+<p align="justify">
+  Con el objetivo de asegurar la calidad, mantenibilidad y escalabilidad de la solución propuesta, se ha definido un conjunto de lineamientos de estilo y convenciones de codificación aplicables a todos los lenguajes utilizados en el proyecto, específicamente HTML, CSS, JavaScript y C#.
+  
+  Como criterio general, todo el código fuente, que incluye nombres de variables, clases, archivos, comentarios técnicos y documentación interna, será redactado en idioma inglés, con el fin de mantener uniformidad y alinearse con estándares internacionales de desarrollo de software.
+  
+  Asimismo, se adoptan buenas prácticas basadas en guías reconocidad como Google Style Guides, MDN JavaScript, MDN JavaScript Guidelines, Microsoft C# Coding Conventions y lineamientos estándar de accesibilidad y legibilidad.
+
+  **HTML Conventions**
+  
+  Para la estructura del frontend se empleará HTML5 semántico, que prioriza la correcta organización del contenido y la accesibilidad.
+
+  Las principales convenciones adoptadas son:
+  - Uso de etiquetas semánticas como &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt; y &lt;footer&gt; para mejorar la estructura lógica del documento.
+  - Nombres de etiquetas y atributos escritos exclusivamente en minúsculas.
+  - Cierre correcto de todas las etiquetas HTML.
+  - Inclusión obligatoria del atributo alt en imágenes para mejorar la accesibilidad.
+  - Uso de atributos width y height en imágenes cuando corresponde, para optimizar la carga visual.
+  - Definición del atributo lang="en" en la etiqueta &lt;html&gt;.
+  - Inclusión de metadatos esenciales como &lt;title&gt; y &lt;meta name="descripcion"&gt;.
+  - Evitar el uso innecesario de estilos o scripts inline.
+
+  Ejemplo:
+  ``` HTML
+  <section class="hero-banner">
+      <img src="banner.jpg" alt="Main promotional banner" width="1200" height="600">
+  </section>
+  ```
+
+**CSS Conventions**
+
+  Para la hoja de estilos se seguirá una estructura modular y escalable, enfocada en la reutilización de componentes.
+  Las convenciones establecidas son:
+  - Uso de nomenclatura kebab-case para clases CSS.
+  - Aplicación de la metodología BEM (Block Element Modifier) para mejorar la organización visual y funcional de estilos.
+  - Uso de nombres descriptivos y significativos.
+  - Declaraciones ordenadas de forma lógica: layout, box model, tipografía y visual.
+  - Uso preferente de unidades relativas como rem, % y vh/vw.
+  - Omisión de unidades en valores cero.
+  - Implementación de diseño responsive con enfoque mobile-first.
+  - Uso de variables CSS definidas en :root.
+
+  ``` CSS
+  :root{
+      --primary-color: #2563eb;
+      --secondary-color: #64748b;
+  }
+
+  .main-header{
+      padding: 1rem;
+      background-color: var(--primary-color);
+  }
+  ```
+
+**JavaScript Conventions**
+
+Para la lógica del lado del cliente se adoptarán lineamientos orientados a la claridad, reutilización y mantenimiento del código.
+Se aplicarán las siguientes convenciones:
+- Uso de camelCase para variable y funciones.
+- Uso de PascalCase para clases y constructores.
+- Declaraciones de variables con const y let, evitando el uso de var.
+- Separación modular del código en archivos independientes según funcionalida.
+- Uso de addEventListener() en lugar de eventos inline.
+- Comentarios únicamente en lógica compleja o no evidente.
+- Nombres de funciones descriptivos y orientados a acciones.
+
+Ejemplo:
+``` JavaScript
+const submitButton = document.querySelector("#submit-button");
+function validateForm(){
+  return true;
+}
+```
+
+**C# Conventions**
+
+Para el desarrollo backend y lógica de negocio en C#, se seguirán las convenciones recomendadas por Microsoft.
+Estas incluyen:
+- Uso de PascalCase para clases, métodos y propiedades.
+- Uso de camelCase para variables locales y parámetros.
+- Métodos con nombres descriptivos orientados a verbos.
+- Aplicación del principio de Single Responsibility Principle (SRP).
+- Mantener longitud de línea razonable para facilitar lectura.
+- Comentarios claros y breves en métodos críticos.
+- Organización del código por capas: controllers, services, repositories y models.
+  
+Ejemplo:
+``` C#
+public class UserService
+{
+    public bool ValidateCredentials(string userEmail, string password)
+    {
+        return true;
+    }
+}
+```
+
+**Gherkin Conventions**
+
+Para la definición de criterios de aceptación y pruebas funcionales se utilizará el lenguaje Gherkin, que sigue una estructura orientada al negocio.
+Las convenciones definidas son:
+- Uso obligatorio de la estructura Given-When-Then
+- Redacción en lenguaje comprensible para stakeholders no técnicos.
+- Escenarios con títulos claros y específicos.
+- Uso de Scenario Outline cuando existan múltiples casos similares.
+  
+Ejemplo:
+``` gherkin
+Feature: User Login
+
+Scenario: Sucessful login
+    Given the user is on the login page
+    When the user enters valid credential
+    Then the system should redirect to the dashboard
+```
+**Coding Principles Adopted**
+
+De manera transversal, el equipo aplicará los siguientes principios:
+- Readbility First: código fácil de leer y entender.
+- Consistency: mantener el mismo estilo en toda la solución.
+- Modularity: separación clara de responsabilidades.
+- Scalability: estructura preparada para crecimiento futuro.
+- Maintainability: facilidad para futuras modificaciones.
+</p>
+
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1

@@ -79,6 +79,14 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
+
+#### User Persona 1: Mechanic
+
+Perfil de un mecánico que trabaja en talleres automotrices y requiere una gestión eficiente de órdenes de servicio.
+
+![User Persona Mechanic](docs/assets/chapter-2/needfinding/user-persona-1-mechanic.png)
+
+
 [Pendiente]
 
 #### 2.3.2. User Task Matrix

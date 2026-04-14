@@ -14,7 +14,13 @@
 
 #### 2.2.1. Diseño de entrevistas
 
-##### Entrevista 4: Administrador de Taller Automotriz
+[Pendiente]
+
+#### 2.2.2. Registro de entrevistas
+[Pendiente]
+
+
+#### Entrevista 4: Administrador de Taller Automotriz
 
 - **Nombre:** Juan Calisaya  
 - **Edad:** 30  
@@ -36,11 +42,11 @@ El entrevistado Juan Calisaya, de 30 años, es propietario y administrador de un
 
 **Evidencia:**
 
-![Entrevista Administrador Taller](./docs/assets/chapter-2/interview-admin-taller-1.png)
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-admin-taller-1.png)
 
 
 
-##### Entrevista 5: Administrador y Encargado de Logística de Taller Automotriz
+#### Entrevista 5: Administrador y Encargado de Logística de Taller Automotriz
 
 - **Nombre:** Sebastián Rojas  
 - **Edad:** 24  
@@ -63,13 +69,7 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 
 **Evidencia:**
 
-![Entrevista Administrador Logística](./docs/assets/chapter-2/interview-admin-taller-2.png)
-
-
-[Pendiente]
-
-#### 2.2.2. Registro de entrevistas
-[Pendiente]
+![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
 
 #### 2.2.3. Análisis de entrevistas
 [Pendiente]

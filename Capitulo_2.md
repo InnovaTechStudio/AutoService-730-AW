@@ -103,7 +103,40 @@ Perfil de un cliente que busca servicios automotrices rápidos, confiables y con
 
 
 #### 2.3.2. User Task Matrix
-[Pendiente]
+
+### 2.3.2. User Task Matrix
+
+El User Task Matrix presenta de manera consolidada las tareas que realizan los tres User Personas identificados para el proyecto AutoService: Carlos Mendoza (Mecánico Independiente), Lucía Fernández (Administradora de Taller) y Ana Rojas (Cliente/Propietaria de vehículo).
+
+Es importante destacar que las tareas descritas en esta matriz representan actividades que los segmentos realizan actualmente en su operación diaria (usando cuadernos, Excel, WhatsApp o llamados telefónicos), independientemente de la existencia de nuestra solución de software. Estas tareas son la base para identificar oportunidades de mejora mediante la digitalización.
+
+| User Task (Tarea del Usuario) | Carlos Mendoza (Mecánico) | | Lucía Fernández (Administradora) | | Ana Rojas (Cliente) | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| **Diagnosticar fallas del vehículo** | Alta | Crítica | Baja | Media | Baja | Crítica |
+| **Registrar información de clientes y vehículos** | Alta | Crítica | Alta | Crítica | Baja | Media |
+| **Gestionar y coordinar tareas del personal** | Media | Alta | Alta | Crítica | N/A | N/A |
+| **Comunicar el estado de la reparación al cliente** | Alta | Crítica | Alta | Crítica | Media | Alta |
+| **Realizar seguimiento al progreso del servicio** | Alta | Crítica | Alta | Crítica | Alta | Crítica |
+| **Gestionar pagos y facturación** | Alta | Crítica | Alta | Crítica | Baja | Crítica |
+| **Programar citas y recepción de vehículos** | Alta | Alta | Alta | Crítica | Baja | Alta |
+| **Consultar historial de mantenimientos** | Media | Alta | Alta | Alta | Baja | Alta |
+
+#### Análisis del User Task Matrix
+
+Al analizar la matriz, se identifican patrones significativos y puntos de dolor compartidos entre los segmentos:
+
+**1. Coincidencias (Puntos Críticos):**
+La tarea de **"Realizar seguimiento al progreso del servicio"** es crítica y de alta frecuencia tanto para Carlos y Lucía (quienes deben gestionarlo) como para Ana (quien necesita saberlo). Actualmente, esta tarea genera fricción: el mecánico pierde tiempo respondiendo llamadas y el cliente siente desconfianza por falta de información. Esto representa una oportunidad central para AutoService: automatizar este seguimiento para reducir la carga administrativa y aumentar la transparencia.
+
+**2. Diferencias por Segmento:**
+*   **Carlos Mendoza (Operativo):** Sus tareas de mayor importancia giran en torno al diagnóstico técnico y la comunicación directa. Su frecuencia en tareas administrativas complejas (como reportes detallados) es menor, pero su necesidad de simplicidad es máxima para no entorpecer su trabajo manual.
+*   **Lucía Fernández (Gestión):** Tiene una carga crítica en la **coordinación de personal** y la gestión de la información general. A diferencia de Carlos, ella necesita una visión panorámica del taller para delegar tareas, lo cual es un punto de dolor actual debido a la falta de herramientas de control.
+*   **Ana Rojas (Cliente):** Su interacción es más esporádica en frecuencia (lleva el auto ocasionalmente), pero la importancia es crítica. Su principal frustración es la dependencia de llamadas telefónicas para enterarse del estado de su vehículo.
+
+**3. Oportunidades para la Solución:**
+Existe una clara oportunidad para digitalizar la **"Comunicación del estado"**. Actualmente, esta tarea consume recursos del taller (tiempo de Carlos y Lucía) y genera insatisfacción en Ana. Al transformar esta tarea manual en una funcionalidad de consulta autónoma (Dashboard para clientes), se reduce la carga operativa para el taller y se satisface la necesidad de transparencia del cliente.
+
 
 #### 2.3.3. User Journey Mapping
 

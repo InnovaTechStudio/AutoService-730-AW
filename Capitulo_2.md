@@ -79,16 +79,111 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 ### 2.3. Needfinding
 
 #### 2.3.1. User Personas
-[Pendiente]
+
+#### User Persona 1: Mechanic
+
+Perfil de un mecánico que trabaja en talleres automotrices y requiere una gestión eficiente de órdenes de servicio.
+
+![User Persona Mechanic](docs/assets/chapter-2/needfinding/user-persona-1-mechanic.png)
+
+
+#### User Persona 2: Workshop Manager
+
+Perfil de un administrador de taller que gestiona operaciones, personal y flujo de trabajo.
+
+![User Persona Workshop Manager](docs/assets/chapter-2/needfinding/user-persona-2-workshop-manager.png)
+
+
+#### User Persona 3: Vehicle Owner
+
+Perfil de un cliente que busca servicios automotrices rápidos, confiables y con seguimiento.
+
+![User Persona Vehicle Owner](docs/assets/chapter-2/needfinding/user-persona-3-vehicle-owner.png)
+
+
 
 #### 2.3.2. User Task Matrix
-[Pendiente]
+
+### 2.3.2. User Task Matrix
+
+El User Task Matrix presenta de manera consolidada las tareas que realizan los tres User Personas identificados para el proyecto AutoService: Carlos Mendoza (Mecánico Independiente), Lucía Fernández (Administradora de Taller) y Ana Rojas (Cliente/Propietaria de vehículo).
+
+Es importante destacar que las tareas descritas en esta matriz representan actividades que los segmentos realizan actualmente en su operación diaria (usando cuadernos, Excel, WhatsApp o llamados telefónicos), independientemente de la existencia de nuestra solución de software. Estas tareas son la base para identificar oportunidades de mejora mediante la digitalización.
+
+| User Task (Tarea del Usuario) | Carlos Mendoza (Mecánico) | | Lucía Fernández (Administradora) | | Ana Rojas (Cliente) | |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| **Diagnosticar fallas del vehículo** | Alta | Crítica | Baja | Media | Baja | Crítica |
+| **Registrar información de clientes y vehículos** | Alta | Crítica | Alta | Crítica | Baja | Media |
+| **Gestionar y coordinar tareas del personal** | Media | Alta | Alta | Crítica | N/A | N/A |
+| **Comunicar el estado de la reparación al cliente** | Alta | Crítica | Alta | Crítica | Media | Alta |
+| **Realizar seguimiento al progreso del servicio** | Alta | Crítica | Alta | Crítica | Alta | Crítica |
+| **Gestionar pagos y facturación** | Alta | Crítica | Alta | Crítica | Baja | Crítica |
+| **Programar citas y recepción de vehículos** | Alta | Alta | Alta | Crítica | Baja | Alta |
+| **Consultar historial de mantenimientos** | Media | Alta | Alta | Alta | Baja | Alta |
+
+#### Análisis del User Task Matrix
+
+Al analizar la matriz, se identifican patrones significativos y puntos de dolor compartidos entre los segmentos:
+
+**1. Coincidencias (Puntos Críticos):**
+La tarea de **"Realizar seguimiento al progreso del servicio"** es crítica y de alta frecuencia tanto para Carlos y Lucía (quienes deben gestionarlo) como para Ana (quien necesita saberlo). Actualmente, esta tarea genera fricción: el mecánico pierde tiempo respondiendo llamadas y el cliente siente desconfianza por falta de información. Esto representa una oportunidad central para AutoService: automatizar este seguimiento para reducir la carga administrativa y aumentar la transparencia.
+
+**2. Diferencias por Segmento:**
+*   **Carlos Mendoza (Operativo):** Sus tareas de mayor importancia giran en torno al diagnóstico técnico y la comunicación directa. Su frecuencia en tareas administrativas complejas (como reportes detallados) es menor, pero su necesidad de simplicidad es máxima para no entorpecer su trabajo manual.
+*   **Lucía Fernández (Gestión):** Tiene una carga crítica en la **coordinación de personal** y la gestión de la información general. A diferencia de Carlos, ella necesita una visión panorámica del taller para delegar tareas, lo cual es un punto de dolor actual debido a la falta de herramientas de control.
+*   **Ana Rojas (Cliente):** Su interacción es más esporádica en frecuencia (lleva el auto ocasionalmente), pero la importancia es crítica. Su principal frustración es la dependencia de llamadas telefónicas para enterarse del estado de su vehículo.
+
+**3. Oportunidades para la Solución:**
+Existe una clara oportunidad para digitalizar la **"Comunicación del estado"**. Actualmente, esta tarea consume recursos del taller (tiempo de Carlos y Lucía) y genera insatisfacción en Ana. Al transformar esta tarea manual en una funcionalidad de consulta autónoma (Dashboard para clientes), se reduce la carga operativa para el taller y se satisface la necesidad de transparencia del cliente.
+
 
 #### 2.3.3. User Journey Mapping
-[Pendiente]
+
+##### Journey Map 1: Mechanic
+
+Representa el flujo de trabajo del mecánico desde la recepción del vehículo hasta la finalización del servicio.
+
+![Journey Map Mechanic](docs/assets/chapter-2/needfinding/journey-map-1-mechanic.png)
+
+
+#### Journey Map 2: Workshop Manager
+
+Describe la gestión operativa del administrador del taller y la supervisión de procesos.
+
+![Journey Map Workshop Manager](docs/assets/chapter-2/needfinding/journey-map-2-workshop-manager.png)
+
+
+#### Journey Map 3: Vehicle Owner
+
+Muestra la experiencia del cliente al solicitar, seguir y recibir un servicio automotriz.
+
+![Journey Map Vehicle Owner](docs/assets/chapter-2/needfinding/journey-map-3-vehicle-owner.png)
+
 
 #### 2.3.4. Empathy Mapping
-[Pendiente]
+
+
+#### Empathy Map 1: Mechanic
+
+Identifica pensamientos, emociones y necesidades del mecánico durante su trabajo.
+
+![Empathy Map Mechanic](docs/assets/chapter-2/needfinding/empathy-map-1-mechanic.png)
+
+
+#### Empathy Map 2: Workshop Manager
+
+Refleja las preocupaciones, objetivos y frustraciones del administrador del taller.
+
+![Empathy Map Workshop Manager](docs/assets/chapter-2/needfinding/empathy-map-2-workshop-manager.png)
+
+
+#### Empathy Map 3: Vehicle Owner
+
+Muestra las expectativas, emociones y percepciones del cliente.
+
+![Empathy Map Vehicle Owner](docs/assets/chapter-2/needfinding/empathy-map-3-vehicle-owner.png)
+
 
 ---
 

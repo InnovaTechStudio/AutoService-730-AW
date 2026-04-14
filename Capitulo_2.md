@@ -428,16 +428,49 @@ Se busca transformar esta percepción mediante transparencia y comunicación.</p
 
 </ol>
 
-#### 2.1.2. Estrategias y tácticas frente a competidores
-[Pendiente]
-
 ---
 
 ### 2.2. Entrevistas
 
 #### 2.2.1. Diseño de entrevistas
 
-[Pendiente]
+<strong>SEGMENTO 1: Mecánicos Independientes</strong>
+<ol>
+  <li>¿Cuánto tiempo llevas trabajando como mecánico? ¿Podrías contarme cómo es un día típico en tu trabajo dentro del taller?</li>
+  <li>¿Cómo registras actualmente la información de tus clientes, vehículos y trabajos?</li>
+  <li>¿Cuáles son los principales problemas que enfrentas al gestionar los trabajos del taller?</li>
+  <li>¿Cómo informas a tus clientes sobre el estado de sus vehículos?</li>
+  <li>¿Qué tan seguido te llaman o escriben clientes para preguntar por el estado de su auto?</li>
+  <li>¿Crees que tus clientes confían en el servicio que brindas? ¿Por qué?</li>
+  <li>¿Llevas un historial de los trabajos realizados por vehículo o cliente?</li>
+  <li>Si existiera una plataforma que te ayude a organizar tus trabajos y mostrar el progreso al cliente, ¿la usarías? ¿Por qué?</li>
+  <li>¿Qué funcionalidad te sería más útil en una herramienta digital para tu trabajo diario?</li>
+</ol>
+
+<strong>SEGMENTO 2: Talleres Automotrices - Empresas</strong>
+<ol>
+  <li>¿Cuántas personas trabajan en su taller y cómo están organizadas sus funciones?</li>
+  <li>¿Cómo gestionan actualmente los clientes, vehículos y órdenes de trabajo?</li>
+  <li>¿Qué problemas tienen al coordinar el trabajo entre mecánicos o áreas?</li>
+  <li>¿Cómo hacen seguimiento al estado de cada vehículo en reparación?</li>
+  <li>¿Tienen algún sistema para medir ingresos, servicios realizados o rendimiento del taller?</li>
+  <li>¿Cómo se comunican con los clientes sobre el avance del servicio?</li>
+  <li>¿Han tenido problemas de desconfianza o reclamos por parte de clientes?</li>
+  <li>Si existiera un sistema que te permita gestionar tu taller y mostrar a tus clientes el progreso en tiempo real, ¿lo usarías?</li>
+  <li>¿Qué funcionalidades consideras indispensables en un sistema de gestión para talleres?</li>
+</ol>
+
+<strong>SEGMENTO 3: Clientes - Propietarios de vehículos</strong>
+<ol>
+  <li>¿Podrías contarme sobre la última vez que llevaste tu vehículo a un taller? ¿Qué servicio necesitabas?</li>
+  <li>Durante el servicio, ¿cómo te informaban sobre el estado de tu vehículo?</li>
+  <li>¿Tuviste alguna duda o preocupación mientras tu auto estaba en el taller? ¿Cuál fue?</li>
+  <li>¿Alguna vez has sentido desconfianza hacia un taller? ¿Qué situación generó eso?</li>
+  <li>¿Te gustaría poder ver el progreso de la reparación de tu auto en tiempo real desde tu celular o computadora? ¿Por qué?</li>
+  <li>¿Qué tipo de información te gustaría ver mientras tu vehículo está en el taller?</li>
+  <li>¿Qué tan cómodo te sientes usando plataformas digitales o aplicaciones para consultar información de servicios?</li>
+  <li>Si existiera una plataforma que te permita ver el estado de tu vehículo, costos y trabajos realizados, ¿la usarías? ¿Qué te gustaría que incluya?</li>
+</ol>
 
 #### 2.2.2. Registro de entrevistas
 [Pendiente]

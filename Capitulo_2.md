@@ -473,7 +473,30 @@ Se busca transformar esta percepción mediante transparencia y comunicación.</p
 </ol>
 
 #### 2.2.2. Registro de entrevistas
-[Pendiente]
+
+#### Entrevista 3: Técnico Independiente
+
+- **Nombre:** Antenor Ayala 
+- **Edad:** 33
+- **Residencia:** Ayaacucho, Huamanga  
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:25  
+- **Duración:** 9:11  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQCxbUZ3D94sQa4L_R0U-pTLAeS4IIX60VMV6GW0RGncMMA?e=mN7UdR)
+
+---
+**Resumen:**
+
+El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en Huamanga, con aproximadamente 5 años de experiencia en el rubro. Describe que su trabajo diario varía entre resolver fallas simples y complejas, comenzando con la recepción del cliente y el diagnóstico del problema, el cual a veces difiere de lo que el cliente cree. Lleva el registro de los trabajos de forma manual en un cuaderno, lo que puede generar desorganización. Señala que uno de los principales problemas que enfrenta es la gestión de clientes, ya que existen diferentes tipos de comportamientos y expectativas, además de que reconoce que en ocasiones pueden ocurrir errores humanos debido al cansancio o problemas personales. En cuanto a la comunicación, indica que antes tenía dificultades por no informar adecuadamente los cambios realizados, lo que generaba desconfianza, pero ahora busca mejorar avisando previamente o mostrando evidencias como fotos o videos. También menciona que algunos clientes llaman con mucha frecuencia mientras que otros son más independientes. Finalmente, muestra una actitud muy positiva hacia la implementación de una plataforma digital, ya que considera que le ayudaría a organizar mejor sus tareas, mejorar la comunicación, aumentar la confianza con los clientes y gestionar aspectos como horarios, inventario e historial de trabajos, lo que optimizaría su desempeño diario.
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-3.png)
 
 
 #### Entrevista 4: Administrador de Taller Automotriz

@@ -474,6 +474,54 @@ Se busca transformar esta percepción mediante transparencia y comunicación.</p
 
 #### 2.2.2. Registro de entrevistas
 
+#### Entrevista 1: Técnico Independiente
+
+- **Nombre:** Fray Diaz Palomino
+- **Edad:** 38
+- **Residencia:** Ayacucho, Huamanga 
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:33  
+- **Duración:** 8:30  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQCOBVlE43D5S6A1sA4ninLyAe17muIzgfh4BnzvggW2xag?e=bawdDH)
+
+---
+**Resumen:**
+
+El entrevistado Fray Díaz Palomino, un técnico mecánico automotriz de 38 años que trabaja de manera independiente en Ayacucho desde aproximadamente el 2012. Describe su rutina diaria iniciando con la limpieza del taller y destacando la importancia del trato al cliente. Actualmente no utiliza ningún sistema digital ni registros formales para gestionar la información de clientes o vehículos, limitándose a comprobantes como boletas o facturas, lo que dificulta el seguimiento de mantenimientos. A pesar de ello, menciona no haber tenido problemas en la gestión ni en los diagnósticos, ya que trabaja de manera individualizada con cada vehículo. La comunicación con los clientes se realiza principalmente mediante llamadas, fotos o videos para informar sobre el estado del auto y solicitar autorizaciones. Considera que sus clientes confían en su servicio, evidenciado por la recomendación constante. Finalmente, muestra interés en una plataforma digital que le permita organizar mejor los trabajos, hacer seguimiento de mantenimientos y, especialmente, automatizar recordatorios para los clientes, lo que le ayudaría a optimizar tiempo y mejorar la gestión del taller.
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-1.png)
+
+#### Entrevista 2: Técnico Independiente
+
+- **Nombre:** Gurmencindo Ventura
+- **Edad:** 55
+- **Residencia:** Ayaacucho, Huamanga - San Juan Bautista
+- **Ocupación:** Técnico Automotriz  
+
+- **Inicio:** 0:38  
+- **Duración:** 5:29  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQC3R-wNkI7tQZ07-wGLrqBvAUckZJvae4x3Gvydyx-kgVk?e=MSpswt)
+
+---
+**Resumen:**
+
+El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experiencia, residente en San Juan Bautista, Ayacucho. Su trabajo se centra en la reparación de motores y mantenimiento general de vehículos. En su día a día, realiza diversas tareas mecánicas dependiendo de las fallas que presentan los autos. Actualmente, gestiona la información de sus clientes y vehículos de forma manual, utilizando cuadernos y actas de control donde registra datos como la hora de ingreso, la placa y el tipo de trabajo. En cuanto a la comunicación, suele llamar a los clientes cuando el vehículo está listo o también recibe llamadas de ellos para consultar el estado. Señala que sus clientes confían en su servicio debido a la garantía y puntualidad que ofrece, y sí mantiene un historial de trabajos de manera escrita. Frente a la propuesta de una plataforma digital, muestra una actitud positiva y considera que es necesaria en la actualidad para mejorar la gestión, destacando como funcionalidad importante la incorporación de herramientas como escáner automotriz para diagnosticar fallas electrónicas, lo que facilitaría y modernizaría su trabajo diario.
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-2.png)
+
 #### Entrevista 3: Técnico Independiente
 
 - **Nombre:** Antenor Ayala 

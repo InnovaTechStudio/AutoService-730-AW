@@ -441,6 +441,30 @@ Se busca transformar esta percepción mediante transparencia y comunicación.</p
 
 #### 2.2.2. Registro de entrevistas
 
+#### Entrevista 1: Técnico Independiente
+
+- **Nombre:** Fray Diaz Palomino
+- **Edad:** 38
+- **Residencia:** Ayacucho, Huamanga 
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:33  
+- **Duración:** 8:30  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQCOBVlE43D5S6A1sA4ninLyAe17muIzgfh4BnzvggW2xag?e=bawdDH)
+
+---
+**Resumen:**
+
+El entrevistado Fray Díaz Palomino, un técnico mecánico automotriz de 38 años que trabaja de manera independiente en Ayacucho desde aproximadamente el 2012. Describe su rutina diaria iniciando con la limpieza del taller y destacando la importancia del trato al cliente. Actualmente no utiliza ningún sistema digital ni registros formales para gestionar la información de clientes o vehículos, limitándose a comprobantes como boletas o facturas, lo que dificulta el seguimiento de mantenimientos. A pesar de ello, menciona no haber tenido problemas en la gestión ni en los diagnósticos, ya que trabaja de manera individualizada con cada vehículo. La comunicación con los clientes se realiza principalmente mediante llamadas, fotos o videos para informar sobre el estado del auto y solicitar autorizaciones. Considera que sus clientes confían en su servicio, evidenciado por la recomendación constante. Finalmente, muestra interés en una plataforma digital que le permita organizar mejor los trabajos, hacer seguimiento de mantenimientos y, especialmente, automatizar recordatorios para los clientes, lo que le ayudaría a optimizar tiempo y mejorar la gestión del taller.
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-1.png)
+
 #### Entrevista 2: Técnico Independiente
 
 - **Nombre:** Gurmencindo Ventura

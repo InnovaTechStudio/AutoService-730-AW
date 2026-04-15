@@ -463,7 +463,7 @@ El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experienc
 
 **Evidencia:**
 
-![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-2.png)
+![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-1.png)
 
 #### Entrevista 2: Técnico Independiente
 

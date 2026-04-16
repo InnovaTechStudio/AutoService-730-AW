@@ -10,11 +10,38 @@
 
 ### 4.2. Information Architecture
 
+<p align="justify">
+Esta sección detalla cómo se organiza, etiqueta y estructura la información dentro de la plataforma AutoService para garantizar que los diferentes segmentos de usuario puedan navegar intuitivamente. El objetivo es minimizar el esfuerzo cognitivo tanto del personal del taller al gestionar operaciones como del cliente final al consultar el estado de su vehículo.
+</p>
+<p align="justify">
+Para AutoService, se han implementado diversos sistemas de organización que responden a las necesidades operativas y de consulta del negocio:
+</p>
+
 #### 4.2.1. Organization Systems
-[Pendiente]
+
+<p style="text-align: justify;">
+  <ul>
+    <li>
+      <strong>Jerarquía Visual (Visual Hierarchy):</strong> Se aplica principalmente en el Dashboard Administrativo, donde los indicadores críticos (KPIs) como el número de vehículos en proceso, ingresos del día y órdenes pendientes se presentan en la parte superior con un diseño destacado para una rápida interpretación.
+    </li>
+    <li>
+      <strong>Organización Secuencial (Step-by-step):</strong> Se utiliza estrictamente en el flujo de creación de una Orden de Trabajo y en el registro de servicios. El sistema guía al mecánico a través de pasos lógicos: Información del cliente &gt; Datos del vehículo &gt; Diagnóstico inicial &gt; Asignación de tareas y costos.
+    </li>
+    <li>
+      <strong>Esquema Cronológico:</strong> Se emplea en el Historial de Servicios de cada vehículo. Los registros se organizan del más reciente al más antiguo, permitiendo que tanto el taller como el dueño del auto visualicen la evolución del mantenimiento en el tiempo.
+    </li>
+    <li>
+      <strong>Categorización según Audiencia:</strong> La estructura se divide en dos grandes rutas de acceso:
+      <ul>
+        <li><strong>Panel Operativo (B2B):</strong> Orientado a mecánicos y administradores para la gestión de flota, personal y facturación.</li>
+        <li><strong>Portal de Seguimiento (B2C):</strong> Una interfaz simplificada para el propietario del vehículo, centrada únicamente en el progreso y transparencia del servicio actual.</li>
+      </ul>
+    </li>
+  </ul>
+</p>
 
 #### 4.2.2. Labeling Systems
-[Pendiente]
+
 
 #### 4.2.3. SEO Tags and Meta Tags
 [Pendiente]

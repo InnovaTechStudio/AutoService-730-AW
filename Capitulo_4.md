@@ -119,7 +119,25 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 </table>
 
 #### 4.2.4. Searching Systems
-[Pendiente]
+
+<p style="text-align: justify;">
+  Para evitar que los usuarios se pierdan ante grandes volúmenes de datos, se han definido los siguientes mecanismos de búsqueda y filtrado:
+</p>
+
+<ul style="text-align: justify;">
+  <li>
+    <strong>Búsqueda Global por Placa (License Plate):</strong> El buscador principal permite localizar rápidamente cualquier vehículo en el sistema ingresando el número de placa, lo cual redirige al detalle de su Orden de Trabajo activa.
+  </li>
+  <li>
+    <strong>Filtros de Estado en Tiempo Real:</strong> En el listado de órdenes, el usuario puede filtrar por "Pending", "In Process" o "Completed" para priorizar las tareas del día.
+  </li>
+  <li>
+    <strong>Filtros por Rango de Fechas:</strong> Aplicable en la sección de reportes financieros y de productividad para analizar el desempeño del taller en periodos específicos.
+  </li>
+  <li>
+    <strong>Presentación de Resultados:</strong> Los datos se muestran en formato de tarjetas (cards) o tablas interactivas con resaltado de sintaxis para los estados críticos.
+  </li>
+</ul>
 
 #### 4.2.5. Navigation Systems
 [Pendiente]

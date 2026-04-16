@@ -42,6 +42,41 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 #### 4.2.2. Labeling Systems
 
+<p style="text-align: justify;">
+  El sistema de etiquetado utiliza términos técnicos automotrices estandarizados en inglés para mantener la consistencia con las convenciones de desarrollo del proyecto.
+</p>
+
+<ul style="text-align: justify;">
+  <li>
+    <strong>Etiquetas de Navegación (Sidebar/Navbar):</strong>
+    <ul>
+      <li>Dashboard: Vista general de métricas.</li>
+      <li>Vehicles: Listado y gestión de unidades.</li>
+      <li>Work Orders: Control de servicios activos.</li>
+      <li>Staff: Gestión del personal mecánico.</li>
+      <li>Billing: Generación de comprobantes y pagos.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Etiquetas de Acción (Botones/CTAs):</strong>
+    <ul>
+      <li>Register Vehicle: Iniciar registro de unidad.</li>
+      <li>Update Status: Cambiar etapa del servicio (Pending, In Process, Ready).</li>
+      <li>Generate Invoice: Crear comprobante de pago.</li>
+      <li>Track My Vehicle: Acceso para el cliente final.</li>
+    </ul>
+  </li>
+
+  <li>
+    <strong>Etiquetas de Estado:</strong>
+    <ul>
+      <li>Diagnostic: Etapa de revisión inicial.</li>
+      <li>In Repair: Ejecución de tareas mecánicas.</li>
+      <li>Ready for Pickup: Vehículo listo para entrega.</li>
+    </ul>
+  </li>
+</ul>
 
 #### 4.2.3. SEO Tags and Meta Tags
 [Pendiente]

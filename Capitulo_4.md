@@ -188,10 +188,40 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Design-Level EventStorming
-[Pendiente]
+
+<p align="justify">
+Para profundizar en la lógica de AutoService<, realizamos una sesión de Design-Level Event Storming. Esta técnica nos permitió transitar desde una visión general del negocio hacia un modelo técnico detallado, identificando los procesos críticos, las reglas de negocio y los límites de los módulos que compondrán nuestra arquitectura orientada a servicios.
+</p>
+
+<b>Step 1: Collect Domain Events (Big Picture)</b>
+<p align="justify">
+En esta fase inicial, realizamos una lluvia de ideas para identificar todos los Domain Events relevantes en el ciclo de vida del taller, desde el registro de la cuenta hasta el procesamiento de comprobantes. Los eventos se redactaron en tiempo pasado, enfocándonos exclusivamente en hechos significativos para el negocio sin preocuparnos por el orden cronológico.
+</p>
+
+![alt text](docs/assets/chapter-4/event_storming_s1.jpg)
+
+<b>Step 2: Refine Domain Events</b>
+<p align="justify">
+Organizamos los eventos identificados en una línea de tiempo horizontal para establecer el flujo lógico de la plataforma. Durante este proceso, refinamos la secuencia y detectamos eventos faltantes, como la generación automática de códigos de seguimiento y el disparo de notificaciones, asegurando una narrativa coherente de la experiencia del usuario.
+</p>
+
+![alt text](docs/assets/chapter-4/event_storming_s2.jpg)
+
+<b>Step 3: Track Causes (Process Modelling)</b>
+<p align="justify">
+En este paso, modelamos la causalidad de cada evento introduciendo <b>Actors</b> (quién realiza la acción), <b>Commands</b> (la acción ejecutada), <b>External Systems</b> y <b>Policies</b> (reglas automáticas). Esto nos permitió visualizar cómo interactúan los mecánicos y clientes con el sistema y qué procesos se disparan automáticamente tras un cambio de estado.
+</p>
+
+![alt text](docs/assets/chapter-4/event_storming_s3.jpg)
+
+<b>Step 4: Find Aggregates & Bounded Contexts (Software Modelling)</b>
+<p align="justify">
+Finalmente, agrupamos los comandos y eventos alrededor de sus <b>Aggregates</b> (entidades principales de datos) para definir los <b>Bounded Contexts</b>. Esta segmentación estratégica establece los límites de responsabilidad para nuestro API RESTful, identificando módulos clave como <i>Workshop Operations</i>, <i>Staff Management</i> y <i>Billing</i>.
+</p>
+
+![alt text](docs/assets/chapter-4/event_storming_s4.jpg)
 
 #### 4.6.2. Software Architecture Context Diagram
-[Pendiente]
 
 #### 4.6.3. Software Architecture Container Diagrams
 [Pendiente]

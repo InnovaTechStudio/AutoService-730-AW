@@ -187,6 +187,10 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 ### 4.6. Domain-Driven Software Architecture
 
+<p align="justify">
+La arquitectura de software de AutoService se fundamenta en los principios de Domain-Driven Design (DDD), permitiendo una traducción directa entre las necesidades operativas del negocio automotriz y la estructura del sistema técnico. Mediante la aplicación del Modelo C4, representamos la arquitectura en distintos niveles de abstracción, asegurando que la solución sea escalable, mantenible y esté estrictamente alineada con los contextos delimitados identificados durante el proceso de EventStorming.
+</p>
+
 #### 4.6.1. Design-Level EventStorming
 
 <p align="justify">
@@ -198,36 +202,88 @@ Para profundizar en la lógica de AutoService<, realizamos una sesión de Design
 En esta fase inicial, realizamos una lluvia de ideas para identificar todos los Domain Events relevantes en el ciclo de vida del taller, desde el registro de la cuenta hasta el procesamiento de comprobantes. Los eventos se redactaron en tiempo pasado, enfocándonos exclusivamente en hechos significativos para el negocio sin preocuparnos por el orden cronológico.
 </p>
 
+<div align="center">
+
 ![alt text](docs/assets/chapter-4/event_storming_s1.jpg)
+</div>
 
 <b>Step 2: Refine Domain Events</b>
 <p align="justify">
 Organizamos los eventos identificados en una línea de tiempo horizontal para establecer el flujo lógico de la plataforma. Durante este proceso, refinamos la secuencia y detectamos eventos faltantes, como la generación automática de códigos de seguimiento y el disparo de notificaciones, asegurando una narrativa coherente de la experiencia del usuario.
 </p>
 
+<div align="center">
+
 ![alt text](docs/assets/chapter-4/event_storming_s2.jpg)
+</div>
 
 <b>Step 3: Track Causes (Process Modelling)</b>
 <p align="justify">
 En este paso, modelamos la causalidad de cada evento introduciendo <b>Actors</b> (quién realiza la acción), <b>Commands</b> (la acción ejecutada), <b>External Systems</b> y <b>Policies</b> (reglas automáticas). Esto nos permitió visualizar cómo interactúan los mecánicos y clientes con el sistema y qué procesos se disparan automáticamente tras un cambio de estado.
 </p>
 
+<div align="center">
+
 ![alt text](docs/assets/chapter-4/event_storming_s3.jpg)
+</div>
 
 <b>Step 4: Find Aggregates & Bounded Contexts (Software Modelling)</b>
 <p align="justify">
 Finalmente, agrupamos los comandos y eventos alrededor de sus <b>Aggregates</b> (entidades principales de datos) para definir los <b>Bounded Contexts</b>. Esta segmentación estratégica establece los límites de responsabilidad para nuestro API RESTful, identificando módulos clave como <i>Workshop Operations</i>, <i>Staff Management</i> y <i>Billing</i>.
 </p>
 
+<div align="center">
+
 ![alt text](docs/assets/chapter-4/event_storming_s4.jpg)
+</div>
 
 #### 4.6.2. Software Architecture Context Diagram
 
+<p align="justify">
+El diagrama de contexto representa el nivel más alto de abstracción de la solución AutoService Platform. Este diagrama permite visualizar cómo el sistema interactúa con su entorno, identificando a los actores principales: el Mecánico/Administrador, quien gestiona las operaciones del taller, y el Cliente Final, quien realiza el seguimiento de sus vehículos. Asimismo, se muestra la interacción con sistemas externos esenciales como el Messaging Service, encargado del envío automatizado de notificaciones de estado y comprobantes electrónicos de pago.
+</p>
+
+<div align="center">
+
+![alt text](docs/assets/chapter-4/context_diagram_aw.png)
+</div>
+
 #### 4.6.3. Software Architecture Container Diagrams
-[Pendiente]
+
+<p align="justify">
+A nivel de contenedores, la solución se descompone en aplicaciones independientes que colaboran para ofrecer la funcionalidad completa de la plataforma. Siguiendo un enfoque de arquitectura desacoplada, se han definido los siguientes contenedores:
+</p>
+
+<ul style="text-align: justify;">
+<li><strong>Landing Page:</strong> Desarrollada con HTML5, CSS3 y JavaScript, se encarga de proveer información del producto y captar nuevos talleres hacia el modelo SaaS.</li>
+<li><strong>Web Application (SPA):</strong> Construida con Vue.js, actúa como la interfaz principal donde los administradores gestionan el taller y los clientes finales consultan el progreso de sus reparaciones.</li>
+<li><strong>API RESTful:</strong> Constituye el núcleo de la lógica de negocio, implementado con C# y ASP.NET Core. Centraliza todas las reglas de dominio y expone servicios web mediante el intercambio de JSON.</li>
+<li><strong>Database:</strong> Una instancia de SQL Server encargada de la persistencia segura y relacional de la información de clientes, vehículos, órdenes y facturación.</li>
+</ul>
+
+<div align="center">
+
+![alt text](docs/assets/chapter-4/containers_diagram_aw.png)
+</div>
 
 #### 4.6.4. Software Architecture Components Diagrams
-[Pendiente]
+
+<p align="justify">
+Este diagrama profundiza en el contenedor API RESTful para exponer los bloques estructurales internos que implementan los casos de uso definidos en el dominio. La lógica interna se organiza a través de componentes especializados:
+</p>
+
+<ul style="text-align: justify;">
+<li><strong>Security Layer:</strong> Basado en ASP.NET Identity, este componente gestiona la identidad, autenticación y autorización mediante tokens JWT, protegiendo el acceso a los recursos del sistema.</li>
+<li><strong>Workshop Logic:</strong> Componente encargado de la orquestación de servicios de taller, incluyendo la gestión de flota, diagnósticos y el control de las órdenes de trabajo.</li>
+<li><strong>Tracking Logic:</strong> Servicio dedicado a procesar y proveer la información de seguimiento en tiempo real, permitiendo a los clientes visualizar el avance de sus vehículos.</li>
+<li><strong>Invoice Logic:</strong> Gestiona la generación de documentos financieros y la emisión de comprobantes digitales de pago una vez finalizados los servicios.</li>
+<li><strong>Analytics Engine:</strong> Componente analítico que procesa los datos operativos para calcular métricas de productividad del staff y generar reportes financieros detallados para los administradores.</li>
+</ul>
+
+<div align="center">
+
+![alt text](docs/assets/chapter-4/components_diagram_aw.png)
+</div>
 
 ### 4.7. Software Object-Oriented Design
 

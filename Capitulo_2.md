@@ -489,8 +489,9 @@ Se busca transformar esta percepción mediante transparencia y comunicación.</p
 
 ---
 **Resumen:**
-
+<p style="text-align: justify;">
 El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experiencia, residente en San Juan Bautista, Ayacucho. Su trabajo se centra en la reparación de motores y mantenimiento general de vehículos. En su día a día, realiza diversas tareas mecánicas dependiendo de las fallas que presentan los autos. Actualmente, gestiona la información de sus clientes y vehículos de forma manual, utilizando cuadernos y actas de control donde registra datos como la hora de ingreso, la placa y el tipo de trabajo. En cuanto a la comunicación, suele llamar a los clientes cuando el vehículo está listo o también recibe llamadas de ellos para consultar el estado. Señala que sus clientes confían en su servicio debido a la garantía y puntualidad que ofrece, y sí mantiene un historial de trabajos de manera escrita. Frente a la propuesta de una plataforma digital, muestra una actitud positiva y considera que es necesaria en la actualidad para mejorar la gestión, destacando como funcionalidad importante la incorporación de herramientas como escáner automotriz para diagnosticar fallas electrónicas, lo que facilitaría y modernizaría su trabajo diario.
+</p>
 
 ---
 
@@ -513,8 +514,9 @@ El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experienc
 
 ---
 **Resumen:**
-
+<p style="text-align: justify;">
 El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experiencia, residente en San Juan Bautista, Ayacucho. Su trabajo se centra en la reparación de motores y mantenimiento general de vehículos. En su día a día, realiza diversas tareas mecánicas dependiendo de las fallas que presentan los autos. Actualmente, gestiona la información de sus clientes y vehículos de forma manual, utilizando cuadernos y actas de control donde registra datos como la hora de ingreso, la placa y el tipo de trabajo. En cuanto a la comunicación, suele llamar a los clientes cuando el vehículo está listo o también recibe llamadas de ellos para consultar el estado. Señala que sus clientes confían en su servicio debido a la garantía y puntualidad que ofrece, y sí mantiene un historial de trabajos de manera escrita. Frente a la propuesta de una plataforma digital, muestra una actitud positiva y considera que es necesaria en la actualidad para mejorar la gestión, destacando como funcionalidad importante la incorporación de herramientas como escáner automotriz para diagnosticar fallas electrónicas, lo que facilitaría y modernizaría su trabajo diario.
+</p>
 
 ---
 
@@ -537,8 +539,9 @@ El entrevistado Gurmecindo de 55 años con aproximadamente 35 años de experienc
 
 ---
 **Resumen:**
-
+<p style="text-align: justify;">
 El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en Huamanga, con aproximadamente 5 años de experiencia en el rubro. Describe que su trabajo diario varía entre resolver fallas simples y complejas, comenzando con la recepción del cliente y el diagnóstico del problema, el cual a veces difiere de lo que el cliente cree. Lleva el registro de los trabajos de forma manual en un cuaderno, lo que puede generar desorganización. Señala que uno de los principales problemas que enfrenta es la gestión de clientes, ya que existen diferentes tipos de comportamientos y expectativas, además de que reconoce que en ocasiones pueden ocurrir errores humanos debido al cansancio o problemas personales. En cuanto a la comunicación, indica que antes tenía dificultades por no informar adecuadamente los cambios realizados, lo que generaba desconfianza, pero ahora busca mejorar avisando previamente o mostrando evidencias como fotos o videos. También menciona que algunos clientes llaman con mucha frecuencia mientras que otros son más independientes. Finalmente, muestra una actitud muy positiva hacia la implementación de una plataforma digital, ya que considera que le ayudaría a organizar mejor sus tareas, mejorar la comunicación, aumentar la confianza con los clientes y gestionar aspectos como horarios, inventario e historial de trabajos, lo que optimizaría su desempeño diario.
+</p>
 
 ---
 
@@ -562,8 +565,9 @@ El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en 
 
 ---
 **Resumen:**
-
+<p style="text-align: justify;">
 El entrevistado Juan Calisaya, de 30 años, es propietario y administrador de un taller automotriz en Santa Anita con más de 5 años de experiencia. Su negocio cuenta con un equipo de 4 trabajadores, donde existen roles diferenciados como mecánicos y personal de apoyo, aunque la distribución de tareas no está completamente formalizada y depende en gran medida de su supervisión directa. Actualmente, la gestión del taller se realiza mediante métodos manuales, principalmente cuadernos y registros en papel, lo que genera desorganización y dificultad para acceder a información histórica. La asignación de trabajos se realiza de manera verbal, lo que ocasiona falta de claridad en las responsabilidades y dependencia constante del administrador. Uno de los principales problemas es la falta de visibilidad sobre el estado de los vehículos en reparación. El seguimiento se realiza consultando directamente a los mecánicos, generando interrupciones frecuentes y retrasos en la atención, además de presión constante por parte de los clientes. En cuanto a la comunicación, el taller utiliza llamadas telefónicas y WhatsApp, lo que obliga al administrador a actuar como intermediario, generando demoras y sobrecarga de trabajo. A nivel administrativo, no cuentan con herramientas digitales para controlar ingresos, egresos ni inventario, lo que dificulta la trazabilidad de gastos y puede generar desbalances. Asimismo, la rotación de funciones entre trabajadores por necesidades operativas provoca desorganización interna, aunque el equipo es competente. El entrevistado presenta un nivel básico de adopción tecnológica, valorando herramientas simples como WhatsApp y Yape. Finalmente, muestra una actitud positiva hacia la implementación de un sistema digital que incluya registro de clientes, historial de servicios, asignación de tareas, seguimiento en tiempo real, control financiero e inventario, con el objetivo de mejorar la organización, optimizar el tiempo y fortalecer la confianza con los clientes.
+</p>
 
 ---
 
@@ -589,8 +593,9 @@ El entrevistado Juan Calisaya, de 30 años, es propietario y administrador de un
 ---
 
 **Resumen:**
-
+<p style="text-align: justify;">
 El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador y encargado de logística en un taller automotriz con un equipo de 6 personas, donde las funciones están distribuidas según especialidad. La gestión actual combina registros en papel y Excel, lo que permite cierto orden, pero resulta limitado ante el crecimiento del volumen de trabajo. Uno de los principales problemas es la falta de coordinación entre áreas, especialmente entre mecánicos y almacén, generando cuellos de botella y dependencia del administrador para validar procesos. El seguimiento de los vehículos se realiza mediante un pizarrón físico, pero al no actualizarse constantemente, se requiere comunicación directa frecuente, lo que reduce la eficiencia. La comunicación con los clientes se da principalmente por llamadas y WhatsApp, enviando ocasionalmente fotos, pero esto genera desconfianza cuando no hay claridad en los avances o cambios en los costos. Además, el control de ingresos e inventario es básico, lo que limita el análisis del rendimiento del negocio. El entrevistado muestra interés en implementar un sistema digital que permita gestionar órdenes de trabajo, controlar inventario, visualizar el estado de los vehículos en tiempo real y generar reportes, con el objetivo de mejorar la organización, optimizar el tiempo y aumentar la transparencia con los clientes.
+</p>
 
 ---
 
@@ -627,42 +632,66 @@ Perfil de un cliente que busca servicios automotrices rápidos, confiables y con
 
 ![User Persona Vehicle Owner](docs/assets/chapter-2/needfinding/user-persona-3-vehicle-owner.png)
 
-
-
 #### 2.3.2. User Task Matrix
 
 ### 2.3.2. User Task Matrix
 
+<p style="text-align: justify;">
 El User Task Matrix presenta de manera consolidada las tareas que realizan los tres User Personas identificados para el proyecto AutoService: Carlos Mendoza (Mecánico Independiente), Lucía Fernández (Administradora de Taller) y Ana Rojas (Cliente/Propietaria de vehículo).
+</p>
 
+<p style="text-align: justify;">
 Es importante destacar que las tareas descritas en esta matriz representan actividades que los segmentos realizan actualmente en su operación diaria (usando cuadernos, Excel, WhatsApp o llamados telefónicos), independientemente de la existencia de nuestra solución de software. Estas tareas son la base para identificar oportunidades de mejora mediante la digitalización.
+</p>
 
-| User Task (Tarea del Usuario) | Carlos Mendoza (Mecánico) | | Lucía Fernández (Administradora) | | Ana Rojas (Cliente) | |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
-| **Diagnosticar fallas del vehículo** | Alta | Crítica | Baja | Media | Baja | Crítica |
-| **Registrar información de clientes y vehículos** | Alta | Crítica | Alta | Crítica | Baja | Media |
-| **Gestionar y coordinar tareas del personal** | Media | Alta | Alta | Crítica | N/A | N/A |
-| **Comunicar el estado de la reparación al cliente** | Alta | Crítica | Alta | Crítica | Media | Alta |
-| **Realizar seguimiento al progreso del servicio** | Alta | Crítica | Alta | Crítica | Alta | Crítica |
-| **Gestionar pagos y facturación** | Alta | Crítica | Alta | Crítica | Baja | Crítica |
-| **Programar citas y recepción de vehículos** | Alta | Alta | Alta | Crítica | Baja | Alta |
-| **Consultar historial de mantenimientos** | Media | Alta | Alta | Alta | Baja | Alta |
+<table>
+  <thead>
+    <tr>
+      <th rowspan="2" style="text-align: center; vertical-align: middle;">User Task<br>(Tarea del Usuario)</th>
+      <th colspan="2" style="text-align: center; ">Carlos Mendoza<br>(Mecánico)</th>
+      <th colspan="2" style="text-align: center; ">Lucía Fernández<br>(Administradora)</th>
+      <th colspan="2" style="text-align: center; ">Ana Rojas<br>(Cliente)</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+      <th style="text-align: center;">Frecuencia</th>
+      <th style="text-align: center;">Importancia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Diagnosticar fallas del vehículo</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Media</td><td style="text-align:center">Baja</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Registrar información de clientes y vehículos</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Media</td></tr>
+    <tr><td>Gestionar y coordinar tareas del personal</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">N/A</td><td style="text-align:center">N/A</td></tr>
+    <tr><td>Comunicar el estado de la reparación al cliente</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td></tr>
+    <tr><td>Realizar seguimiento al progreso del servicio</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Gestionar pagos y facturación</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Crítica</td></tr>
+    <tr><td>Programar citas y recepción de vehículos</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Crítica</td><td style="text-align:center">Baja</td><td style="text-align:center">Alta</td></tr>
+    <tr><td>Consultar historial de mantenimientos</td><td style="text-align:center">Media</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Alta</td><td style="text-align:center">Baja</td><td style="text-align:center">Alta</td></tr>
+  </tbody>
+</table>
 
 #### Análisis del User Task Matrix
 
-Al analizar la matriz, se identifican patrones significativos y puntos de dolor compartidos entre los segmentos:
+<p style="text-align: justify;">
+Al analizar la matriz, se identifican patrones significativos y puntos de dolor compartidos entre los segmentos:</p>
 
 **1. Coincidencias (Puntos Críticos):**
-La tarea de **"Realizar seguimiento al progreso del servicio"** es crítica y de alta frecuencia tanto para Carlos y Lucía (quienes deben gestionarlo) como para Ana (quien necesita saberlo). Actualmente, esta tarea genera fricción: el mecánico pierde tiempo respondiendo llamadas y el cliente siente desconfianza por falta de información. Esto representa una oportunidad central para AutoService: automatizar este seguimiento para reducir la carga administrativa y aumentar la transparencia.
+<p style="text-align: justify;">
+La tarea de <strong>"Realizar seguimiento al progreso del servicio"</strong> es crítica y de alta frecuencia tanto para Carlos y Lucía (quienes deben gestionarlo) como para Ana (quien necesita saberlo). Actualmente, esta tarea genera fricción: el mecánico pierde tiempo respondiendo llamadas y el cliente siente desconfianza por falta de información. Esto representa una oportunidad central para AutoService: automatizar este seguimiento para reducir la carga administrativa y aumentar la transparencia.</p>
 
 **2. Diferencias por Segmento:**
-*   **Carlos Mendoza (Operativo):** Sus tareas de mayor importancia giran en torno al diagnóstico técnico y la comunicación directa. Su frecuencia en tareas administrativas complejas (como reportes detallados) es menor, pero su necesidad de simplicidad es máxima para no entorpecer su trabajo manual.
-*   **Lucía Fernández (Gestión):** Tiene una carga crítica en la **coordinación de personal** y la gestión de la información general. A diferencia de Carlos, ella necesita una visión panorámica del taller para delegar tareas, lo cual es un punto de dolor actual debido a la falta de herramientas de control.
-*   **Ana Rojas (Cliente):** Su interacción es más esporádica en frecuencia (lleva el auto ocasionalmente), pero la importancia es crítica. Su principal frustración es la dependencia de llamadas telefónicas para enterarse del estado de su vehículo.
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li><strong>Carlos Mendoza (Operativo):</strong> Sus tareas de mayor importancia giran en torno al diagnóstico técnico y la comunicación directa. Su frecuencia en tareas administrativas complejas (como reportes detallados) es menor, pero su necesidad de simplicidad es máxima para no entorpecer su trabajo manual.</li>
+  <li><strong>Lucía Fernández (Gestión):</strong> Tiene una carga crítica en la <strong>coordinación de personal</strong> y la gestión de la información general. A diferencia de Carlos, ella necesita una visión panorámica del taller para delegar tareas, lo cual es un punto de dolor actual debido a la falta de herramientas de control.</li>
+  <li><strong>Ana Rojas (Cliente):</strong> Su interacción es más esporádica en frecuencia (lleva el auto ocasionalmente), pero la importancia es crítica. Su principal frustración es la dependencia de llamadas telefónicas para enterarse del estado de su vehículo.</li>
+</ul>
 
 **3. Oportunidades para la Solución:**
-Existe una clara oportunidad para digitalizar la **"Comunicación del estado"**. Actualmente, esta tarea consume recursos del taller (tiempo de Carlos y Lucía) y genera insatisfacción en Ana. Al transformar esta tarea manual en una funcionalidad de consulta autónoma (Dashboard para clientes), se reduce la carga operativa para el taller y se satisface la necesidad de transparencia del cliente.
+<p style="text-align: justify;">
+Existe una clara oportunidad para digitalizar la <strong>"Comunicación del estado"</strong>. Actualmente, esta tarea consume recursos del taller (tiempo de Carlos y Lucía) y genera insatisfacción en Ana. Al transformar esta tarea manual en una funcionalidad de consulta autónoma (Dashboard para clientes), se reduce la carga operativa para el taller y se satisface la necesidad de transparencia del cliente.</p>
 
 
 #### 2.3.3. User Journey Mapping

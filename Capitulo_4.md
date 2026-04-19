@@ -73,6 +73,8 @@ Finalmente, el usuario puede acceder al detalle completo del servicio, donde el 
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-1.png)
+Wireflow Diagram - 1<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-1.png" width="800px">
 </div>
 
 
@@ -118,6 +120,8 @@ Finalmente, al confirmar la transacción, el sistema muestra una pantalla de con
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-2.png)
+Wireflow Diagram - 2 <br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-2.png" width="800px">
 </div>
 
 <table>
@@ -155,6 +159,8 @@ Una vez completados estos campos, el usuario presiona el botón “Confirmar cit
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-3.png)
+Wireflow Diagram - 3<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-3.png" width="800px">
 </div>
 
 <table>
@@ -208,6 +214,8 @@ Una vez completados los campos, el administrador presiona “Siguiente”, y el 
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-4.png)
+Wireflow Diagram - 4<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-4.png" width="800px">
 </div>
 
 <table>
@@ -247,6 +255,8 @@ Finalmente, se presenta un mensaje de confirmación (“Vehículo registrado cor
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-5.png)
+Wireflow Diagram - 5<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-5.png" width="800px">
 </div>
 
 
@@ -283,7 +293,10 @@ Finalmente, el sistema mantiene actualizado el progreso de la orden en función 
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-6.png)
+Wireflow Diagram - 6<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-6.png" width="800px">
 </div>
+
 
 <table>
   <tr>
@@ -317,7 +330,10 @@ Como resultado, el sistema procesa la asignación y muestra una nueva pantalla c
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-7.png)
+Wireflow Diagram - 7<br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-7.png" width="800px">
 </div>
+
 
 <table>
   <tr>
@@ -351,6 +367,8 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-8.png)
+<p>Wireflow Diagram - 8</p><br><br>
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-8.png" width="800px">
 </div>
 
 

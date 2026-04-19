@@ -744,7 +744,151 @@ Muestra las expectativas, emociones y percepciones del cliente.
 ---
 
 ### 2.4. Big Picture EventStorming
-[Pendiente]
+
+<p style="text-align: justify;">
+En esta sección se presenta el **Big Picture EventStorming**, una técnica colaborativa utilizada para explorar el dominio del negocio de manera visual y de alto nivel. A través de una línea de tiempo horizontal, el equipo ha identificado los eventos significativos (naranjas) que ocurren en el flujo de trabajo de un taller automotriz, las acciones que los desencadenan (comandos azules), los actores involucrados (amarillos) y las reglas de negocio automatizadas (políticas moradas).
+</p>
+
+<p style="text-align: justify;">
+Este artefacto nos permite comprender la secuencia natural de los procesos, desde la configuración inicial del taller hasta el cierre financiero y la generación de reportes, exponiendo oportunidades de automatización y **"Hotspots"** (puntos de dolor) críticos en la comunicación entre el taller y el cliente.
+</p>
+
+> **Nota:** El diagrama a continuación representa la interacción entre los User Personas (Carlos, Lucía y Ana) y el sistema propuesto, siguiendo una línea de tiempo de izquierda a derecha.
+
+![Big Picture EventStorming](docs/assets/chapter-2/big-picture-event-storming.png)
+
+#### Estructura del Flujo (Timeline)
+
+<div style="text-align: justify; line-height: 1.6; margin-top: 1em; margin-bottom: 1.5em;">
+<p>Para facilitar la comprensión del modelo, el Event Storming se ha organizado en <strong>5 bloques lógicos</strong> que representan las fases del ciclo de vida del servicio:</p>
+
+<ol style="padding-left: 1.5em; margin-bottom: 1.5em;">
+  <li><strong>Onboarding & Registration (Izquierda):</strong><br>
+  Inicia con el <strong>System Admin</strong> registrando el taller (<code>Register Workshop</code> → <code>Workshop Account Created</code>). Se registran los actores clave: el <strong>Administrator</strong> o <strong>Mechanic</strong> registran clientes (<code>Client Registered</code>) y el <strong>Mechanic</strong> registra los vehículos (<code>Vehicle Registered</code>).<br>
+  <em>Hotspot identificado:</em> <code>Data scattered across notebooks</code> (Datos dispersos en cuadernos), reflejando la desorganización actual.</li>
+
+  <li><strong>Intake & Assessment (Centro-Superior):</strong><br>
+  El <strong>Mechanic</strong> crea la orden de trabajo (<code>Create Work Order</code> → <code>Work Order Created</code>). Se aplica una política automática: <code>Code Generation Policy</code> que genera un código de seguimiento (<code>Tracking Code Generated</code>). El mecánico detalla las tareas (<code>Add task</code> → <code>Task Added</code>) y el administrador asigna turnos (<code>Assign Shift</code>).<br>
+  <em>Hotspot identificado:</em> <code>Difficulty in estimating actual costs</code> (Dificultad para estimar costos reales), un problema que la digitalización busca resolver.</li>
+
+  <li><strong>Execution & Follow-up (Centro-Inferior):</strong><br>
+  El <strong>Mechanic</strong> inicia las tareas (<code>Start task</code> → <code>Task Started</code> → <code>Task Completed</code>). Se actualiza el estado del vehículo (<code>Update Vehicle Status</code> → <code>Vehicle Status Updated</code>).<br>
+  <strong>Punto Clave:</strong> Aquí interviene la política <code>Notify Client Policy</code>. Al cambiar el estado, el sistema envía una notificación (<code>Email/SMS System</code> → <code>Notification Sent</code>), manteniendo al cliente informado sin llamadas manuales.<br>
+  El <strong>Client</strong> puede consultar el estado ingresando su código (<code>Enter Tracking Code</code> → <code>Tracking Session Started</code>).<br>
+  <em>Hotspot identificado:</em> <code>The customer keeps calling to ask about the status</code> (El cliente llama constantemente), resolviendo la frustración de Ana.</li>
+
+  <li><strong>Closure & Billing (Derecha-Inferior):</strong><br>
+  El <strong>Mechanic</strong> completa la orden (<code>Complete Work Order</code> → <code>Work Order Completed</code>). El <strong>Administrator</strong> genera la factura (<code>Generate Invoice</code> → <code>Invoice Generated</code>). El <strong>Client</strong> procesa el pago (<code>Process Payment</code> → <code>Payment Processed</code>), interactuando con la <code>Payment Gateway</code>.<br>
+  <em>Hotspot identificado:</em> <code>Manual error in calculating totals</code> (Error manual en el cálculo de totales).</li>
+
+  <li><strong>Reports & Metrics (Derecha-Superior):</strong><br>
+  El <strong>Administrator</strong> visualiza métricas de productividad (<code>View Productivity Metrics</code> → <code>Workshop Productivity Calculated</code>). Se analizan tendencias de servicio (<code>Analyze Service Trends</code> → <code>Service Trends Analyzed</code>). Se generan reportes diarios de ingresos bajo la <code>Daily Closing Policy</code>.</li>
+</ol>
+
+#### Leyenda de Elementos
+
+<p>Para la correcta interpretación del diagrama, se han utilizado los estándares visuales de EventStorming:</p>
+<ul style="padding-left: 1.5em; margin-bottom: 1.5em;">
+  <li>🟧 <strong>Domain Events (Naranja):</strong> Hechos relevantes que ya ocurrieron en el negocio (ej. <code>Vehicle Status Updated</code>, <code>Invoice Generated</code>).</li>
+  <li>🟦 <strong>Commands (Azul):</strong> Acciones o decisiones que inician un proceso (ej. <code>Create Work Order</code>, <code>Process Payment</code>).</li>
+  <li>🟨 <strong>Actors (Amarillo):</strong> Usuarios o sistemas que ejecutan los comandos (System Admin, Mechanic, Administrator, Client).</li>
+  <li>🟪 <strong>Policies (Morado):</strong> Reglas de negocio o automatizaciones (ej. <code>Notify Client Policy</code>, <code>Code Generation Policy</code>).</li>
+  <li>🟥 <strong>External Systems (Rosa fuerte):</strong> Servicios de terceros integrados (Email/SMS System, Payment Gateway).</li>
+  <li>🔴 <strong>Hotspots (Rojo claro):</strong> Puntos de dolor o problemas identificados en el proceso actual.</li>
+</ul>
+
+#### Hotspots y Oportunidades de Mejora
+
+<p>Durante el modelado, detectamos áreas problemáticas en el proceso actual que justifican la existencia de nuestra solución <strong>AutoService</strong>:</p>
+<ol style="padding-left: 1.5em; margin-bottom: 1em;">
+  <li><strong>Falta de Transparencia (Bloque Execution):</strong><br>
+  <em>Problema:</em> El evento <code>Vehicle Status Updated</code> no llegaba al cliente, generando llamadas constantes.<br>
+  <em>Solución:</em> La política <code>Notify Client Policy</code> automatiza la comunicación.</li>
+
+  <li><strong>Desorganización Operativa (Bloque Onboarding/Intake):</strong><br>
+  <em>Problema:</em> Datos dispersos en cuadernos y dificultad para estimar costos.<br>
+  <em>Solución:</em> Centralización digital y cálculo automático basado en tareas registradas.</li>
+
+  <li><strong>Errores Administrativos (Bloque Closure):</strong><br>
+  <em>Problema:</em> Errores manuales al calcular totales de facturas.<br>
+  <em>Solución:</em> Generación automática de invoices basada en los servicios completados.</li>
+</ol>
+</div>
 
 ### 2.5. Ubiquitous Language
-[Pendiente]
+
+<p style="text-align: justify;">
+Para garantizar una comunicación clara y sin ambigüedades entre los miembros del equipo de desarrollo y los stakeholders del negocio, se ha definido el siguiente glosario de términos (Ubiquitous Language). Estos términos representan los conceptos fundamentales del dominio de la gestión de talleres automotrices.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center; vertical-align: middle; ">Término<br>(Inglés)</th>
+      <th style="text-align: center; vertical-align: middle; ">Equivalente<br>(Español)</th>
+      <th style="text-align: left; vertical-align: middle; ">Definición</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center;"><strong>Work Order</strong></td>
+      <td style="text-align: center;">Orden de Trabajo</td>
+      <td>Documento digital que registra la solicitud de servicio de un vehículo, incluyendo los trabajos a realizar, los costos estimados y el estado actual del proceso.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Service Request</strong></td>
+      <td style="text-align: center;">Solicitud de Servicio</td>
+      <td>Petición inicial realizada por el cliente para el mantenimiento o reparación de su vehículo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Mechanic / Technician</strong></td>
+      <td style="text-align: center;">Mecánico / Técnico</td>
+      <td>Usuario del sistema encargado de ejecutar las tareas técnicas de reparación y diagnóstico en los vehículos.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Workshop Administrator</strong></td>
+      <td style="text-align: center;">Administrador del Taller</td>
+      <td>Usuario responsable de gestionar las órdenes de trabajo, asignar tareas al personal, controlar inventarios y gestionar la facturación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Vehicle</strong></td>
+      <td style="text-align: center;">Vehículo</td>
+      <td>El objeto físico (auto, moto, camión) que ingresa al taller para recibir servicio. Se asocia a un cliente específico.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Diagnostic</strong></td>
+      <td style="text-align: center;">Diagnóstico</td>
+      <td>Evaluación técnica realizada por el mecánico para identificar fallas o necesidades de mantenimiento en el vehículo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Quote / Budget</strong></td>
+      <td style="text-align: center;">Cotización / Presupuesto</td>
+      <td>Estimación de costos detallada que se presenta al cliente antes de iniciar la reparación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Maintenance History</strong></td>
+      <td style="text-align: center;">Historial de Mantenimiento</td>
+      <td>Registro cronológico de todos los servicios, reparaciones y cambios de piezas realizados a un vehículo a lo largo del tiempo.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Status</strong></td>
+      <td style="text-align: center;">Estado</td>
+      <td>Indicador del progreso de una Orden de Trabajo (ej. Pendiente, En Proceso, Listo, Entregado).</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Spare Part</strong></td>
+      <td style="text-align: center;">Repuesto</td>
+      <td>Pieza o componente de inventario que se utiliza para reemplazar piezas dañadas durante la reparación.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Client / Customer</strong></td>
+      <td style="text-align: center;">Cliente</td>
+      <td>Usuario final propietario del vehículo que contrata los servicios del taller.</td>
+    </tr>
+    <tr>
+      <td style="text-align: center;"><strong>Staff</strong></td>
+      <td style="text-align: center;">Personal</td>
+      <td>Conjunto de mecánicos y personal de apoyo que labora en el taller.</td>
+    </tr>
+  </tbody>
+</table>

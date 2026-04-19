@@ -119,6 +119,7 @@ Finalmente, al confirmar la transacción, el sistema muestra una pantalla de con
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-2.png)
 </div>
+
 <table>
   <tr>
     <td class="header">User Persona</td>
@@ -155,6 +156,203 @@ Una vez completados estos campos, el usuario presiona el botón “Confirmar cit
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-3.png)
 </div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El flujo inicia en la pantalla de bienvenida (Start), desde donde el usuario accede a la plataforma mediante el botón “Get Started”, siendo redirigido a la pantalla de inicio de sesión.
+
+Una vez autenticado, el sistema dirige al administrador al panel de control (Dashboard), donde puede visualizar un resumen general del taller, incluyendo:
+
+- Cantidad de vehículos activos
+- Servicios en proceso
+- Órdenes completadas
+- Ingresos generados
+
+Desde esta vista, el administrador accede a la sección de vehículos, donde el sistema muestra un listado completo con información resumida de cada unidad (placa, propietario, estado y progreso).
+
+El usuario selecciona un vehículo específico mediante la opción “Ver detalles”, lo que lo redirige a la pantalla de detalle del vehículo. En esta vista, el sistema presenta:
+
+- Información general del vehículo
+- Estado actual del servicio
+- Problema reportado
+- Diagnóstico técnico
+- Lista de tareas asociadas
+
+Desde esta misma pantalla, el administrador puede presionar el botón “+ Agregar tarea”, lo que lo lleva a la pantalla de creación de nueva tarea.
+
+En esta sección, el usuario registra:
+
+- Nombre de la tarea
+- Descripción del servicio
+- Estado (pendiente, en proceso o completado)
+- Tiempo estimado
+
+Una vez completados los campos, el administrador presiona “Siguiente”, y el sistema lo redirige a la pantalla de orden de trabajo, donde se visualiza el conjunto completo de tareas asociadas al vehículo, junto con su estado actual y progreso global.
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-4.png)
+</div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Registrar un nuevo vehículo en el sistema, ingresando la información del vehículo y del propietario, con el fin de gestionar correctamente los servicios y mantener actualizado el control de vehículos atendidos.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. A continuación, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa su correo electrónico y contraseña para autenticarse en el sistema.
+
+Una vez autenticado, el usuario es dirigido al panel de control (Dashboard), donde puede visualizar un resumen general del estado del taller, incluyendo vehículos activos, servicios en proceso, completados e ingresos. Desde esta pantalla, el usuario puede navegar hacia el módulo de gestión de vehículos.
+
+Al ingresar a la sección “Vehículos”, se muestra una lista con los vehículos registrados, junto con su estado y detalles básicos. En esta pantalla, el usuario tiene la opción de presionar el botón “Agregar vehículo”, lo que lo dirige al formulario de registro.
+
+En la pantalla de “Agregar vehículo”, el usuario completa los datos requeridos, los cuales están divididos en dos secciones:
+
+- Información del vehículo (placa, marca, modelo, año).
+- Información del propietario (nombre completo, teléfono, entre otros)
+
+Una vez completados los campos, el usuario selecciona la opción “Guardar vehículo”. Como resultado de esta acción, el sistema procesa la información y muestra una nueva pantalla con el estado actualizado, confirmando que el vehículo ha sido registrado correctamente.
+
+Finalmente, se presenta un mensaje de confirmación (“Vehículo registrado correctamente”) junto con una opción para aceptar, lo que permite al usuario regresar al sistema y continuar con otras tareas.
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-5.png)
+</div>
+
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Seguimiento a las tareas y eliminar una orden de trabajo, para mantener actualizado el estado de los servicios y optimizar la gestión operativa del taller
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    
+El usuario al iniciar tendra que iniciar sesion para poder ingresar.
+Una vez dentro del sistema, el usuario es dirigido al panel de control (panel), en el cual visualiza un resumen general del estado del taller, incluyendo vehículos activos, órdenes en proceso y métricas relevantes. Desde esta pantalla, el usuario navega hacia el módulo de “Órdenes”.
+
+En la sección de órdenes de trabajo, el usuario accede al detalle de una orden específica, donde se muestra el identificador de la orden, el vehículo asociado y el progreso de las tareas asignadas. En esta vista, el usuario puede visualizar la lista de tareas, cada una con su estado (completada, en curso o pendiente).
+
+El usuario puede gestionar estas tareas realizando diferentes acciones, como editar una tarea existente, marcar su estado o eliminarla mediante los controles disponibles en cada ítem. Asimismo, puede añadir nuevas tareas si es necesario.
+
+Dentro de este flujo, también se contempla la posibilidad de eliminar una orden de trabajo, acción que se ejecuta a través de una opción disponible en la interfaz (generalmente asociada a un ícono de eliminación). Al realizar esta acción, el sistema actualiza el estado eliminando la orden del listado y reflejando el cambio en la interfaz.
+Finalmente, el sistema mantiene actualizado el progreso de la orden en función de las tareas gestionadas, permitiendo al usuario tener control completo sobre el ciclo de trabajo.
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-6.png)
+</div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Asignar una tarea a un mecánico disponible, seleccionar al personal adecuado según su especialidad, para asegurar una correcta distribución del trabajo y una atención eficiente de los servicios
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. Seguidamente, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa sus credenciales para autenticarse en el sistema.
+
+Una vez dentro, el usuario es dirigido al panel de control (Dashboard), donde visualiza un resumen del estado del taller, incluyendo vehículos activos, servicios en proceso y métricas generales. Desde esta vista, el usuario puede navegar hacia la sección correspondiente para gestionar el personal o las órdenes de trabajo.
+
+Posteriormente, el usuario accede a la pantalla de “Asignar mecánico”, donde se muestra la información del vehículo en espera junto con el tipo de servicio requerido. En esta misma pantalla, se presenta una lista de personal disponible, incluyendo datos relevantes como nombre del mecánico, especialidad y estado (disponible u ocupado).
+
+El usuario selecciona al mecánico más adecuado en función de la tarea a realizar y su disponibilidad. Una vez hecha la selección, presiona el botón “Asignar tarea”, lo que ejecuta la acción dentro del sistema.
+
+Como resultado, el sistema procesa la asignación y muestra una nueva pantalla con el estado actualizado, confirmando que la tarea ha sido registrada correctamente. Finalmente, el usuario puede aceptar la confirmación y continuar gestionando otras actividades dentro del sistema.
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-7.png)
+</div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>8</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Registrar un nuevo mecánico en el sistema, ingresando sus datos personales, especialidad y estado inicial, para gestionar adecuadamente el equipo de trabajo y asignar tareas de manera eficiente.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. Luego, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa sus credenciales para autenticarse.
+
+Una vez dentro del sistema, el usuario es dirigido al panel de control (Panel), donde puede visualizar un resumen del estado del taller, incluyendo métricas generales como vehículos activos, servicios en proceso y resultados económicos. Desde esta pantalla, el usuario navega hacia el módulo de “Personal”.
+
+En la sección de gestión de personal, el usuario visualiza la lista de mecánicos registrados, junto con información relevante como su especialidad y estado (disponible u ocupado). En esta pantalla, el usuario selecciona la opción “Añadir mecánico” para iniciar el proceso de registro.
+
+A continuación, se muestra el formulario de “Agregar mecánico”, donde el usuario ingresa los datos requeridos, tales como nombre completo, especialidad, número de teléfono y estado inicial del trabajador. Una vez completada la información, el usuario presiona el botón “Guardar” para registrar al nuevo mecánico.
+
+Como resultado de esta acción, el sistema procesa los datos y presenta una nueva pantalla con el estado actualizado, confirmando que el mecánico ha sido registrado correctamente. Finalmente, el usuario puede aceptar la confirmación y continuar gestionando otras funcionalidades del sistema.
+    </td>
+  </tr>
+</table>
+
+<div align="center">
+
+![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-8.png)
+</div>
+
 
 
 #### 4.4.3. Web Applications Mock-ups

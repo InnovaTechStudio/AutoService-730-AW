@@ -219,6 +219,55 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 ![alt text](docs/assets/chapter-4/landing-page-wireframe/Mobile%20Web%20Browser%20Wireframe.png)
 
 #### 4.3.2. Landing Page Mock-up
+**1. Header / Navbar**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/header-landing-mockup.png)
+
+**2. Hero Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/hero-section-mockup.png)
+
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/key-features-mockup.png)
+
+**4. Problem + Solution Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/problem+solution-section-mockup.png)
+
+**5. Tools Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/tools-section-mockup.png)
+
+**6. How it works Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/how-it-works-mockup.png)
+
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/simplicity-section-mockup.png)
+
+**8. Pricing Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/pricing-section-mockup.png)
+
+**9. Final Call To Action Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/final-call-to-action-mockup.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/footer-section-mockup.png)
 
 **-Mobile Web Browser**
 

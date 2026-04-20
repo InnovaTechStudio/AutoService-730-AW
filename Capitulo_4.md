@@ -173,6 +173,12 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 ![alt text](docs/assets/chapter-4/landing-page-wireframe/hero-section-landing-wireframe.png)
 
+**3. Key Features**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/key-features-landing-wireframe.png)
+
+
 #### 4.3.2. Landing Page Mock-up
 [Pendiente]
 

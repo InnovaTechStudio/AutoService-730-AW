@@ -163,7 +163,11 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
-[Pendiente]
+**1. Header / Navbar**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/header-navbar-landing-wireframe.png)
+
 
 #### 4.3.2. Landing Page Mock-up
 [Pendiente]

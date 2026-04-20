@@ -206,7 +206,12 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 **9. Final Call To Action Section**
 <br>
 
-![alt text](docs/assets/chapter-4/landing-page-wireframe/final-call-to-action-landing-wireframe.png.png)
+![alt text](docs/assets/chapter-4/landing-page-wireframe/final-call-to-action-landing-wireframe.png)
+
+**10. Footer Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/footer-section-landing-wireframe.png)
 
 
 #### 4.3.2. Landing Page Mock-up

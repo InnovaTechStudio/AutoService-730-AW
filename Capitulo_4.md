@@ -216,6 +216,7 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 **-Mobile Web Browser**
 
+![alt text](docs/assets/chapter-4/landing-page-wireframe/Mobile%20Web%20Browser%20Wireframe.png)
 
 #### 4.3.2. Landing Page Mock-up
 [Pendiente]

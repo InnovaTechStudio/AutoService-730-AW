@@ -193,6 +193,11 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 
 ![alt text](docs/assets/chapter-4/landing-page-wireframe/how-it-works-landing-wireframe.png)
 
+**7. Additional Features/ Simplicity Section**
+<br>
+
+![alt text](docs/assets/chapter-4/landing-page-wireframe/simplicity-section-landing-wireframe.png)
+
 
 #### 4.3.2. Landing Page Mock-up
 [Pendiente]

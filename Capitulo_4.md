@@ -219,7 +219,10 @@ Para AutoService, se han implementado diversos sistemas de organización que res
 ![alt text](docs/assets/chapter-4/landing-page-wireframe/Mobile%20Web%20Browser%20Wireframe.png)
 
 #### 4.3.2. Landing Page Mock-up
-[Pendiente]
+
+**-Mobile Web Browser**
+
+![alt text](docs/assets/chapter-4/landing-page-mockup/Mobile%20Web%20Browser%20Mockup.png)
 
 ### 4.4. Web Applications UX/UI Design
 

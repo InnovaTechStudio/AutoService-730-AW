@@ -583,7 +583,7 @@ Una vez completado el formulario, el usuario procede a registrar al mecánico en
   <tr>
     <td class="header">Unhappy Paths</td>
     <td colspan="3">
-    redenciales incorrectas:
+    Credenciales incorrectas:
 Si el usuario no logra iniciar sesión, el sistema muestra un mensaje de error solicitando la corrección de los datos.
 <li>Campos obligatorios incompletos:</li>
   Si el usuario omite información requerida en el formulario, el sistema resalta los campos faltantes e impide continuar.
@@ -597,6 +597,46 @@ Si el usuario no logra iniciar sesión, el sistema muestra un mensaje de error s
   </tr>
 </table>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-6.jpg""></div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>7</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    El administrador desea visualizar y consultar el detalle de los vehículos registrados en el sistema para dar seguimiento a su estado y gestionar la operación del taller.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El usuario accede al sistema a través de la pantalla de inicio de sesión. El administrador ingresa sus credenciales y presiona el botón “Login” para autenticarse correctamente.
+Una vez dentro, el sistema muestra el Dashboard principal, donde el usuario puede visualizar un resumen general de la operación del taller. Desde esta vista, el administrador selecciona el ícono o sección de “Vehículos”.
+Al ingresar, se despliega el panel de vehículos registrados, donde se presenta una lista con información relevante (cliente, modelo, estado, etc.). El usuario puede explorar esta lista y seleccionar un vehículo específico presionando el botón “Ver detalle”.
+Finalmente, el sistema muestra la vista de detalle del vehículo, donde el administrador puede consultar información completa, como datos del cliente, estado del servicio y acciones disponibles (por ejemplo, impresión de orden de trabajo o envío de reporte).
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+    <td colspan="3">
+<li>Credenciales incorrectas: Si el usuario ingresa datos inválidos en el login, el sistema muestra un mensaje de error y solicita reintentar.</li>
+<li>Sin vehículos registrados: Si no existen vehículos en el sistema, se muestra un estado vacío con un mensaje informativo y una posible acción para registrar un nuevo vehículo.</li>
+<li>Error de carga de datos: Si ocurre un fallo al cargar la lista o el detalle de vehículos, el sistema notifica el error y permite reintentar la acción.</li>
+<li>Acceso no autorizado: Si el usuario no cuenta con permisos adecuados, el sistema restringe el acceso a ciertas funcionalidades o vistas.</li>
+    </td>
+  </tr>
+</table>
+<div align="center"><img src="docs/assets/chapter4-designUX/user-flow-7.jpg""></div>
+
+<p>URL de trabajo para los User Flow en miro: 
+[URL_aqui](https://miro.com/welcomeonboard/OE91Y1ZRRmR2R3lrOVJQZCtSRWZGL0d0NEduaC9SMHZYbWNQYjlpYjlzMXRiMHNaZ2JIaGVCMzE0bmw3U1N4MVRoaXhhd0FMUjJERzlUZVgvYXl4RXpSa0pvV09sVWYzaHkvMnNmemc4MWZGVVpoL3RiTWJXbms5UzhsdnQ1Y0p3VHhHVHd5UWtSM1BidUtUYmxycDRnPT0hdjE=?share_link_id=686324343058)</p>
+
+
+
 
 ### 4.5. Web Applications Prototyping
 [Pendiente]

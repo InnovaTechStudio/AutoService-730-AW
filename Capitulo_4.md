@@ -524,6 +524,39 @@ El usuario puede abandonar el flujo antes de finalizar el registro, regresando a
 </table>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-4.jpg""></div>
 
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Eliminar una tarea registrada en el sistema de forma segura, asegurando que el usuario confirme la acción antes de que la información sea eliminada definitivamente.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El usuario accede a la plataforma e inicia sesión con sus credenciales. Tras una autenticación exitosa, es dirigido al dashboard principal, donde puede visualizar un resumen de la actividad del sistema.
+Desde el menú lateral, el usuario selecciona el módulo de tareas, lo que lo lleva a la pantalla de gestión de tareas. En esta vista se presenta un listado con las tareas registradas, incluyendo información relevante como nombre de la tarea, vehículo asociado, mecánico asignado y estado actual.
+El usuario identifica la tarea que desea eliminar y selecciona el ícono de eliminación (representado por un basurero). Esta acción activa un modal de confirmación que solicita validar la intención de eliminar la tarea.
+Si el usuario confirma la acción presionando el botón “Eliminar”, el sistema procesa la solicitud y elimina la tarea del listado. Finalmente, se muestra un mensaje de confirmación (toast) en la interfaz indicando que la eliminación se realizó correctamente.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+Si el usuario falla al iniciar sesión, el sistema muestra un error y solicita corregir los datos.
+Si el usuario decide no eliminar la tarea y cierra el modal o presiona “Cancelar”, el sistema mantiene la tarea sin cambios.
+Si ocurre un problema técnico durante la eliminación, el sistema muestra un mensaje de error y la tarea permanece en el listado.
+    <td colspan="3">
+    </td>
+  </tr>
+</table>
+<div align="center"><img src="docs/assets/chapter4-designUX/user-flow-5.jpg""></div>
+
 ### 4.5. Web Applications Prototyping
 [Pendiente]
 

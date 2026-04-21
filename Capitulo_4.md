@@ -557,6 +557,47 @@ Si ocurre un problema técnico durante la eliminación, el sistema muestra un me
 </table>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-5.jpg""></div>
 
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>6</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Registrar un nuevo mecánico en el sistema, asegurando que sus datos sean ingresados correctamente para su posterior asignación a tareas dentro del taller.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El flujo inicia cuando el usuario accede a la plataforma e ingresa sus credenciales en la pantalla de inicio de sesión. Tras una autenticación exitosa, el sistema lo redirige al dashboard principal, donde se muestra un resumen general de la operación.
+Desde el menú lateral, el usuario selecciona el módulo de personal. Esta acción despliega el panel de gestión de personal, donde se visualiza el listado de mecánicos registrados en el taller, incluyendo información relevante de cada uno.
+En esta pantalla, el usuario presiona el botón “Registrar mecánico” para iniciar el proceso de registro. A continuación, el sistema muestra un formulario en el que el usuario debe ingresar los datos correspondientes del nuevo mecánico, tales como información personal, datos de contacto y otros campos requeridos.
+Una vez completado el formulario, el usuario procede a registrar al mecánico en el sistema. El sistema valida la información ingresada y, si todo es correcto, completa el registro, incorporando al nuevo mecánico dentro del listado de personal disponible.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+    <td colspan="3">
+    redenciales incorrectas:
+Si el usuario no logra iniciar sesión, el sistema muestra un mensaje de error solicitando la corrección de los datos.
+<li>Campos obligatorios incompletos:</li>
+  Si el usuario omite información requerida en el formulario, el sistema resalta los campos faltantes e impide continuar.
+<li>Datos inválidos:</li>
+  Si se ingresan datos incorrectos (por ejemplo, formato inválido en correo o teléfono), el sistema muestra mensajes de validación.
+<li>Cancelación del proceso:</li>
+  El usuario puede abandonar el registro antes de completarlo, regresando al listado sin guardar cambios.
+<li>Error del sistema al registrar:</li>
+  Si ocurre un fallo durante el registro, el sistema notifica el error y permite reintentar la acción.
+    </td>
+  </tr>
+</table>
+<div align="center"><img src="docs/assets/chapter4-designUX/user-flow-6.jpg""></div>
+
 ### 4.5. Web Applications Prototyping
 [Pendiente]
 

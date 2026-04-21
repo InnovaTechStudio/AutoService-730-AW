@@ -548,10 +548,10 @@ Si el usuario confirma la acción presionando el botón “Eliminar”, el siste
   </tr>
   <tr>
     <td class="header">Unhappy Paths</td>
-Si el usuario falla al iniciar sesión, el sistema muestra un error y solicita corregir los datos.
+    <td colspan="3">
+    Si el usuario falla al iniciar sesión, el sistema muestra un error y solicita corregir los datos.
 Si el usuario decide no eliminar la tarea y cierra el modal o presiona “Cancelar”, el sistema mantiene la tarea sin cambios.
 Si ocurre un problema técnico durante la eliminación, el sistema muestra un mensaje de error y la tarea permanece en el listado.
-    <td colspan="3">
     </td>
   </tr>
 </table>

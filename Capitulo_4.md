@@ -314,7 +314,7 @@ Finalmente, el usuario puede acceder al detalle completo del servicio, donde el 
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-1.png)
 Wireflow Diagram - 1<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-1.png" width="800px">
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-1.png" width="600px">
 </div>
 
 
@@ -361,7 +361,7 @@ Finalmente, al confirmar la transacción, el sistema muestra una pantalla de con
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-2.png)
 Wireflow Diagram - 2 <br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-2.png" width="800px">
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-2.png" width="600px">
 </div>
 
 <table>
@@ -400,7 +400,7 @@ Una vez completados estos campos, el usuario presiona el botón “Confirmar cit
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-3.png)
 Wireflow Diagram - 3<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-3.png" width="800px">
+<img src="docs/assets/chapter4-designUX/diagram-usergoal-3.png" width="600px">
 </div>
 
 <table>
@@ -615,9 +615,46 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
 
 #### 4.4.3. Web Applications Mock-ups
 [Pendiente]
-
 #### 4.4.4. Web Applications User Flow Diagrams
-[Pendiente]
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Cliente - propietario del vehículo</td>
+    <td class="header">Número</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+    Registrar un nuevo vehículo en el sistema, ingresando la información del vehículo y del propietario, con el fin de gestionar correctamente los servicios y mantener actualizado el control de vehículos atendidos.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El usuario accede a la pantalla de inicio de sesión de la aplicación AutoService. Ingresa sus credenciales y presiona el botón “Login” para autenticarse en el sistema.
+    Una vez dentro, el usuario es dirigido a la pantalla principal (dashboard), donde se le presentan distintas opciones. Para cumplir su objetivo, selecciona la opción “Consultar estado del vehículo”.
+    El sistema lo redirige a la pantalla de consulta, donde se le solicita ingresar un código único asociado a su servicio. El usuario introduce el código y presiona el botón “Consultar estado”.
+    Finalmente, el sistema muestra la pantalla de resultados, donde el usuario puede visualizar en tiempo real el estado de su vehículo, incluyendo detalles de las tareas realizadas, el progreso del servicio, costos asociados y tiempos estimados.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+    <td colspan="3">
+    Si el usuario ingresa credenciales incorrectas en la pantalla de inicio de sesión, el sistema muestra un mensaje de error y solicita reintentar el acceso.
+    En la pantalla de consulta, si el usuario ingresa un código inválido o inexistente, el sistema despliega una notificación indicando que el código no es válido y permite volver a intentarlo.
+    Si ocurre un problema de conexión o el sistema no puede recuperar la información, se muestra un mensaje de error indicando la imposibilidad de obtener el estado del vehículo en ese momento, sugiriendo intentar más tarde.<br>
+    Consideraciones:
+    <ul>
+    <li>El usuario debe estar previamente registrado para poder acceder al sistema.</li>
+    <li>El código de consulta debe ser válido y estar asociado a un servicio activo.</li>
+    <li>La información mostrada depende de la disponibilidad y actualización en tiempo real del sistema.</li></ul>
+    </td>
+  </tr>
+</table>
+<div><img src="docs/assets/chapter4-designUX/user-flow-1.jpg"></div>
+
 
 ### 4.5. Web Applications Prototyping
 [Pendiente]

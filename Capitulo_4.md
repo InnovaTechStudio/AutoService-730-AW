@@ -487,6 +487,43 @@ Si ocurre un error del sistema al momento de guardar la tarea, se notifica al us
 </table>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-3.jpg""></div>
 
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Administrador - dueño del taller</td>
+    <td class="header">Número</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+      Registrar un vehículo nuevo en el sistema de manera rápida y sin errores, asegurando que la información ingresada sea válida y quede almacenada correctamente.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    el usuario accede a la plataforma e ingresa sus credenciales en la pantalla de inicio de sesión. Una vez autenticado, es redirigido al dashboard principal, donde puede visualizar un resumen general del sistema.
+Desde el dashboard, el usuario selecciona el módulo de vehículos, lo que despliega el panel con el listado de vehículos registrados. En esta vista, el usuario identifica y presiona el botón de “Registrar vehículo” para iniciar el proceso de registro.
+A continuación, el sistema muestra un formulario donde el usuario debe ingresar la información básica del vehículo (por ejemplo, VIN, marca, modelo, año, entre otros). Una vez completados los campos requeridos, el usuario presiona el botón “Siguiente”.
+En la siguiente pantalla, el usuario revisa y complementa los datos del vehículo, incluyendo información adicional y visual (como una imagen referencial). Posteriormente, vuelve a presionar “Siguiente” para avanzar.
+El sistema presenta una pantalla de confirmación donde el usuario puede validar toda la información ingresada. Si los datos son correctos, el usuario presiona el botón “Registrar vehículo”.
+Finalmente, el sistema procesa la solicitud y muestra un mensaje de confirmación indicando que el vehículo ha sido registrado correctamente.
+    <td colspan="3">
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+    <td colspan="3">
+Si el usuario ingresa datos inválidos al iniciar sesión, el sistema muestra un mensaje de error y solicita corregirlos.
+Durante el registro, si el usuario omite información requerida o ingresa datos incorrectos (por ejemplo, un VIN inválido), el sistema resalta los campos con error e impide avanzar hasta corregirlos.
+Si existe inconsistencia en la información ingresada, el sistema muestra mensajes de validación antes de permitir continuar.
+El usuario puede abandonar el flujo antes de finalizar el registro, regresando al listado de vehículos sin guardar cambios.
+    </td>
+  </tr>
+</table>
+<div align="center"><img src="docs/assets/chapter4-designUX/user-flow-4.jpg""></div>
+
 ### 4.5. Web Applications Prototyping
 [Pendiente]
 

@@ -387,7 +387,7 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
-    Registrar un nuevo vehículo en el sistema, ingresando la información del vehículo y del propietario, con el fin de gestionar correctamente los servicios y mantener actualizado el control de vehículos atendidos.
+    Ingresar al sistema, visualizar y consultar el estado de mi vehículo mediante un código de seguimiento, para conocer el progreso del servicio, el diagnóstico y la fecha estimada de entrega sin necesidad de contactar directamente al taller.
     </td>
   </tr>
   <tr>
@@ -414,6 +414,42 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
   </tr>
 </table>
 <div><img src="docs/assets/chapter4-designUX/user-flow-1.jpg"></div>
+
+<table>
+  <tr>
+    <td class="header">User Persona</td>
+    <td>Cliente - propietario del vehículo</td>
+    <td class="header">Número</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td class="header">User Goal</td>
+    <td colspan="3" class="italic bold">
+      Agendar una cita para el servicio de su vehículo de manera rápida y sencilla, seleccionando fecha, hora y proporcionando sus datos personales.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Happy path</td>
+    <td colspan="3">
+    El usuario accede a la pantalla de inicio de sesión de la plataforma AutoService. Ingresa sus credenciales y presiona el botón “Login” para acceder al sistema.
+Una vez autenticado, el usuario es dirigido al dashboard principal, donde visualiza distintas opciones disponibles. Para cumplir su objetivo, selecciona la opción “Agendar cita”.
+El sistema lo redirige a la pantalla de agendamiento, donde el usuario debe completar un formulario inicial seleccionando información clave como la fecha, la hora y el tipo de servicio requerido. Una vez completados estos campos, presiona el botón “Siguiente”.
+En la siguiente pantalla, el usuario ingresa sus datos personales, incluyendo nombre, teléfono, correo electrónico y la información del vehículo (placa, marca y modelo). Luego de completar el formulario, presiona nuevamente el botón “Siguiente”.
+Finalmente, el sistema muestra una pantalla de confirmación indicando que la cita ha sido agendada correctamente, junto con un resumen de los datos ingresados (fecha y hora). El usuario puede optar por consultar el estado del servicio o volver al inicio.
+    </td>
+  </tr>
+  <tr>
+    <td class="header">Unhappy Paths</td>
+    <td colspan="3">
+    Si el usuario ingresa credenciales incorrectas al iniciar sesión, el sistema muestra un mensaje de error y solicita reintentar.
+Si el usuario no completa los campos obligatorios en el formulario de agendamiento (fecha, hora o tipo de servicio), el sistema impide avanzar y resalta los campos faltantes.
+En caso de seleccionar una fecha u horario no disponible, el sistema notifica al usuario y le solicita elegir otra opción válida.
+Si el uszario deja incompletos los datos personales o ingresa información inválida (por ejemplo, correo con formato incorrecto), el sistema muestra mensajes de validación antes de permitir continuar.
+Si ocurre un error en el sistema al momento de confirmar la cita, se muestra un mensaje indicando que no fue posible completar la operación y se sugiere intentar nuevamente.
+    </td>
+  </tr>
+</table>
+<div align="center"><img src="docs/assets/chapter4-designUX/user-flow-2.jpg""></div>
 
 
 ### 4.5. Web Applications Prototyping

@@ -655,8 +655,7 @@ Finalmente, menciona sentirse cómodo utilizando aplicaciones digitales, siempre
 
 **Evidencia:**
 
-![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
-
+![Entrevista Cliente - propietario de vehículo](docs/assets/chapter-2/interview-client.png)
 
 
 

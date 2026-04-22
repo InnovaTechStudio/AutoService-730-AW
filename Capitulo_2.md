@@ -627,6 +627,36 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 
 ![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
 
+
+#### Entrevista 6: Clientes - propietario de vehículos
+
+- **Nombre:** Fabio Vallejo  
+- **Edad:** 24  
+- **Residencia:** Surco, Lima  
+- **Ocupación:** Estudiante universitario 
+
+- **Inicio:** 0:01  
+- **Duración:** 4:58  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCm1-3ipyupR7cU__KUpc4-AfuCgrWf7cQ5QhWotODFmws?e=gbSZpD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+---
+
+**Resumen:**
+<p style="text-align: justify;">
+
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
+
+
+
+
 #### 2.2.3. Análisis de entrevistas
 [Pendiente]
 

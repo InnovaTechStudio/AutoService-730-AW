@@ -6,7 +6,10 @@
 [Pendiente]
 
 #### 4.1.2. Web Style Guidelines
-[Pendiente]
+Para AutoService, se desarrollará una plataforma web acompañada de una landing page orientada a la gestión de talleres automotrices. En este sentido, se implementa un diseño adaptable (Responsive Web Design), el cual permite optimizar la visualización de la información en distintos dispositivos, como computadoras, tablets y smartphones. Esto garantiza que el contenido se mantenga claro, accesible y funcional en todo momento, lo cual mejora significativamente la experiencia del usuario.<br>
+Asimismo, se ha optado por incorporar el patrón de diseño en forma de Z en la landing page, ya que permite dirigir la atención del usuario hacia los elementos más relevantes de manera natural. En este contexto, el logotipo de AutoService se ubica en la esquina superior izquierda, que refuerza la identidad de la marca, mientras que en la esquina superior derecha se posiciona la barra de navegación acompañada de botones de llamada a la acción, como “Start Free Trial” y “Book a Demo”, lo cual facilita el acceso inmediato a las funcionalidades principales.<br>
+Por otro lado, la estructura del sitio se organiza en secciones verticales claramente definidas, tales como la presentación del servicio, funcionalidades, beneficios, pasos de uso y planes de suscripción. Esta organización permite una navegación fluida y progresiva, lo cual evita la sobrecarga de información y facilita la comprensión del valor de la plataforma. Además, se emplea el uso de tarjetas (cards) para agrupar contenido, lo que mejora la legibilidad y el orden visual.<br>
+En cuanto a los elementos interactivos, los botones y enlaces han sido diseñados para ser fácilmente identificables, incorporando estados visuales que brindan retroalimentación al usuario durante la interacción. De igual manera, los formularios han sido desarrollados de forma simple e intuitiva, que incluye validaciones claras y mensajes de apoyo, lo que permite reducir errores y optimizar el ingreso de información dentro del sistema.
 
 ### 4.2. Information Architecture
 

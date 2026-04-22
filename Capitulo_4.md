@@ -392,20 +392,16 @@ Durante el desarrollo de los mock-ups se aplicaron los siguientes principios fun
   <tr>
     <td>
       <strong>Contraste:</strong><br>
-      El contraste fue utilizado para guiar la atención del usuario hacia los elementos más importantes de cada interfaz. Por ejemplo, los botones de acción primaria, como “Registrar vehículo”, “Crear orden” o “Consultar estado”, emplean un gradiente azul (#004AC6 – #2563EB), diferenciándose claramente de los elementos secundarios. Asimismo, los estados del sistema (Pendiente, En proceso, Completado) se representan mediante colores diferenciados acompañados de etiquetas textuales, lo que permite identificar rápidamente el estado sin depender únicamente del color. Esto mejora tanto la legibilidad como la accesibilidad.
-    </td>
-    <td>
-      <img src="docs/assets/chapter4-designUX/contraste-ux.png" width="300">
+      El contraste fue utilizado para guiar la atención del usuario hacia los elementos más importantes de cada interfaz. Por ejemplo, los botones de acción primaria, como “Registrar vehículo”, “Crear orden” o “Consultar estado”, emplean un gradiente azul (#004AC6 – #2563EB), diferenciándose claramente de los elementos secundarios. Asimismo, los estados del sistema (Pendiente, En proceso, Completado) se representan mediante colores diferenciados acompañados de etiquetas textuales, lo que permite identificar rápidamente el estado sin depender únicamente del color. Esto mejora tanto la legibilidad como la accesibilidad.<br>
+      <div align="center"><img src="docs/assets/chapter4-designUX/contraste-ux.png" width="500"></div>
     </td>
   </tr>
 
   <tr>
     <td>
       <strong>Repetición:</strong><br>
-      La repetición se utilizó para generar consistencia visual y familiaridad a lo largo de toda la aplicación. Componentes como botones, tarjetas (cards), tablas, etiquetas de estado, barras de progreso y modales mantienen el mismo estilo, tamaño y comportamiento en todas las vistas. Por ejemplo, el mismo estilo de botones y etiquetas de estado se reutiliza en los módulos de Vehículos, Órdenes de trabajo, Tareas y Personal, permitiendo que el usuario reconozca patrones de interacción sin necesidad de reaprender. Además, se mantiene un único sistema de íconos con el mismo estilo visual (línea, grosor, tamaño), reforzando la coherencia del diseño.
-    </td>
-    <td>
-      <img src="docs/assets/chapter4-designUX/repeticion-ux.png" width="300">
+      La repetición se utilizó para generar consistencia visual y familiaridad a lo largo de toda la aplicación. Componentes como botones, tarjetas (cards), tablas, etiquetas de estado, barras de progreso y modales mantienen el mismo estilo, tamaño y comportamiento en todas las vistas. Por ejemplo, el mismo estilo de botones y etiquetas de estado se reutiliza en los módulos de Vehículos, Órdenes de trabajo, Tareas y Personal, permitiendo que el usuario reconozca patrones de interacción sin necesidad de reaprender. Además, se mantiene un único sistema de íconos con el mismo estilo visual (línea, grosor, tamaño), reforzando la coherencia del diseño.<br>
+      <div align="center"><img align="center" src="docs/assets/chapter4-designUX/repeticion-ux.png" width="500"></div>
     </td>
   </tr>
 
@@ -415,7 +411,7 @@ Durante el desarrollo de los mock-ups se aplicaron los siguientes principios fun
       La alineación fue aplicada mediante el uso de estructuras basadas en grid en el figma, garantizando orden y organización visual. Los elementos se distribuyen de manera consistente, ya sea en layouts con sidebar (panel administrador) o en layouts centrados (panel cliente). En pantallas como la Lista de vehículos o Órdenes de trabajo, las tablas presentan una alineación clara de columnas, lo que facilita la lectura de datos. En formularios, los campos están alineados verticalmente, permitiendo un flujo de lectura natural. Esta alineación contribuye a una interfaz más limpia, profesional y fácil de usar
     </td>
     <td>
-      <img src="docs/assets/chapter4-designUX/align-ux.png" width="300">
+      <img src="docs/assets/chapter4-designUX/align-ux.png" width="500">
     </td>
   </tr>
 
@@ -526,6 +522,8 @@ Confirmación antes de eliminar tareas (HU-17).
 Restricción de acciones sin datos completos (ej. no crear orden sin vehículo).
 <div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug1.png" width="100"></div>
 <div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug2.png" width="100"></div>
+
+Los mock-ups desarrollados para reflejan una aplicación coherente, usable y alineada a estándares profesionales de diseño UX/UI. Se evidencia la correcta integración entre funcionalidad, estética y experiencia de usuario, logrando una solución clara tanto para la gestión interna del taller como para la interacción con clientes.
 
 #### 4.4.4. Web Applications User Flow Diagrams
 

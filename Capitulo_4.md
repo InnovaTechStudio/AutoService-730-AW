@@ -72,11 +72,10 @@ Finalmente, el usuario puede acceder al detalle completo del servicio, donde el 
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-1.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-1.png)
 Wireflow Diagram - 1<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-1.png" width="600px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-1.png" width="600px">
 </div>
-
 
 <table>
   <tr>
@@ -84,52 +83,6 @@ Wireflow Diagram - 1<br><br>
     <td>Cliente - dueño del vehículo</td>
     <td class="header">Número</td>
     <td>2</td>
-  </tr>
-  <tr>
-    <td class="header">User Goal</td>
-    <td colspan="3" class="italic bold">
-      Visualizar el detalle completo del servicio del vehículo y realizar el pago correspondiente, para entender los trabajos realizados, conocer los costos y completar el proceso de manera digital y segura.
-    </td>
-  </tr>
-  <tr>
-    <td class="header">Happy path</td>
-    <td colspan="3">
-Una vez iniciado sesion y validado el codigo, el usuario accede a la pantalla principal “Mi vehículo”, donde puede visualizar un resumen del estado del servicio. Desde esta vista, el cliente selecciona la opción “Ver detalles”, lo que lo dirige a la pantalla de detalle del servicio.
-
-En esta sección, el sistema muestra información específica del vehículo y del proceso de mantenimiento, incluyendo:
-
-- Lista de tareas realizadas o en progreso
-- Estado de cada actividad
-- Notas del técnico
-- Evidencias visuales (imágenes de referencia)
-
-Desde esta pantalla, el usuario puede acceder al resumen del servicio, donde se presenta un desglose claro de los costos, incluyendo:
-
-- Tipo de servicios realizados
-- Precio por cada tarea
-- Subtotal o costo total
-- Estado general del servicio
-
-A continuación, el cliente tiene la opción de proceder con el pago mediante el botón “Pagar”, lo que lo redirige a la pantalla de método de pago. En esta vista, el usuario puede seleccionar entre distintas opciones (tarjeta, billeteras digitales o pago en taller).
-
-Finalmente, al confirmar la transacción, el sistema muestra una pantalla de confirmación de pago exitoso, cerrando el flujo de manera satisfactoria.
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-2.png)
-Wireflow Diagram - 2 <br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-2.png" width="600px">
-</div>
-
-<table>
-  <tr>
-    <td class="header">User Persona</td>
-    <td>Cliente - dueño del vehículo</td>
-    <td class="header">Número</td>
-    <td>3</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
@@ -158,9 +111,9 @@ Una vez completados estos campos, el usuario presiona el botón “Confirmar cit
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-3.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-2.png)
 Wireflow Diagram - 3<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-3.png" width="600px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-2.png" width="600px">
 </div>
 
 <table>
@@ -168,17 +121,18 @@ Wireflow Diagram - 3<br><br>
     <td class="header">User Persona</td>
     <td>Administrador - dueño del taller</td>
     <td class="header">Número</td>
-    <td>4</td>
+    <td>3</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
+     Registro y gestion de tareas de servicio para los vehículos, asignando mecánicos y manteniendo el control del estado de los trabajos en curso.
     </td>
   </tr>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    El flujo inicia en la pantalla de bienvenida (Start), desde donde el usuario accede a la plataforma mediante el botón “Get Started”, siendo redirigido a la pantalla de inicio de sesión.
+    El flujo inicia en la pantalla de bienvenida, desde donde el usuario accede a la plataforma mediante el botón “Get Started”, siendo redirigido a la pantalla de inicio de sesión.
 
 Una vez autenticado, el sistema dirige al administrador al panel de control (Dashboard), donde puede visualizar un resumen general del taller, incluyendo:
 
@@ -213,9 +167,9 @@ Una vez completados los campos, el administrador presiona “Siguiente”, y el 
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-4.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-3.png)
 Wireflow Diagram - 4<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-4.png" width="800px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-3.png" width="800px">
 </div>
 
 <table>
@@ -223,12 +177,12 @@ Wireflow Diagram - 4<br><br>
     <td class="header">User Persona</td>
     <td>Administrador - dueño del taller</td>
     <td class="header">Número</td>
-    <td>5</td>
+    <td>4</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
-    Registrar un nuevo vehículo en el sistema, ingresando la información del vehículo y del propietario, con el fin de gestionar correctamente los servicios y mantener actualizado el control de vehículos atendidos.
+   Registrar un vehículo nuevo en el sistema de manera rápida y sin errores, asegurando que la información ingresada sea válida y quede almacenada correctamente.
     </td>
   </tr>
   <tr>
@@ -254,9 +208,9 @@ Finalmente, se presenta un mensaje de confirmación (“Vehículo registrado cor
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-5.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-4.png)
 Wireflow Diagram - 5<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-5.png" width="800px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-4.png" width="800px">
 </div>
 
 
@@ -265,12 +219,12 @@ Wireflow Diagram - 5<br><br>
     <td class="header">User Persona</td>
     <td>Administrador - dueño del taller</td>
     <td class="header">Número</td>
-    <td>6</td>
+    <td>5</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
-    Seguimiento a las tareas y eliminar una orden de trabajo, para mantener actualizado el estado de los servicios y optimizar la gestión operativa del taller
+   Eliminar una tarea registrada en el sistema de forma segura, asegurando que el usuario confirme la acción antes de que la información sea eliminada definitivamente.
     </td>
   </tr>
   <tr>
@@ -292,9 +246,9 @@ Finalmente, el sistema mantiene actualizado el progreso de la orden en función 
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-6.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-5.png)
 Wireflow Diagram - 6<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-6.png" width="800px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-5.png" width="800px">
 </div>
 
 
@@ -303,12 +257,12 @@ Wireflow Diagram - 6<br><br>
     <td class="header">User Persona</td>
     <td>Administrador - dueño del taller</td>
     <td class="header">Número</td>
-    <td>7</td>
+    <td>6</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
-    Asignar una tarea a un mecánico disponible, seleccionar al personal adecuado según su especialidad, para asegurar una correcta distribución del trabajo y una atención eficiente de los servicios
+    Registrar un nuevo mecánico en el sistema, asegurando que sus datos sean ingresados correctamente para su posterior asignación a tareas dentro del taller.
     </td>
   </tr>
   <tr>
@@ -329,9 +283,9 @@ Como resultado, el sistema procesa la asignación y muestra una nueva pantalla c
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-7.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-6.png)
 Wireflow Diagram - 7<br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-7.png" width="800px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-6.png" width="800px">
 </div>
 
 
@@ -340,12 +294,12 @@ Wireflow Diagram - 7<br><br>
     <td class="header">User Persona</td>
     <td>Administrador - dueño del taller</td>
     <td class="header">Número</td>
-    <td>8</td>
+    <td>7</td>
   </tr>
   <tr>
     <td class="header">User Goal</td>
     <td colspan="3" class="italic bold">
-    Registrar un nuevo mecánico en el sistema, ingresando sus datos personales, especialidad y estado inicial, para gestionar adecuadamente el equipo de trabajo y asignar tareas de manera eficiente.
+     Visualizar y consultar el detalle de los vehículos registrados en el sistema para dar seguimiento a su estado y gestionar la operación del taller.
     </td>
   </tr>
   <tr>
@@ -366,9 +320,9 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
 
 <div align="center">
 
-![alt text](docs/assets/chapter4-designUX/wireflow-usergoal-8.png)
+![alt text](docs/assets/chapter4-designUX/wireflow-7.png)
 <p>Wireflow Diagram - 8</p><br><br>
-<img src="docs/assets/chapter4-designUX/diagram-usergoal-8.png" width="800px">
+<img src="docs/assets/chapter4-designUX/wireflow-diagram-7.png" width="800px">
 </div>
 
 

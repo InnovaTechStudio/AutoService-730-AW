@@ -645,7 +645,10 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 
 **Resumen:**
 <p style="text-align: justify;">
-
+El entrevistado, en calidad de cliente y propietario de un vehículo, relata su experiencia al llevar su auto a un taller mecánico debido a un ruido inusual, lo que derivó en el cambio de pastillas y revisión general de frenos. Durante el servicio, la comunicación se realizó principalmente a través de WhatsApp, donde ocasionalmente recibía fotos o videos; sin embargo, menciona que esta comunicación no era constante, teniendo que consultar por iniciativa propia el estado del vehículo.
+Expresa que una de sus principales preocupaciones durante el proceso fue la incertidumbre respecto al tiempo de entrega y el costo final del servicio, especialmente ante la posibilidad de que se detectaran fallas adicionales que incrementaran el precio. Asimismo, señala haber experimentado desconfianza en ocasiones anteriores, cuando consideró que algunas recomendaciones del taller podrían no haber sido completamente necesarias, situación agravada por su limitado conocimiento técnico.
+En cuanto a soluciones, muestra una actitud positiva hacia el uso de herramientas digitales, indicando que le resultaría muy útil poder visualizar el progreso de la reparación en tiempo real, evitando la necesidad de constante. Además, le gustaría acceder a información clara sobre la etapa del servicio, costos estimados y aprobaciones de trabajos adicionales.
+Finalmente, menciona sentirse cómodo utilizando aplicaciones digitales, siempre que sean fáciles de usar y aporten valor relevante. Frente a la propuesta de una plataforma integral, afirma que la utilizaría, destacando como funcionalidades clave las notificaciones, evidencias visuales (fotos y videos), detalle de costos y un historial organizado de los servicios realizados a su vehículo.
 </p>
 
 ---

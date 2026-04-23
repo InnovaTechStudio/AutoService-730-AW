@@ -56,16 +56,19 @@
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-       El usuario tiene la opción de acceder a la plataforma mediante el botón “Get Started”. Al seleccionarlo, el sistema redirige a la pantalla de inicio de sesión, en la cual el cliente ingresa sus credenciales (correo electrónico y contraseña).
-Una vez autenticado correctamente, el sistema presenta la pantalla de ingreso de código de seguimiento, donde el usuario introduce el identificador proporcionado por el taller. Como paso adicional de validación, se muestra una segunda pantalla para el ingreso de un código de 4 dígitos, reforzando la seguridad del acceso.
-Tras validar el código, el sistema redirige al usuario a la pantalla principal “Mi vehículo”, donde se visualiza un resumen del estado actual del servicio, incluyendo el progreso general, el estado (por ejemplo, en proceso) y accesos a información clave.
-Finalmente, el usuario puede acceder al detalle completo del servicio, donde el sistema muestra información más específica como:
+      El usuario accede a la plataforma del taller e inicia sesión desde la pantalla de login ingresando sus credenciales. Tras una autenticación exitosa, es dirigido al panel principal del cliente, donde puede visualizar las opciones disponibles.
 
-- Estado de cada etapa (recibido, diagnóstico, reparación, completado)
-- Porcentaje de avance
-- Técnico asignado
-- Ubicación del vehículo dentro del taller
-- Fecha estimada de entrega
+Desde el panel, el usuario selecciona la opción “Consultar estado del vehículo”, lo que lo redirige a la pantalla de consulta. En esta vista, el usuario ingresa el código de seguimiento o identificador del servicio asociado a su vehículo.
+Una vez ingresado el código, el usuario hace clic en “Consultar estado”. El sistema valida la información y, si es correcta, muestra la pantalla de estado del vehículo.
+
+En esta pantalla, el usuario puede visualizar el detalle completo del servicio, incluyendo:
+<li>Estado actual del mantenimiento (por ejemplo, en proceso)</li>
+<li>Lista de tareas realizadas o pendientes</li>
+<li>Tiempo estimado de entrega</li>
+<li>Costo estimado total</li>
+<li>Información adicional relevante del servicio</li>
+
+Con esta información, el usuario obtiene visibilidad clara y en tiempo real sobre el progreso de su vehículo sin necesidad de hacer llamada directa con el taller.
     </td>
   </tr>
 </table>
@@ -93,18 +96,13 @@ Wireflow Diagram - 1<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-     Tras completar el proceso de iniciar sesion e iniciar con el codigo de 4 digitos, el cliente accede a la pantalla principal “Mi vehículo”, donde puede visualizar el estado general del servicio. Desde esta vista, el usuario navega hacia la sección de notificaciones, donde el sistema muestra alertas y mensajes relevantes relacionados con su vehículo.
+    El usuario accede a la plataforma del taller e inicia sesión desde la pantalla de login ingresando sus credenciales. Una vez autenticado correctamente, es redirigido al panel principal del cliente, donde visualiza las opciones disponibles.
 
-Dentro de esta sección, el usuario identifica una notificación asociada a mantenimiento preventivo y selecciona la opción “Agendar ahora”, lo que lo redirige a la pantalla de agendamiento de cita.
+Desde este panel, el usuario selecciona la opción “Agendar cita”, lo que lo lleva al flujo de programación. En la siguiente pantalla, el usuario elige el tipo de servicio requerido (por ejemplo, cambio de aceite, diagnóstico o mantenimiento general). Luego, selecciona una fecha disponible en el calendario y una hora dentro de los horarios habilitados. Tras completar esta selección, hace clic en “Siguiente”.
 
-En esta pantalla, el sistema permite al cliente:
+En el siguiente paso, el usuario visualiza el formulario de agendamiento de citas, donde se muestran o completa sus datos personales y la información del vehículo. Revisa que toda la información sea correcta y continúa seleccionando “Siguiente”.
 
-- Visualizar el tipo de servicio (por ejemplo, mantenimiento de neumáticos)
-- Seleccionar una fecha mediante un calendario interactivo
-- Elegir un horario disponible
-- Confirmar el vehículo asociado al servicio
-
-Una vez completados estos campos, el usuario presiona el botón “Confirmar cita”, lo que lleva a una pantalla de confirmación exitosa, indicando que la cita ha sido registrada correctamente.
+Finalmente, el sistema procesa la solicitud y muestra una pantalla de confirmación exitosa, indicando que la cita ha sido agendada correctamente, junto con el detalle de la fecha y hora seleccionadas. Con esto, el usuario asegura su atención en el taller sin necesidad de coordinación manual adicional.
     </td>
   </tr>
 </table>
@@ -112,7 +110,7 @@ Una vez completados estos campos, el usuario presiona el botón “Confirmar cit
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-2.png)
-Wireflow Diagram - 3<br><br>
+Wireflow Diagram - 2<br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-2.png" width="600px">
 </div>
 
@@ -132,35 +130,34 @@ Wireflow Diagram - 3<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    El flujo inicia en la pantalla de bienvenida, desde donde el usuario accede a la plataforma mediante el botón “Get Started”, siendo redirigido a la pantalla de inicio de sesión.
-
-Una vez autenticado, el sistema dirige al administrador al panel de control (Dashboard), donde puede visualizar un resumen general del taller, incluyendo:
-
-- Cantidad de vehículos activos
-- Servicios en proceso
-- Órdenes completadas
-- Ingresos generados
-
-Desde esta vista, el administrador accede a la sección de vehículos, donde el sistema muestra un listado completo con información resumida de cada unidad (placa, propietario, estado y progreso).
-
-El usuario selecciona un vehículo específico mediante la opción “Ver detalles”, lo que lo redirige a la pantalla de detalle del vehículo. En esta vista, el sistema presenta:
-
-- Información general del vehículo
-- Estado actual del servicio
-- Problema reportado
-- Diagnóstico técnico
-- Lista de tareas asociadas
-
-Desde esta misma pantalla, el administrador puede presionar el botón “+ Agregar tarea”, lo que lo lleva a la pantalla de creación de nueva tarea.
-
-En esta sección, el usuario registra:
-
-- Nombre de la tarea
-- Descripción del servicio
-- Estado (pendiente, en proceso o completado)
-- Tiempo estimado
-
-Una vez completados los campos, el administrador presiona “Siguiente”, y el sistema lo redirige a la pantalla de orden de trabajo, donde se visualiza el conjunto completo de tareas asociadas al vehículo, junto con su estado actual y progreso global.
+<ol>
+<li>Inicio de sesión: 
+El administrador ingresa sus credenciales en la pantalla de login.</li>
+<li>Acceso al dashboard: 
+El sistema valida la información y lo redirige al dashboard principal.</li>
+<li>Navegación a gestión de tareas: 
+El administrador accede a la sección “Gestión de Tareas” desde el menú o accesos directos.</li>
+<li>Visualización del listado de tareas
+El sistema muestra las tareas existentes con sus estados y detalles relevantes.</li>
+<li>Inicio de creación de tarea: 
+El administrador hace clic en el botón “Crear tarea”.</li>
+<li>Despliegue del modal de creación: 
+El sistema muestra una ventana modal con el formulario para registrar la nueva tarea.</li>
+<li>Ingreso de información: 
+El administrador completa los campos requeridos, por ejemplo:
+Nombre o descripción de la tarea
+Vehículo asociado, 
+Prioridad, 
+Posible asignación (mecánico o responsable), </li>
+<li>Confirmación de creación: 
+El administrador hace clic en “Crear tarea”.</li>
+<li>Procesamiento de la solicitud: 
+El sistema valida los datos y registra la nueva tarea en la base de datos.</li>
+<li>Feedback de éxito: 
+Se muestra un mensaje/modal indicando que la tarea fue creada correctamente.</li>
+<li>Actualización del listado: 
+El sistema regresa a la vista de tareas y actualiza la lista mostrando la nueva tarea creada.</li>
+</ol>
     </td>
   </tr>
 </table>
@@ -168,7 +165,7 @@ Una vez completados los campos, el administrador presiona “Siguiente”, y el 
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-3.png)
-Wireflow Diagram - 4<br><br>
+Wireflow Diagram - 3<br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-3.png" width="800px">
 </div>
 
@@ -188,20 +185,35 @@ Wireflow Diagram - 4<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. A continuación, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa su correo electrónico y contraseña para autenticarse en el sistema.
-
-Una vez autenticado, el usuario es dirigido al panel de control (Dashboard), donde puede visualizar un resumen general del estado del taller, incluyendo vehículos activos, servicios en proceso, completados e ingresos. Desde esta pantalla, el usuario puede navegar hacia el módulo de gestión de vehículos.
-
-Al ingresar a la sección “Vehículos”, se muestra una lista con los vehículos registrados, junto con su estado y detalles básicos. En esta pantalla, el usuario tiene la opción de presionar el botón “Agregar vehículo”, lo que lo dirige al formulario de registro.
-
-En la pantalla de “Agregar vehículo”, el usuario completa los datos requeridos, los cuales están divididos en dos secciones:
-
-- Información del vehículo (placa, marca, modelo, año).
-- Información del propietario (nombre completo, teléfono, entre otros)
-
-Una vez completados los campos, el usuario selecciona la opción “Guardar vehículo”. Como resultado de esta acción, el sistema procesa la información y muestra una nueva pantalla con el estado actualizado, confirmando que el vehículo ha sido registrado correctamente.
-
-Finalmente, se presenta un mensaje de confirmación (“Vehículo registrado correctamente”) junto con una opción para aceptar, lo que permite al usuario regresar al sistema y continuar con otras tareas.
+<ol>
+<li>Inicio de sesión: 
+El administrador accede al sistema ingresando sus credenciales desde la pantalla de login.</li>
+<li>Acceso al dashboard: 
+Tras autenticarse, el sistema lo redirige al dashboard donde visualiza el estado general del taller.</li>
+<li>Navegación a vehículos: 
+El administrador accede a la sección “Vehículos en el taller”.</li>
+<li>Inicio de registro: 
+Hace clic en la acción “Registrar vehículo” para iniciar el proceso.</li>
+<li>Ingreso de datos del cliente: 
+El sistema muestra el formulario correspondiente.
+El administrador completa la información del cliente (nombre, contacto, etc.) y continúa.</li>
+<li>Ingreso de datos del vehículo: 
+El sistema presenta el siguiente paso del formulario.
+El administrador ingresa los datos del vehículo (marca, modelo, año, placa, etc.) y avanza.</li>
+<li>Revisión y confirmación: 
+El sistema muestra una pantalla de resumen con toda la información ingresada (cliente + vehículo).
+El administrador valida que los datos sean correctos.</li>
+<li>Confirmación del registro: 
+El administrador hace clic en “Registrar vehículo”.</li>
+<li>Procesamiento de la información: 
+El sistema guarda los datos en la base de datos de forma segura.</li>
+<li>Feedback de éxito: 
+Se muestra una pantalla de confirmación indicando que el vehículo fue registrado correctamente.</li>
+<li>Continuidad de flujo: 
+El administrador puede optar por:
+Registrar otro vehículo, 
+Volver al listado de vehículos</li>
+</ol>
     </td>
   </tr>
 </table>
@@ -209,7 +221,7 @@ Finalmente, se presenta un mensaje de confirmación (“Vehículo registrado cor
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-4.png)
-Wireflow Diagram - 5<br><br>
+Wireflow Diagram - 4<br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-4.png" width="800px">
 </div>
 
@@ -230,16 +242,28 @@ Wireflow Diagram - 5<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    
-El usuario al iniciar tendra que iniciar sesion para poder ingresar.
-Una vez dentro del sistema, el usuario es dirigido al panel de control (panel), en el cual visualiza un resumen general del estado del taller, incluyendo vehículos activos, órdenes en proceso y métricas relevantes. Desde esta pantalla, el usuario navega hacia el módulo de “Órdenes”.
-
-En la sección de órdenes de trabajo, el usuario accede al detalle de una orden específica, donde se muestra el identificador de la orden, el vehículo asociado y el progreso de las tareas asignadas. En esta vista, el usuario puede visualizar la lista de tareas, cada una con su estado (completada, en curso o pendiente).
-
-El usuario puede gestionar estas tareas realizando diferentes acciones, como editar una tarea existente, marcar su estado o eliminarla mediante los controles disponibles en cada ítem. Asimismo, puede añadir nuevas tareas si es necesario.
-
-Dentro de este flujo, también se contempla la posibilidad de eliminar una orden de trabajo, acción que se ejecuta a través de una opción disponible en la interfaz (generalmente asociada a un ícono de eliminación). Al realizar esta acción, el sistema actualiza el estado eliminando la orden del listado y reflejando el cambio en la interfaz.
-Finalmente, el sistema mantiene actualizado el progreso de la orden en función de las tareas gestionadas, permitiendo al usuario tener control completo sobre el ciclo de trabajo.
+    <ol>
+<li>Inicio de sesión
+El administrador accede al sistema ingresando sus credenciales válidas desde la pantalla de login.
+<li>Acceso al dashboard</li>
+Tras autenticarse correctamente, el sistema lo redirige al dashboard principal, donde puede visualizar un resumen general del estado del taller.</li>
+<li>Navegación a gestión de tareas
+El administrador selecciona la opción “Gestión de Tareas” desde el menú lateral o desde un acceso directo en el dashboard.</li>
+<li>Visualización del listado de tareas
+El sistema muestra la lista de tareas registradas con información relevante (vehículo, estado, prioridad, etc.).</li>
+<li>Selección de tarea a eliminar
+El administrador identifica la tarea que desea eliminar y hace clic en el icono o acción de “Eliminar” correspondiente.</li>
+<li>Despliegue de modal de confirmación
+El sistema presenta una ventana modal solicitando confirmación, indicando que la acción es irreversible.</li>
+<li>Confirmación de la acción
+El administrador confirma la eliminación haciendo clic en el botón de “Eliminar”.</li>
+<li>Procesamiento de la solicitud
+El sistema elimina la tarea de forma segura de la base de datos.</li>
+<li>Feedback al usuario
+El sistema muestra un mensaje de éxito indicando que la tarea fue eliminada correctamente.</li>
+<li>Actualización del listado
+La lista de tareas se actualiza automáticamente, reflejando la eliminación sin necesidad de recargar la página.</li>
+</ol>
     </td>
   </tr>
 </table>
@@ -247,7 +271,7 @@ Finalmente, el sistema mantiene actualizado el progreso de la orden en función 
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-5.png)
-Wireflow Diagram - 6<br><br>
+Wireflow Diagram - 5<br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-5.png" width="800px">
 </div>
 
@@ -268,15 +292,11 @@ Wireflow Diagram - 6<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. Seguidamente, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa sus credenciales para autenticarse en el sistema.
-
-Una vez dentro, el usuario es dirigido al panel de control (Dashboard), donde visualiza un resumen del estado del taller, incluyendo vehículos activos, servicios en proceso y métricas generales. Desde esta vista, el usuario puede navegar hacia la sección correspondiente para gestionar el personal o las órdenes de trabajo.
-
-Posteriormente, el usuario accede a la pantalla de “Asignar mecánico”, donde se muestra la información del vehículo en espera junto con el tipo de servicio requerido. En esta misma pantalla, se presenta una lista de personal disponible, incluyendo datos relevantes como nombre del mecánico, especialidad y estado (disponible u ocupado).
-
-El usuario selecciona al mecánico más adecuado en función de la tarea a realizar y su disponibilidad. Una vez hecha la selección, presiona el botón “Asignar tarea”, lo que ejecuta la acción dentro del sistema.
-
-Como resultado, el sistema procesa la asignación y muestra una nueva pantalla con el estado actualizado, confirmando que la tarea ha sido registrada correctamente. Finalmente, el usuario puede aceptar la confirmación y continuar gestionando otras actividades dentro del sistema.
+   El usuario ingresa al sistema desde la pantalla de login proporcionando sus credenciales. El sistema valida la información y, al ser correcta, le permite acceder al dashboard principal, donde puede visualizar métricas generales del taller como carga de trabajo, vehículos en proceso y actividad reciente.
+Desde el menú lateral, el administrador navega a la sección de “Gestión de personal”. En esta vista se muestra un listado de mecánicos con información resumida como nombre, especialidad y estado. Esto le permite tener una visión rápida del equipo disponible.
+El administrador decide agregar un nuevo mecánico y selecciona la opción correspondiente. El sistema lo dirige a una pantalla con un formulario de registro. Allí, el administrador completa los campos requeridos, incluyendo datos personales, información de contacto y especialidades técnicas.
+Una vez que todos los campos obligatorios están completos, el administrador confirma el registro. El sistema procesa la información, valida los datos y guarda correctamente el nuevo mecánico en la base de datos.
+Finalmente, el administrador es redirigido nuevamente al listado de personal, donde puede ver al nuevo mecánico agregado. Con esto, el flujo concluye al haber incorporado exitosamente un nuevo miembro al equipo del taller.
     </td>
   </tr>
 </table>
@@ -284,7 +304,7 @@ Como resultado, el sistema procesa la asignación y muestra una nueva pantalla c
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-6.png)
-Wireflow Diagram - 7<br><br>
+Wireflow Diagram - 6<br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-6.png" width="800px">
 </div>
 
@@ -305,15 +325,10 @@ Wireflow Diagram - 7<br><br>
   <tr>
     <td class="header">Happy path</td>
     <td colspan="3">
-    El flujo inicia en la pantalla de bienvenida (Start), donde el usuario accede a la aplicación mediante el botón “Get Started”. Luego, se presenta la pantalla de inicio de sesión (Login), en la cual el usuario ingresa sus credenciales para autenticarse.
-
-Una vez dentro del sistema, el usuario es dirigido al panel de control (Panel), donde puede visualizar un resumen del estado del taller, incluyendo métricas generales como vehículos activos, servicios en proceso y resultados económicos. Desde esta pantalla, el usuario navega hacia el módulo de “Personal”.
-
-En la sección de gestión de personal, el usuario visualiza la lista de mecánicos registrados, junto con información relevante como su especialidad y estado (disponible u ocupado). En esta pantalla, el usuario selecciona la opción “Añadir mecánico” para iniciar el proceso de registro.
-
-A continuación, se muestra el formulario de “Agregar mecánico”, donde el usuario ingresa los datos requeridos, tales como nombre completo, especialidad, número de teléfono y estado inicial del trabajador. Una vez completada la información, el usuario presiona el botón “Guardar” para registrar al nuevo mecánico.
-
-Como resultado de esta acción, el sistema procesa los datos y presenta una nueva pantalla con el estado actualizado, confirmando que el mecánico ha sido registrado correctamente. Finalmente, el usuario puede aceptar la confirmación y continuar gestionando otras funcionalidades del sistema.
+    El usuario ingresa al sistema desde la pantalla de login introduciendo sus credenciales válidas. Al autenticarse correctamente, accede al dashboard donde puede ver un resumen general de la operación del taller.
+Desde el menú principal, navega a la sección “Vehículos en el taller”, donde se muestra un listado con todos los vehículos registrados y su estado actual. El administrador revisa la lista y selecciona un vehículo específico para consultar más información.
+Al hacer clic, se abre el detalle del vehículo, donde puede visualizar datos relevantes como cliente, diagnóstico, estado del servicio y progreso del trabajo. Desde esta vista, el administrador puede tomar acciones como generar una orden de trabajo o continuar con la gestión del vehículo.
+El flujo finaliza cuando el administrador obtiene la información necesaria y realiza la acción deseada para dar seguimiento al vehículo.
     </td>
   </tr>
 </table>
@@ -321,7 +336,7 @@ Como resultado de esta acción, el sistema procesa los datos y presenta una nuev
 <div align="center">
 
 ![alt text](docs/assets/chapter4-designUX/wireflow-7.png)
-<p>Wireflow Diagram - 8</p><br><br>
+<p>Wireflow Diagram - 7</p><br><br>
 <img src="docs/assets/chapter4-designUX/wireflow-diagram-7.png" width="800px">
 </div>
 

@@ -528,6 +528,7 @@ Los mock-ups desarrollados para reflejan una aplicación coherente, usable y ali
     </td>
   </tr>
 </table>
+<p align="center">User flow - 1</p><br>
 <div><img src="docs/assets/chapter4-designUX/user-flow-1.jpg"></div>
 
 <table>
@@ -564,6 +565,7 @@ Si ocurre un error en el sistema al momento de confirmar la cita, se muestra un 
     </td>
   </tr>
 </table>
+<p align="center">User flow - 2</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-2.jpg""></div>
 
 
@@ -600,6 +602,7 @@ Si ocurre un error del sistema al momento de guardar la tarea, se notifica al us
     </td>
   </tr>
 </table>
+<p align="center">User flow - 3</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-3.jpg""></div>
 
 
@@ -637,6 +640,7 @@ El usuario puede abandonar el flujo antes de finalizar el registro, regresando a
     </td>
   </tr>
 </table>
+<p align="center">User flow - 4</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-4.jpg""></div>
 
 <table>
@@ -670,6 +674,7 @@ Si ocurre un problema técnico durante la eliminación, el sistema muestra un me
     </td>
   </tr>
 </table>
+<p align="center">User flow - 5</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-5.jpg""></div>
 
 
@@ -711,6 +716,7 @@ Si el usuario no logra iniciar sesión, el sistema muestra un mensaje de error s
     </td>
   </tr>
 </table>
+<p align="center">User flow - 6</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-6.jpg""></div>
 
 <table>
@@ -745,6 +751,7 @@ Finalmente, el sistema muestra la vista de detalle del vehículo, donde el admin
     </td>
   </tr>
 </table>
+<p align="center">User flow - 7</p><br>
 <div align="center"><img src="docs/assets/chapter4-designUX/user-flow-7.jpg""></div>
 
 <p>URL de trabajo para los User Flow en miro: 

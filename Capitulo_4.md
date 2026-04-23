@@ -377,10 +377,8 @@ Durante el desarrollo de los mock-ups se aplicaron los siguientes principios fun
   <tr>
     <td>
       <strong>Alineación:</strong><br>
-      La alineación fue aplicada mediante el uso de estructuras basadas en grid en el figma, garantizando orden y organización visual. Los elementos se distribuyen de manera consistente, ya sea en layouts con sidebar (panel administrador) o en layouts centrados (panel cliente). En pantallas como la Lista de vehículos o Órdenes de trabajo, las tablas presentan una alineación clara de columnas, lo que facilita la lectura de datos. En formularios, los campos están alineados verticalmente, permitiendo un flujo de lectura natural. Esta alineación contribuye a una interfaz más limpia, profesional y fácil de usar
-    </td>
-    <td>
-      <img src="docs/assets/chapter4-designUX/align-ux.png" width="500">
+      La alineación fue aplicada mediante el uso de estructuras basadas en grid en el figma, garantizando orden y organización visual. Los elementos se distribuyen de manera consistente, ya sea en layouts con sidebar (panel administrador) o en layouts centrados (panel cliente). En pantallas como la Lista de vehículos o Órdenes de trabajo, las tablas presentan una alineación clara de columnas, lo que facilita la lectura de datos. En formularios, los campos están alineados verticalmente, permitiendo un flujo de lectura natural. Esta alineación contribuye a una interfaz más limpia, profesional y fácil de usar<br>
+      <div align="center"><img src="docs/assets/chapter4-designUX/align-ux.png" width="500"></div>
     </td>
   </tr>
 
@@ -388,9 +386,7 @@ Durante el desarrollo de los mock-ups se aplicaron los siguientes principios fun
     <td>
       <strong>Proximidad:</strong><br>
       El principio de proximidad se utilizó para agrupar elementos relacionados y separar aquellos que cumplen funciones distintas. Esto reduce la carga cognitiva y mejora la comprensión de la interfaz. Por ejemplo, en la pantalla de Detalle del vehículo, la información se organiza en secciones claras: datos del cliente, datos del vehículo, orden de trabajo, tareas y progreso. Cada grupo está contenido en tarjetas (cards), lo que facilita la identificación de cada bloque de información. En el caso del cliente, en el Panel principal, los botones de acción (“Consultar estado” y “Agendar cita”) se agrupan visualmente, permitiendo una toma de decisión rápida
-    </td>
-    <td>
-      <img src="docs/assets/chapter4-designUX/proximity-ux.png" width="300">
+      <div align="center"><img src="docs/assets/chapter4-designUX/proximity-ux.png" width="300"></div>
     </td>
   </tr>
 </table>
@@ -437,7 +433,7 @@ Panel Administrador:
 - Personal
 - Reportes
 </td>
-<td> <div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="100"></div></td>
+<td> <div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="300"></div></td>
 </tr>
 
 <tr>
@@ -473,13 +469,13 @@ Este sistema garantiza coherencia visual, escalabilidad y mantenibilidad del pro
 En el Dashboard, se muestran métricas en tiempo real (vehículos en proceso, tareas pendientes).
 En el Detalle del vehículo, se presenta el progreso mediante barras y estados visibles.
 En el módulo cliente, el estado del vehículo (Pendiente, En proceso, Listo) se muestra de forma clara e inmediata.
-<div align="center"><img src="docs/assets/chapter4-designUX/dashboard-uh.png" width="100"></div>
+<div align="center"><img src="docs/assets/chapter4-designUX/dashboard-uh.png" width="300"></div>
 
 - Correspondencia entre el sistema y el mundo real: Se utiliza lenguaje comprensible y cercano al usuario.
 
 Términos como “Vehículo”, “Tareas”, “Mecánico” y “Orden de trabajo” reflejan el contexto real de un taller.
 En el módulo cliente, se evita el uso de lenguaje técnico, facilitando la comprensión.
-<div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="100"></div>
+<div align="center"><img src="docs/assets/chapter4-designUX/panel-admin.png" width="300"></div>
 
 - Control y libertad del usuario: El usuario puede deshacer o cancelar acciones fácilmente.
 En formularios como “Registrar vehículo” o “Crear orden”, se incluye el botón “Cancelar”.
@@ -489,8 +485,8 @@ En la eliminación de tareas, se implementa un modal de confirmación para evita
 Validaciones en formularios (campos obligatorios, formatos correctos).
 Confirmación antes de eliminar tareas (HU-17).
 Restricción de acciones sin datos completos (ej. no crear orden sin vehículo).
-<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug1.png" width="100"></div>
-<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug2.png" width="100"></div>
+<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug1.png" width="300"></div>
+<div align="center"><img src="docs/assets/chapter4-designUX/prevent-bug2.png" width="300"></div>
 
 Los mock-ups desarrollados para reflejan una aplicación coherente, usable y alineada a estándares profesionales de diseño UX/UI. Se evidencia la correcta integración entre funcionalidad, estética y experiencia de usuario, logrando una solución clara tanto para la gestión interna del taller como para la interacción con clientes.
 

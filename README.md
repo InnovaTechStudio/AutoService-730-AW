@@ -74,9 +74,10 @@ Abril, 2026
       <tr>
         <td>V1.0</td>
         <td>22/04/2026</td>
-        <td>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Pillaca Gonzales, Andy Saúl<br>Sanchez Cuadrado, Juan Antonio</td>
-        <td style="text-align: left;">Versión inicial del informe.</td>
+        <td>Aguilar Aguayo, Jeferson Renzo<br>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Sanchez Cuadrado, Juan Antonio</td>
+        <td>Elaboración de la primera entrega formal del proyecto (Capítulos I al V).<br> Incluye la definición del modelo de negocio (Lean UX),<br> levantamiento de requerimientos (Needfinding, EventStorming,<br> Product Backlog, User Stories) y el diseño del producto<br> (Arquitectura de Información, DDD, C4 Model y Wireframes UX/UI).<br> Asimismo, documenta la ejecución del Sprint 1, evidenciando<br> el despliegue de la Landing Page en GitHub Pages, la integración de<br> EmailJS y las métricas de colaboración del equipo utilizando GitFlow.</td>
       </tr>
+      <!-- 
       <tr>
         <td>V2.0</td>
         <td>--/--/2026</td>
@@ -95,6 +96,7 @@ Abril, 2026
         <td>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Pillaca Gonzales, Andy Saúl<br>Sanchez Cuadrado, Juan Antonio</td>
         <td style="text-align: left;"><i>Pendiente</i></td>
       </tr>
+      -->
     </tbody>
   </table>
 </div>
@@ -104,8 +106,9 @@ Abril, 2026
 ## Project Report Collaboration Insights <!-- omit in toc -->
 
 * **URL del Repositorio de GitHub:** https://github.com/InnovaTechStudio/AutoService-730-AW
-* **AV1:** [Pendiente]
-
+* **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+* **Video Exposición AV1:**
+  
 ---
 
 ## Contenido <!-- omit in toc -->
@@ -235,16 +238,9 @@ Abril, 2026
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-  - [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
-  - [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-  - [Video About-the-Team](#video-about-the-team)
+  - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
 - [Bibliografía](#bibliografía)
-- [\[Pendiente\]](#pendiente)
 - [Anexos](#anexos)
 
 ---
@@ -262,26 +258,26 @@ Abril, 2026
     </thead>
     <tbody>
       <tr>
-        <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
-        <td>
-          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Luis Miranda, Diego Andres</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Mamani Vilca, Alan Jaivi</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Pillaca Gonzales, Andy Saúl</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Sanchez Cuadrado, Juan Antonio</b> AV1:(ACCIONES REALIZADAS)
+        <td valign="top">Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
+        <td valign="top">
+          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios.<br><br>
+          <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br><br>
+          <b>Pillaca Gonzales, Andy Saúl</b> AV1: [Pendiente]<br><br>
+          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Aporte individual: Me encargué del desarrollo del Capítulo I: Introducción, donde se definió el perfil de la startup, la descripción de la solución, el análisis del problema, los segmentos objetivo y el enfoque Lean UX del proyecto AutoService. Además, participé en el diseño del mockup de la Landing Page, orientado a presentar el producto de forma clara, atractiva y comercial para talleres automotrices. Posteriormente, apoyé en su implementación utilizando HTML, CSS y JavaScript, integrando secciones como el hero, funcionalidades principales, beneficios, precios, CTA y elementos visuales del sistema.
         </td>
-        <td>AV1: Pendiente (Grupal)</td>
+        <td valign="top">AV1: Se evidenció una sólida capacidad de liderazgo compartido, donde cada integrante asumió el control de sus áreas de especialización (arquitectura, UX/UI, frontend, requerimientos), guiando al equipo en la toma de decisiones técnicas y metodológicas para alcanzar los objetivos de la iteración de manera empoderada y coordinada.</td>
       </tr>
       <tr>
-        <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
-        <td>
-          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Luis Miranda, Diego Andres</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Mamani Vilca, Alan Jaivi</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Pillaca Gonzales, Andy Saúl</b> AV1:(ACCIONES REALIZADAS)<br>
-          <b>Sanchez Cuadrado, Juan Antonio</b> AV1:(ACCIONES REALIZADAS)
+        <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+        <td valign="top">
+          <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>
+          <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br><br>
+          <b>Pillaca Gonzales, Andy Saúl</b> AV1: [Pendiente]<br><br>
+          <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Se elaboro documentacion y contribuí en la elaboración de la presentación final en Canva, organizando la información visualmente para facilitar la exposición del proyecto y mantener coherencia con la identidad gráfica de AutoService.
         </td>
-        <td>AV1: Pendiente (Grupal)</td>
+        <td valign="top">AV1: El equipo consolidó un entorno de trabajo organizado mediante el uso eficiente de repositorios comunes, documentación estandarizada y herramientas ágiles. Esto permitió una correcta planificación y distribución de tareas, fomentando la inclusión técnica de todos los miembros y asegurando el cumplimiento íntegro y oportuno de las metas trazadas para el entregable.</td>
       </tr>
     </tbody>
   </table>
@@ -4111,45 +4107,821 @@ Gestiona la información de clientes propietarios y sus vehículos registrados.
 ### 5.1. Software Configuration Management
 
 #### 5.1.1. Software Development Environment Configuration
-[Pendiente]
+<p align="justify">
+  La siguiente tabla presenta las herramientas, plataformas y guías empleadas para la configuración del entorno de desarrollo del software, que detalla su       finalidad dentro del proyecto y el medio de acceso correspondiente.
+</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Proceso</th>
+      <th>Recurso o plataforma</th>
+      <th>Finalidad</th>
+      <th>Medio de acceso o Enlace</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Especificación de requisitos</td>
+      <td>Convenciones Gherkin</td>
+      <td>Establecer condiciones y criterios funcionales precisos</td>
+      <td><a href="https://cucumber.io/docs/gherkin/" target="_blank" aria-label="Ir a la página Guia Gherkin">Guía Gherkin</a></td>
+    </tr>
+    <tr>
+      <td>Desarrollo Landing Page</td>
+      <td>Visual Studio Code</td>
+      <td>Programar, editar y optimizar el código fuente</td>
+      <td><a href="https://code.visualstudio.com/" target="_blank" aria-label="Ir a la página de Visual Studio Code">Visual Studio Code</a></td>
+    </tr>
+    <tr>
+      <td>Administración de versiones</td>
+      <td>Git</td>
+      <td>Registrar cambios y controlar las versiones del proyecto</td>
+      <td><a href="https://git-scm.com/" target="_blank" aria-label="Ir a la página de Git">Git</a></td>
+    </tr>
+    <tr>
+      <td>Diseño de experiencia e interfaz</td>
+      <td>Figma</td>
+      <td>Crear prototipos visuales y estructurar la interfaz del usuario</td>
+      <td><a href="https://figma.com" target="_blank" aria-label="Ir a la página de Figma">Figma</a></td>
+    </tr>
+    <tr>
+      <td>Publicación y despliegue</td>
+      <td>Github Pages</td>
+      <td>Implementar y alojar la página web en línea</td>
+      <td><a href="https://pages.github.com/" target="_blank" aria-label="Ir a la página de Github Pages">Github Pages</a></td>
+    </tr>
+    <tr>
+      <td>Planificación y gestión del proyecto</td>
+      <td>Jira Software</td>
+      <td>Gestionar el Product Backlog, Sprint Planning y seguimiento de tareas bajo metodología ágil</td>
+      <td><a href="https://www.atlassian.com/es/software/jira" target="_blank" aria-label="Ir a la página de Jira Software">Jira Software</a></td>
+    </tr>
+    <tr>
+      <td>Diagramas</td>
+      <td>PlantUML</td>
+      <td>Diseñar representaciones UML del sistema</td>
+      <td><a href="https://plantuml.com/" target="_blank" aria-label="Ir a la página de UML">PlantUML</a></td>
+    </tr>
+    <tr>
+      <td>Modelado de procesos</td>
+      <td>UXPressia</td>
+      <td>Elaborar herramientas de análisis UX centradas en el usuario</td>
+      <td><a href="https://uxpressia.com/" target="_blank" aria-label="Ir a la página de UXPressia">UXPressia</a></td>
+    </tr>
+  </tbody>
+</table>
 
 #### 5.1.2. Source Code Management
-[Pendiente]
+<p align="justify">
+  Para la gestión, control de versiones del proyecto y seguimiento del proyecto, el equipo utiliza GitHub como plataforma principal de almacenamiento del código fuente y colaboración. Esta herramienta permite mantener un historial detallado de los cambios realizados, facilitar el trabajo en equipo y asegurar la trazabilidad de cada modificación durante el ciclo de desarrollo.
+  
+  En la etapa actual del proyecto, se ha adoptado un flujo de trabajo basado en Git Flow, complementado con prácticas de Github Flow para la integración y revisión colaborativa de cambios. Esta estrategia permite una mejor organización del desarrollo, especialmente que considere el crecimiento progresivo del sistema y la necesidad de gestionar nuevas funcionalidades de manera estructurada.
+  
+  La estructura implementada considera las siguientes ramas principales: la rama main, que contiene la versión estable y desplegable del sistema; la rama develop, destinada a integrar los avances en desarrollo antes de su paso a producción; las ramas feature/, utilizadas para el desarrollo de nuevas funcionalidades o mejoras específicas; y las ramas hotfix/, orientadas a correcciones urgentes sobre la versión en producción.
+
+  Cada nueva funcionalidad o corrección es desarrollada en una rama independiente creada a partir de develop, lo que permite mantener el aislamiento de cambios y reducir conflictos durante la integración. Una vez finalizado el desarrollo, los cambios son incorporados mediante Pull Requests, los cuales son revisados previamente por los integrantes del equipo antes de su fusión, siguiendo buenas prácticas de colaboración y control de calidad.
+
+  Asimismo, con el propósito de mantener claridad y consistencia en el historial del repositorio, se ha adoptado la convención Conventional Commits, la cual estandariza la estructura de los mensajes de confirmación. Esta práctica facilita la identificación rápida del tipo de cambio realizado y mejora la legibilidad del historial de versiones.
+
+  A continuación, se presentan algunos de los prefijos utilizados en los commits:
+
+  - **feat** : para la incorporación de nuevas funcionalidades.
+  - **fix**: para la corrección de errores.
+  - **docs**: para modificaciones en la documentación.
+  - **refactor**: para mejoras en la estructura interna del código sin alterar su funcionalidad.
+  - **style**: ajustes de formato o estilo del código.
+  - **test**: incorporación o actualización de pruebas.
+  
+  Por otra parte, el proyecto adopta el uso de versionado semántico (Semantic Versioning) bajo el esquema MAJOR.MINOR.PATCH, lo que permite clasificar de forma ordenada la evolución del sistema según la magnitud de los cambios implementados.
+
+  De esta manera, el equipo garantiza una gestión eficiente del código fuente, que promueve la mantenibilidad, la colaboración y la escalabilidad del proyecto a lo largo de sus futuras iteraciones.
+</p>
 
 #### 5.1.3. Source Code Style Guide & Conventions
-[Pendiente]
+<p align="justify">
+  Con el objetivo de asegurar la calidad, mantenibilidad y escalabilidad de la solución propuesta, se ha definido un conjunto de lineamientos de estilo y convenciones de codificación aplicables a todos los lenguajes utilizados en el proyecto, específicamente HTML, CSS, JavaScript y C#.
+  
+  Como criterio general, todo el código fuente, que incluye nombres de variables, clases, archivos, comentarios técnicos y documentación interna, será redactado en idioma inglés, con el fin de mantener uniformidad y alinearse con estándares internacionales de desarrollo de software.
+  
+  Asimismo, se adoptan buenas prácticas basadas en guías reconocidad como Google Style Guides, MDN JavaScript, MDN JavaScript Guidelines, Microsoft C# Coding Conventions y lineamientos estándar de accesibilidad y legibilidad.
+
+  **HTML Conventions**
+  
+  Para la estructura del frontend se empleará HTML5 semántico, que prioriza la correcta organización del contenido y la accesibilidad.
+
+  Las principales convenciones adoptadas son:
+  - Uso de etiquetas semánticas como &lt;header&gt;, &lt;nav&gt;, &lt;main&gt;, &lt;section&gt;, &lt;article&gt; y &lt;footer&gt; para mejorar la estructura lógica del documento.
+  - Nombres de etiquetas y atributos escritos exclusivamente en minúsculas.
+  - Cierre correcto de todas las etiquetas HTML.
+  - Inclusión obligatoria del atributo alt en imágenes para mejorar la accesibilidad.
+  - Uso de atributos width y height en imágenes cuando corresponde, para optimizar la carga visual.
+  - Definición del atributo lang="en" en la etiqueta &lt;html&gt;.
+  - Inclusión de metadatos esenciales como &lt;title&gt; y &lt;meta name="descripcion"&gt;.
+  - Evitar el uso innecesario de estilos o scripts inline.
+
+  Ejemplo:
+  ``` HTML
+  <section class="hero-banner">
+      <img src="banner.jpg" alt="Main promotional banner" width="1200" height="600">
+  </section>
+  ```
+
+**CSS Conventions**
+
+  Para la hoja de estilos se seguirá una estructura modular y escalable, enfocada en la reutilización de componentes.
+  Las convenciones establecidas son:
+  - Uso de nomenclatura kebab-case para clases CSS.
+  - Aplicación de la metodología BEM (Block Element Modifier) para mejorar la organización visual y funcional de estilos.
+  - Uso de nombres descriptivos y significativos.
+  - Declaraciones ordenadas de forma lógica: layout, box model, tipografía y visual.
+  - Uso preferente de unidades relativas como rem, % y vh/vw.
+  - Omisión de unidades en valores cero.
+  - Implementación de diseño responsive con enfoque mobile-first.
+  - Uso de variables CSS definidas en :root.
+
+  ``` CSS
+  :root{
+      --primary-color: #2563eb;
+      --secondary-color: #64748b;
+  }
+
+  .main-header{
+      padding: 1rem;
+      background-color: var(--primary-color);
+  }
+  ```
+
+**JavaScript Conventions**
+
+Para la lógica del lado del cliente se adoptarán lineamientos orientados a la claridad, reutilización y mantenimiento del código.
+Se aplicarán las siguientes convenciones:
+- Uso de camelCase para variable y funciones.
+- Uso de PascalCase para clases y constructores.
+- Declaraciones de variables con const y let, evitando el uso de var.
+- Separación modular del código en archivos independientes según funcionalida.
+- Uso de addEventListener() en lugar de eventos inline.
+- Comentarios únicamente en lógica compleja o no evidente.
+- Nombres de funciones descriptivos y orientados a acciones.
+
+Ejemplo:
+``` JavaScript
+const submitButton = document.querySelector("#submit-button");
+function validateForm(){
+  return true;
+}
+```
+
+**C# Conventions**
+
+Para el desarrollo backend y lógica de negocio en C#, se seguirán las convenciones recomendadas por Microsoft.
+Estas incluyen:
+- Uso de PascalCase para clases, métodos y propiedades.
+- Uso de camelCase para variables locales y parámetros.
+- Métodos con nombres descriptivos orientados a verbos.
+- Aplicación del principio de Single Responsibility Principle (SRP).
+- Mantener longitud de línea razonable para facilitar lectura.
+- Comentarios claros y breves en métodos críticos.
+- Organización del código por capas: controllers, services, repositories y models.
+  
+Ejemplo:
+``` C#
+public class UserService
+{
+    public bool ValidateCredentials(string userEmail, string password)
+    {
+        return true;
+    }
+}
+```
+
+**Gherkin Conventions**
+
+Para la definición de criterios de aceptación y pruebas funcionales se utilizará el lenguaje Gherkin, que sigue una estructura orientada al negocio.
+Las convenciones definidas son:
+- Uso obligatorio de la estructura Given-When-Then
+- Redacción en lenguaje comprensible para stakeholders no técnicos.
+- Escenarios con títulos claros y específicos.
+- Uso de Scenario Outline cuando existan múltiples casos similares.
+  
+Ejemplo:
+``` gherkin
+Feature: User Login
+
+Scenario: Sucessful login
+    Given the user is on the login page
+    When the user enters valid credential
+    Then the system should redirect to the dashboard
+```
+**Coding Principles Adopted**
+
+De manera transversal, el equipo aplicará los siguientes principios:
+- Readbility First: código fácil de leer y entender.
+- Consistency: mantener el mismo estilo en toda la solución.
+- Modularity: separación clara de responsabilidades.
+- Scalability: estructura preparada para crecimiento futuro.
+- Maintainability: facilidad para futuras modificaciones.
+</p>
 
 #### 5.1.4. Software Deployment Configuration
-[Pendiente]
+**Landing Page Deployment - HTML, CSS and JavaScript**
+
+**Source Repository Setup**
+<p>
+  Para la publicación de la Landing Page se utilizará un repositorio remoto alojado en GiHub, en el cual se almacenarán todos los archivos fuente correspondientes a la interfaz web estática.
+  Dado que la solución ha sido con HTML, CSS y JavaScript, es indispensable que el archivo principal index.html permanezca en la raíz del repositorio, ya que este será tomado como archivo inicial durante el proceso de despliegue. Del mismo modo, los archivos complementarios como hojas de estilo, scripts e imágenes se organizarán en directorios específicos para facilitar el mantenimiento del proyecto.
+  
+  Ejemplo:
+  ```
+  /
+  |---index.html
+  |---css/
+  |    |__ styles.css
+  |---js/
+  |    |__ main.js
+  |---assets/
+        |__ images/
+  ```
+</p>
+
+**Deployment Process**
+<p>
+  La publicación del sitio se realizará mediante el servicio GitHub Pages, el cual permite desplegar sitios estáticos directamente desde el repositorio.
+  Para habilitar el despliegue, se seguirán los siguientes pasos:
+  - Ingresar al repositorio del proyecto en GitHub
+  - Acceder al apartado Settings
+  - Seleccionar la opción Pages
+  - Elegir la opción Pages
+  - Elegir la rama main como fuente de publicación
+  - Establecer la carpeta raíz /root como directorio de despliegue
+  - Guardar la configuración
+  Una vez completado este proceso, GitHub iniciará automáticamente la generación del sitio web.
+</p>
+
+**Published Access**
+<p>
+  Finalizada la configuración, la plataforma proporcionará un enlace público mediante el cual se podrá acceder a la Landing Page desplegada.
+  La URL seguirá una estructura similar a la siguiente:
+  
+  ```
+  https://<usernanme>.github.io/<repository-name>/
+  ```
+
+  Este enlace corresponderá a la versión oficial publicada del producto.
+</p>
+
+**Version Updates**
+<p>
+  Cada vez que el equipo realice modificaciones en la Landing Page, estas deberán enviarse al repositorio mediante nuevos commits.
+  Al actualizar la rama principal, el servicio GitHub Pages reflejará automáticamente los cambios en la versión publicada, que permitirán mantener el sitio sincronizado con la última versión estable del código fuente.
+</p>
 
 ### 5.2. Landing Page, Services & Applications Implementation
 
 #### 5.2.1. Sprint 1
 
 ##### 5.2.1.1. Sprint Planning 1
-[Pendiente]
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr>
+        <th colspan="2" style="text-align: center; background-color: #f2f2f2; font-size: 1.2em; padding: 10px; border: 1px solid #ddd;">Sprint #1</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+        <td style="width: 30%; font-weight: bold; padding: 10px; border: 1px solid #ddd;">Date</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2026-04-08</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Time</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">10:00 AM</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Location</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Reunión presencial en la UPC. (Pabellón L, piso 4, cubículo 11)</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Sanchez Cuadrado, Juan Antonio</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Attendees (to planning meeting)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">López Monroy, Rodrigo Alfredo / Luis Miranda, Diego Andres / Mamani Vilca, Alan Jaivi / Pillaca Gonzales, Andy Saúl / Sanchez Cuadrado, Juan Antonio</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 0 Review Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Al ser la iteración inicial del proyecto, no existe un Sprint previo para revisar. El equipo se enfocó en el setup inicial de herramientas, creación de la organización en GitHub y configuración del espacio de trabajo en Jira Software.</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 0 Retrospective Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Al ser el primer ciclo, no hay retrospectiva previa. Sin embargo, el equipo acordó como norma de trabajo el uso estricto de Feature Branching para el control de versiones y la comunicación constante ante bloqueos técnicos.</td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 1 Goal</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          <strong>Our focus is on</strong> deploying the official Landing Page and establishing the core software architecture and database design.<br><br>
+          <strong>We believe it delivers</strong> a solid online presence for early user acquisition and a reliable technical foundation for the development team.<br><br>
+          <strong>This will be confirmed when</strong> the Landing Page is publicly accessible via a web link with responsive design, and the C4 Model diagrams along with the Database Entity-Relationship diagram are fully documented and approved.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 1 Velocity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">27 Story Points</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">27 Story Points (US-01: 3, US-02: 2, US-03: 1, US-04: 3, TS-01: 5, TS-04: 3, TS-10: 5, TS-11: 5).</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators
-[Pendiente]
+
+En el presente Sprint 1, el alcance funcional y técnico se ha dividido en tres aspectos principales para garantizar una entrega eficiente:
+1. Landing Page (Frontend): Desarrollo de la interfaz gráfica e identidad visual.
+2. Architecture & Database: Diseño de diagramas C4 y modelado relacional de la base de datos.
+3. DevOps & Deployment: Configuración de repositorios, CI/CD básico y hosting estático.
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member (Last Name, First Name)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">GitHub Username</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Landing Page (Frontend)<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Architecture & Database<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">DevOps & Deployment<br><small>Leader (L) / Collaborator (C)</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">López Monroy, Rodrigo Alfredo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">rodrigolopezu</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Luis Miranda, Diego Andres</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">andrewdmr</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mamani Vilca, Alan Jaivi</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">alanmamaniv</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Pillaca Gonzales, Andy Saúl</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">apillacag</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sanchez Cuadrado, Juan Antonio</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">juanasc05</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ##### 5.2.1.3. Sprint Backlog 1
-[Pendiente]
+
+El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la primera iteración. El objetivo principal de este Sprint es establecer la presencia web inicial mediante la Landing Page y sentar las bases arquitectónicas del sistema. A continuación, se presenta la captura de nuestro tablero en Jira Software, seguida de la tabla de control de estado con la distribución de los Work-Items.
+
+<div align="center">
+
+![alt text](docs/assets/sprint1_jira.png)
+
+</div>
+
+URL del tablero completo en Jira: https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1/backlog
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #e0e0e0; font-weight: bold;">
+        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Sprint #</th>
+        <th colspan="7" style="padding: 10px; text-align: left; border: 1px solid #ddd;">1</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="text-align: center; border: 1px solid #ddd; padding: 10px;">User Story</th>
+        <th colspan="6" style="text-align: center; border: 1px solid #ddd; padding: 10px;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #fafafa; text-align: center;">
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 30%;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-01</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar landing page</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-01</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Diseño inicial</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar wireframes y mockup inicial de la estructura web.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-02</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Setup Frontend</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar proyecto base utilizando React y Tailwind CSS.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-02</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar beneficios del sistema</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-03</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Redacción Copy</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Redactar y estructurar el contenido (copy) explicativo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-04</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Componente Cards</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Desarrollar los componentes de tarjetas para beneficios.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-03</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Acceder a la plataforma desde CTA</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-05</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Botones CTA</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Maquetar los botones de llamado a la acción.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-06</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Enrutamiento React</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el enrutamiento base hacia vistas futuras.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">US-04</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Visualizar landing responsive</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-07</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Media Queries</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Aplicar clases utilitarias para ajuste a móviles y tablets.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-08</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Testing UI</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Realizar validaciones de renderizado en pantallas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="3" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-01</td>
+        <td rowspan="3" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Definir arquitectura del sistema</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-09</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Context Diagram</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Context Diagram bajo el modelo C4.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-10</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Container Diagram</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Diseñar Container Diagram bajo el modelo C4.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-11</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Event Storming</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Design-Level Event Storming.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-04</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Diseñar modelo de base de datos</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-12</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Modelo Conceptual</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Identificar entidades y relaciones de negocio.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-13</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Diagrama Lógico ER</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Elaborar el Diagrama Entidad-Relación de la BD.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-10</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Configurar entorno de desarrollo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-14</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración Git</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Definir estructura de repositorio y flujo de ramas.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-15</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Definir guía de estilos de código</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Code style guide and conventions.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle; text-align: center; font-weight: bold;">TS-11</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; vertical-align: middle;">Desplegar aplicación</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-16</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Hosting de la landing page</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar el servicio de hosting estático para la Landing Page.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-17</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pruebas de acceso</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Verificar el acceso público al enlace.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold; color: #2aac2a;">Done</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+Durante el Sprint 1, el equipo completó la base estratégica y técnica del proyecto, abarcando desde la definición del perfil de la startup hasta el diseño detallado del producto en los Capítulos I al IV. En cuanto a la implementación técnica, los esfuerzos se centraron en el diseño de mockups de alta fidelidad, el despliegue de la versión inicial de la Landing Page y la configuración de los entornos de desarrollo para la implementación de la Web Application y el RESTful API en los siguientes sprints.<br><br>
+En la siguiente tabla se presentan commits que representan hitos clave del desarrollo de este sprint:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Repository</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Branch</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Id</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message Body</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commited on (Date)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>main</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>3648f26</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">chore:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">initial project setup</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-1</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>73c3ef0</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add lean ux canvas section</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-2-needfinding</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>0fde76b</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">reorganize interview sections into design and record structure</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter5.1-software-configuration-management</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>cf04690</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add software deployment configuration to software configuration management</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-2-interview-structure</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>c8b28d0</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add interview record-1</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">14/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/information-architecture-and-ddd</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>b1cad74</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add c4 diagrams to the ddd section</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">16/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-4/design-UX/UI</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>4adbeb7</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add wireflow diagram</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/chapter-4-design-diagrams</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>47ecbf9</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add database design diagrams for Chapter 4</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/landing-page-wireframe</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>2d08360</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">docs:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add pricing section to landing page wireframe</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">20/04/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-landing</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/landing-base</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>5c2cdfa</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">redesign landing page visual system</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">19/04/2026</td>
+    </tr>
+  </tbody>
+</table>
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+En esta sección se presenta la evidencia de la ejecución del producto lograda durante el Sprint 1. El resultado principal de esta iteración es la primera versión funcional de la Landing Page de AutoService, desarrollada con HTML5, CSS3 y JavaScript. Esta interfaz presenta de forma clara el modelo de negocio, las herramientas principales de la plataforma y los planes de suscripción disponibles. Se ha verificado que la navegación interactiva (scroll suave y menú hamburguesa) sea fluida y que el diseño sea completamente adaptable (responsive web design) para garantizar una correcta experiencia de usuario tanto en navegadores de escritorio como en dispositivos móviles.
+</p>
+
+<div align="center">
+  <h5>Vista Principal de la Landing Page (Hero Section y Navegación)</h5>
+  <img src="docs/assets/chapter-5/landing_ss_1.png" alt="Landing Page Hero Section" width="80%">
+  
+  <h5>Sección de Características y Planes de Suscripción</h5>
+  <img src="docs/assets/chapter-5/landing_ss_2.png" alt="Landing Page Pricing y Features" width="80%">
+
+  <h5>Video de presentación y ejecución de la Landing Page</h5>
+  <img src="docs/assets/chapter-5/landing_execution.png" alt="Landing Page Pricing y Features" width="80%">
+  
+</div>
+
+<p align="justify">
+Para ilustrar la visualización y las interacciones logradas en este Sprint, se adjunta el enlace a un video demostrativo. En este registro se evidencia el funcionamiento de los componentes clave, la adaptabilidad del diseño en distintas resoluciones y la coherencia visual con los lineamientos de UI establecidos en el Capítulo IV del proyecto. 
+</p>
+
+URL video de ejecución de la Landing Page: <code>https://upcedupe-my.sharepoint.com/personal/u202421866_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202421866%5Fupc%5Fedu%5Fpe%2FDocuments%2Flanding%2Devidence%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E1a416f63%2D5442%2D4400%2Db740%2D7fb6621fa42f</code>.
+
+---
 
 ##### 5.2.1.6. Services Documentation Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+Durante el Sprint 1, la implementación del contenedor central <b>API RESTful</b> (Backend) de AutoService fue programada estratégicamente para el siguiente sprint. Sin embargo, como parte del alcance funcional y técnico de este primer entregable, se integró y documentó el uso de un Web Service de terceros para habilitar la interactividad de la Landing Page.
+</p>
+
+<p align="justify">
+Se implementó <b>EmailJS</b>, un servicio basado en la nube que permite el envío de correos electrónicos transaccionales mediante peticiones HTTP directamente desde el cliente (Client-side). Esto permite conectar el formulario de contacto de la Landing Page con la bandeja de entrada del equipo, asegurando la comunicación inmediata sin necesidad de desplegar un servidor intermedio.
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Servicio (Endpoint)</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Método</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Descripción</th>
+      <th style="border: 1px solid #ddd; padding: 8px; text-align: center;">Payload / Parámetros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><code>https://api.emailjs.com/api/v1.0/email/send</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px; text-align: center;"><strong>POST</strong></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Procesa y envía los datos del formulario de contacto hacia el correo electrónico configurado por el equipo.</td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>service_id</code>, <code>template_id</code>, <code>user_id</code> (Public Key), <code>template_params</code> (nombre, email, mensaje)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p align="justify">
+A continuación, se adjunta la evidencia visual de la configuración de este servicio y la interacción exitosa utilizando datos de muestra enviados desde el formulario en producción:
+</p>
+
+<div align="center">
+  <h5 style="margin-bottom: 0.5em;">Evidencia 1: Configuración del Servicio y Template en EmailJS</h5>
+  <img src="docs/assets/chapter-5/emailjs_config.png" alt="EmailJS Dashboard Configuration" width="80%" style="margin-bottom: 1.5em;">
+  
+  <h5 style="margin-bottom: 0.5em;">Evidencia 2: Interacción exitosa (Correo de prueba recibido)</h5>
+  <img src="docs/assets/chapter-5/emailjs_example.png" alt="EmailJS Received Email" width="80%">
+</div>
+
+---
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
-[Pendiente]
+
+<p align="justify">
+En esta sección se detallan los procesos realizados para el despliegue de la solución durante el Sprint 1. El objetivo principal fue poner en producción la versión inicial de la Landing Page, permitiendo que el modelo de negocio de AutoService sea accesible para los interesados y potenciales clientes desde cualquier navegador.
+</p>
+
+<p align="justify">
+Para el despliegue, se utilizó <b>GitHub Pages</b>, aprovechando su integración nativa con el repositorio de código fuente. El proceso consistió en los siguientes pasos estratégicos:
+</p>
+
+<ol style="text-align: justify;">
+  <li><strong>Configuración del Entorno:</strong> Se configuró el repositorio específico para la Landing Page, asegurando que el archivo <code>index.html</code> se encuentre en la raíz para su correcto reconocimiento.</li>
+  <li><strong>Activación del Servicio:</strong> Se habilitó GitHub Pages desde los ajustes del repositorio, seleccionando la rama <code>main</code> como fuente de despliegue.</li>
+  <li><strong>Automatización (CI/CD):</strong> Se validó el flujo de trabajo automático mediante GitHub Actions, el cual dispara un nuevo despliegue cada vez que se realiza un merge a la rama principal.</li>
+</ol>
+
+<div align="center">
+
+  <h5>Evidencia 1: Configuración de GitHub Pages en el Repositorio</h5>
+    <img src="docs/assets/chapter-5/pages_settings.png" alt="GitHub Pages Settings" width="80%">
+  <h5>Evidencia 2: Workflow para la Landing Page</h5>
+    <img src="docs/assets/chapter-5/landing_pulse.png" alt="GitHub Actions Workflow" width="80%">
+  <h5>Evidencia 3: Visualización de la Landing Page en Producción</h5>
+    <img src="docs/assets/chapter-5/landing_ss_1.png" alt="Live Landing Page" width="80%">
+
+</div><p align="justify">
+
+La Landing Page se encuentra actualmente operativa en la siguiente URL: <code>https://innovatechstudio.github.io/Autoservice-landing-page/</code>.
+</p>
+
+---
 
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
-[Pendiente]
 
+<p align="justify">
+Durante el Sprint 1, el equipo mantuvo un flujo de trabajo altamente colaborativo y organizado, aplicando estrictamente la estrategia de control de versiones GitFlow. Para asegurar la calidad y revisión por pares, todo el desarrollo de la arquitectura, investigación de UX/UI y codificación de la Landing Page se trabajó en ramas independientes (<i>feature branches</i>). La integración del trabajo se realizó exclusivamente mediante <b>Pull Requests</b> hacia la rama <code>develop</code>, lo que fomentó la comunicación y revisión conjunta antes de consolidar los avances.
+</p>
+
+<p align="justify">
+A continuación, se presentan los analíticos extraídos de GitHub (Insights) que evidencian la participación equitativa y constante de todos los miembros del equipo (<i>Aspect Leaders</i> y <i>Collaborators</i>) tanto en el repositorio principal de documentación como en el de la Landing Page.
+</p>
+
+<div align="center">
+  <h5>Evidencia 1: Gráfico de Contribuciones por Miembro del Equipo</h5>
+  <img src="docs/assets/chapter-5/contributors.png" alt="GitHub Contributors Graph" width="80%">
+  
+  <h5>Evidencia 2: Resumen de Actividad del Sprint (GitHub Pulse)</h5>
+  <img src="docs/assets/chapter-5/pulse.png" alt="GitHub Pulse Activity" width="80%">
+
+  <h5>Evidencia 3: Gestión Colaborativa mediante Pull Requests</h5>
+  <img src="docs/assets/chapter-5/closed_pr.png" alt="GitHub Closed Pull Requests" width="80%">
+</div>
+
+<p align="justify">
+Como demuestran las gráficas y el resumen de actividad, la carga de trabajo se distribuyó de manera eficiente, logrando que el 100% de los integrantes registre commits significativos (alineados a <i>Conventional Commits</i>), gestione integraciones (Merges) y participe activamente en las fases de análisis, diseño e implementación temprana del producto.
+</p>
+
+<!--  PENDIENTE PARA ENTREGA FINAL TB2
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
@@ -4163,22 +4935,223 @@ Gestiona la información de clientes propietarios y sus vehículos registrados.
 
 ### 5.4. Video About-the-Product
 [Pendiente]
+-->
 
 ---
 
 ## Conclusiones
 
-### Conclusiones y recomendaciones
-[Pendiente]
+### Conclusiones y Recomendaciones
 
-### Video About-the-Team
-[Pendiente]
+<p align="justify">
+A continuación, se presentan las conclusiones derivadas del desarrollo de los primeros cinco capítulos del proyecto AutoService, así como las recomendaciones estratégicas para la continuidad de los siguientes Sprints:
+</p>
+
+<p align="justify"><b>Conclusiones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Validación del modelo de negocio:</strong> La aplicación de la metodología Lean UX y el proceso de Needfinding permitió corroborar una necesidad crítica en el sector de mantenimiento automotriz: la falta de transparencia y la ineficiencia en la comunicación entre los talleres y los propietarios de vehículos. AutoService se perfila como una solución viable y centrada en el usuario para resolver este "pain point" identificado en los segmentos objetivo.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Solidez Arquitectónica:</strong> La utilización conjunta del EventStorming y el enfoque Domain-Driven Design (DDD) facilitó una transición estructurada desde la lógica de negocio hacia una arquitectura de software orientada a servicios (C4 Model). Esto asegura que el sistema sea escalable, mantenible y modular desde su concepción técnica inicial.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Gestion de Configuración robusta:</strong> La implementación de una gestión de configuración estructurada y estándares técnicos rigurosos permitió consolidar una base profesional para el desarrollo de AutoService. La adopción de la metodología GitFlow y arquitecturas modulares asegura que el proyecto sea una solución técnica viable y escalable, resolviendo la complejidad de integrar múltiples componentes bajo principios fundamentales de mantenibilidad y legibilidad internacional.
+  </li>
+</ul>
+
+<p align="justify"><b>Recomendaciones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Mantenimiento de Estándares:</strong> Se recomienda mantener la rigurosidad en las ceremonias ágiles y en la revisión de Pull Requests para los siguientes sprints, garantizando que el código de la Web Application (Vue.js) y el Backend (ASP.NET Core) mantengan los estándares de calidad y convenciones definidos en la guía de estilos.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Validación Temprana:</strong> Realizar pruebas de usabilidad tempranas utilizando el prototipo interactivo en Figma y la Landing Page desplegada para recolectar retroalimentación de usuarios reales antes de iniciar la programación masiva de los módulos operativos del Core Domain.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Priorización Técnica:</strong> Se sugiere priorizar la implementación de la capa de seguridad (Identity & Access Management Management) y la configuración de la persistencia de datos en el inicio del Sprint 2, para establecer las bases de autenticación requeridas por los distintos actores (Administrador, Mecánico y Cliente) de la plataforma.
+  </li>
+</ul>
 
 ---
 
 ## Bibliografía
-[Pendiente]
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brandolini, A. (2021). <i>Introducing EventStorming: An act of deliberate collective learning</i>. Leanpub. <a href="https://leanpub.com/introducing_eventstorming" target="_blank">https://leanpub.com/introducing_eventstorming</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brown, S. (2020). <i>The C4 model for visualising software architecture</i>. C4 Model. <a href="https://c4model.com/" target="_blank">https://c4model.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Cucumber. (s.f.). <i>Gherkin Reference: Syntax and Keywords</i>. <a href="https://cucumber.io/docs/gherkin/" target="_blank">https://cucumber.io/docs/gherkin/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  EmailJS. (2024). <i>EmailJS Official Documentation</i>. <a href="https://www.emailjs.com/docs/" target="_blank">https://www.emailjs.com/docs/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Evans, E. (2003). <i>Domain-Driven Design: Tackling Complexity in the Heart of Software</i>. Addison-Wesley Professional. <a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/" target="_blank">https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  GitHub. (2024). <i>GitHub Actions and GitHub Pages Documentation</i>. <a href="https://docs.github.com/" target="_blank">https://docs.github.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Gothelf, J., & Seiden, J. (2021). <i>Lean UX: Designing Great Products with Agile Teams</i> (3.ª ed.). O'Reilly Media. <a href="https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/" target="_blank">https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Microsoft. (2024). <i>ASP.NET Core documentation</i>. Microsoft Learn. <a href="https://learn.microsoft.com/en-us/aspnet/core/" target="_blank">https://learn.microsoft.com/en-us/aspnet/core/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  PrimeTek. (2024). <i>PrimeVue - Next Generation Vue UI Component Library</i>. <a href="https://primevue.org/" target="_blank">https://primevue.org/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Swagger. (s.f.). <i>OpenAPI Specification and Documentation Tools</i>. <a href="https://swagger.io/" target="_blank">https://swagger.io/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Velneo. (2023). <i>Por qué usar un software de gestión ERP en talleres mecánicos</i>. <a href="https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/" target="_blank">https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Vue.js. (2024). <i>Vue.js - The Progressive JavaScript Framework</i>. <a href="https://vuejs.org/guide/introduction.html" target="_blank">https://vuejs.org/guide/introduction.html</a>
+</p>
+
 ---
 
 ## Anexos
-[Pendiente]
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo A: Guía de Entrevistas por Segmento</h3>
+</div>
+
+<p align="justify">
+A continuación, se presentan las guías de preguntas estructuradas utilizadas durante el proceso de <i>Requirements Elicitation</i> para los tres segmentos objetivo del proyecto. Estas preguntas fueron diseñadas para identificar puntos de dolor, procesos actuales y expectativas de los usuarios.
+</p>
+
+<p><strong>Segmento 1: Mecánicos Independientes</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuánto tiempo llevas trabajando como mecánico? ¿Podrías contarme cómo es un día típico en tu trabajo dentro del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo registras actualmente la información de tus clientes, vehículos y trabajos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuáles son los principales problemas que enfrentas al gestionar los trabajos del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo informas a tus clientes sobre el estado de sus vehículos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan seguido te llaman o escriben clientes para preguntar por el estado de su auto?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Crees que tus clientes confían en el servicio que brindas? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Llevas un historial de los trabajos realizados por vehículo o cliente?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te ayude a organizar tus trabajos y mostrar el progreso al cliente, ¿la usarías? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidad te sería más útil en una herramienta digital para tu trabajo diario?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 2: Talleres Automotrices - Empresas</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuántas personas trabajan en su taller y cómo están organizadas sus funciones?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo gestionan actualmente los clientes, vehículos y órdenes de trabajo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué problemas tienen al coordinar el trabajo entre mecánicos o áreas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo hacen seguimiento al estado de cada vehículo en reparación?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tienen algún sistema para medir ingresos, servicios realizados o rendimiento del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo se comunican con los clientes sobre el avance del servicio?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Han tenido problemas de desconfianza o reclamos por parte de clientes?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera un sistema que te permita gestionar tu taller y mostrar a tus clientes el progreso en tiempo real, ¿lo usarías?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidades consideras indispensables en un sistema de gestión para talleres?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 3: Clientes - Propietarios de vehículos</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Podrías contarme sobre la última vez que llevaste tu vehículo a un taller? ¿Qué servicio necesitabas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">Durante el servicio, ¿cómo te informaban sobre el estado de tu vehículo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tuviste alguna duda o preocupación mientras tu auto estaba en el taller? ¿Cuál fue?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Alguna vez has sentido desconfianza hacia un taller? ¿Qué situación generó eso?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Te gustaría poder ver el progreso de la reparación de tu auto en tiempo real desde tu celular o computadora? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tipo de información te gustaría ver mientras tu vehículo está en el taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan cómodo te sientes usando plataformas digitales o aplicaciones para consultar información de servicios?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te permita ver el estado de tu vehículo, costos y trabajos realizados, ¿la usarías? ¿Qué te gustaría que incluya?</td></tr>
+  </tbody>
+</table>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo B: Gestión del Product Backlog en Jira Software</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Product Backlog de AutoService</i>. Atlassian Jira Software. <a href="https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1" target="_blank">https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1</a>
+</p>
+
+<p align="justify">
+Se presenta la gestión de historias de usuario, épicas y tareas técnicas mediante la herramienta Jira Software. El tablero refleja la priorización de los ítems del backlog y el estado de avance de las tareas planificadas para el Sprint 1.
+</p>
+
+<div align="center">
+  <img src="docs/assets/anexos_jira.png" alt="Jira Product Backlog Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo C: Prototipado y Diseño de Interfaces en Figma</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Design System y Mockups de AutoService</i>. Figma. <a href="https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW?node-id=1-2&t=aYBkJzt0CQrAU6qH-1" target="_blank">https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW</a>
+</p>
+
+<p align="justify">
+Se adjunta el diseño de alta fidelidad de la plataforma, incluyendo el Design System (colores, tipografías y componentes), los wireframes y los mockups interactivos que definen la experiencia de usuario (UX) y la interfaz (UI) de AutoService.
+</p>
+
+<div align="center">
+  <h5>Captura del Diseño de Interfaces - Figma</h5>
+  <img src="docs/assets/anexos_figma.png" alt="Figma UI/UX Design Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo D: Modelado de Dominio y Flujos en Miro</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>EventStorming y User Flows de AutoService</i>. Miro. <a href="https://miro.com/welcomeonboard/ME8rSzFiTWh0M3k1SC80N0RZelVpKzBCdk5LNTZsTzhDSEJORE4ybE5ta25rUVd1ZFVNZndDS1ExZm0xSkdNVHFuc3E3QTN1QzQrcFFzYnUrYzN1NE5HTFdLQ1ZtbnNpYUN3cWJiblZ5dVdCQS9rY3dnSjlBdnNPSDh4Tk41alBnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=615806054520" target="_blank">Enlace al tablero interactivo en Miro</a>
+</p>
+
+<p align="justify">
+Se presenta el modelado colaborativo del dominio del negocio mediante la técnica de EventStorming, así como los diagramas de flujo de usuario (User Flows) que detallan la navegación lógica para los distintos actores del sistema.
+</p>
+
+<div align="center">
+  <h5>Captura del Tablero de Modelado - Miro</h5>
+  <img src="docs/assets/anexos_miro.png" alt="Miro EventStorming Screenshot" width="80%">
+</div>

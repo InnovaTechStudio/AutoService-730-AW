@@ -107,7 +107,7 @@ Abril, 2026
 
 * **URL del Repositorio de GitHub:** https://github.com/InnovaTechStudio/AutoService-730-AW
 * **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-* **Video Exposición AV1:**
+* **Video Exposición AV1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQBYBNXBo84OT4xyN-R2KgKIAflconzrrN_IBqwttBNAkuw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zPeaHB
   
 ---
 

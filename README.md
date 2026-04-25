@@ -57,6 +57,11 @@ Abril, 2026
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## Registro de Versiones del Informe <!-- omit in toc -->
 
@@ -137,10 +142,11 @@ Abril, 2026
     - [Entrevista 1: Técnico Independiente](#entrevista-1-técnico-independiente)
     - [Entrevista 2: Técnico Independiente](#entrevista-2-técnico-independiente)
     - [Entrevista 3: Técnico Independiente](#entrevista-3-técnico-independiente)
-    - [Entrevista 3: Técnico Independiente](#entrevista-3-técnico-independiente-1)
     - [Entrevista 4: Administrador de Taller Automotriz](#entrevista-4-administrador-de-taller-automotriz)
     - [Entrevista 5: Administrador y Encargado de Logística de Taller Automotriz](#entrevista-5-administrador-y-encargado-de-logística-de-taller-automotriz)
     - [Entrevista 6: Clientes - propietario de vehículos](#entrevista-6-clientes---propietario-de-vehículos)
+    - [Entrevista 7: Cliente - propietario de vehículo](#entrevista-7-cliente---propietario-de-vehículo)
+    - [Entrevista 8: Cliente - propietario de vehículos](#entrevista-8-cliente---propietario-de-vehículos)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)

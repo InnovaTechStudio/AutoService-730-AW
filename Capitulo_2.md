@@ -549,30 +549,6 @@ El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en 
 
 ![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-3.png)
 
-#### Entrevista 3: Técnico Independiente
-
-- **Nombre:** Antenor Ayala  
-- **Edad:** 33
-- **Residencia:** Ayacucho, Huamanga  
-- **Ocupación:** Técnico Mecánico Automotriz  
-
-- **Inicio:** 0:25  
-- **Duración:** 9:11  
-
-**Link:**  
-[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQCxbUZ3D94sQa4L_R0U-pTLAeS4IIX60VMV6GW0RGncMMA?e=mN7UdR)
-
----
-**Resumen:**
-
-El entrevistado Antenor Ayala, un mecánico automotriz de 33 años residente en Huamanga, con aproximadamente 5 años de experiencia en el rubro. Describe que su trabajo diario varía entre resolver fallas simples y complejas, comenzando con la recepción del cliente y el diagnóstico del problema, el cual a veces difiere de lo que el cliente cree. Lleva el registro de los trabajos de forma manual en un cuaderno, lo que puede generar desorganización. Señala que uno de los principales problemas que enfrenta es la gestión de clientes, ya que existen diferentes tipos de comportamientos y expectativas, además de que reconoce que en ocasiones pueden ocurrir errores humanos debido al cansancio o problemas personales. En cuanto a la comunicación, indica que antes tenía dificultades por no informar adecuadamente los cambios realizados, lo que generaba desconfianza, pero ahora busca mejorar avisando previamente o mostrando evidencias como fotos o videos. También menciona que algunos clientes llaman con mucha frecuencia mientras que otros son más independientes. Finalmente, muestra una actitud muy positiva hacia la implementación de una plataforma digital, ya que considera que le ayudaría a organizar mejor sus tareas, mejorar la comunicación, aumentar la confianza con los clientes y gestionar aspectos como horarios, inventario e historial de trabajos, lo que optimizaría su desempeño diario.
-
-
----
-
-**Evidencia:**
-
-![Entrevista Administrador Taller](docs/assets/chapter-2/interview-technical-3.png)
 
 #### Entrevista 4: Administrador de Taller Automotriz
 
@@ -628,34 +604,57 @@ El entrevistado Sebastián Rojas, de 24 años, se desempeña como administrador 
 ![Entrevista Administrador Logística](docs/assets/chapter-2/interview-admin-taller-2.png)
 
 
-#### Entrevista 6: Clientes - propietario de vehículos
+#### Entrevista 7: Cliente - propietario de vehículo
 
-- **Nombre:** Fabio Vallejo  
-- **Edad:** 24  
-- **Residencia:** Surco, Lima  
+- **Nombre:** David Paredes
+- **Edad:** 19  
+- **Residencia:** Lima  
 - **Ocupación:** Estudiante universitario 
 
-- **Inicio:** 0:01  
-- **Duración:** 4:58  
+- **Inicio:** 0:19
+- **Duración:** 7:07  
 
 **Link:**  
-[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQCm1-3ipyupR7cU__KUpc4-AfuCgrWf7cQ5QhWotODFmws?e=gbSZpD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQB8GgUcTnD9Q7HDrkgdK1n-ARVcqG6ZsLRi_0l-3uGwCOA?e=vgN5xH)
 
 ---
 
 **Resumen:**
 <p style="text-align: justify;">
-El entrevistado, en calidad de cliente y propietario de un vehículo, relata su experiencia al llevar su auto a un taller mecánico debido a un ruido inusual, lo que derivó en el cambio de pastillas y revisión general de frenos. Durante el servicio, la comunicación se realizó principalmente a través de WhatsApp, donde ocasionalmente recibía fotos o videos; sin embargo, menciona que esta comunicación no era constante, teniendo que consultar por iniciativa propia el estado del vehículo.
-Expresa que una de sus principales preocupaciones durante el proceso fue la incertidumbre respecto al tiempo de entrega y el costo final del servicio, especialmente ante la posibilidad de que se detectaran fallas adicionales que incrementaran el precio. Asimismo, señala haber experimentado desconfianza en ocasiones anteriores, cuando consideró que algunas recomendaciones del taller podrían no haber sido completamente necesarias, situación agravada por su limitado conocimiento técnico.
-En cuanto a soluciones, muestra una actitud positiva hacia el uso de herramientas digitales, indicando que le resultaría muy útil poder visualizar el progreso de la reparación en tiempo real, evitando la necesidad de constante. Además, le gustaría acceder a información clara sobre la etapa del servicio, costos estimados y aprobaciones de trabajos adicionales.
-Finalmente, menciona sentirse cómodo utilizando aplicaciones digitales, siempre que sean fáciles de usar y aporten valor relevante. Frente a la propuesta de una plataforma integral, afirma que la utilizaría, destacando como funcionalidades clave las notificaciones, evidencias visuales (fotos y videos), detalle de costos y un historial organizado de los servicios realizados a su vehículo.
+El entrevistado David Paredes, un estudiante universitario de 19 años que, aunque no posee vehículo propio, participa activamente en el mantenimiento del auto de su familia. Señala que suelen llevarlo al taller cada 2 o 3 meses o antes de viajes largos para revisiones preventivas. Al elegir un taller, prioriza principalmente la confianza en el mecánico y la calidad del servicio, seguido de la cercanía y la rapidez. Valora experiencias donde el diagnóstico es rápido, transparente y bien explicado, pero ha tenido frustraciones por demoras innecesarias y falta de cumplimiento en los tiempos. Considera que la calidad es más importante que la rapidez, ya que busca soluciones duraderas. Además, muestra interés en el uso de plataformas web para monitorear el estado del vehículo en tiempo real, destacando que mejorarían la transparencia, la comunicación y la percepción del servicio, siendo este último aspecto —la comunicación constante entre cliente y mecánico— una de las mejoras que más le gustaría ver en los talleres.
 </p>
 
 ---
 
 **Evidencia:**
 
-![Entrevista Cliente - propietario de vehículo](docs/assets/chapter-2/interview-client.png)
+![Entrevista Cliente - propietario de vehículo](docs/assets/chapter-2/interview-client-2.png)
+
+#### Entrevista 8: Cliente - propietario de vehículos
+
+- **Nombre:** Ruiz Soto 
+- **Edad:** 22
+- **Residencia:** Surco, Lima  
+- **Ocupación:** Estudiante universitario 
+
+- **Inicio:** 0:19  
+- **Duración:** 6:10  
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBCQEiGS1_ASIRQBxRL1Yx3AT6vdH6P5PI0vMi6locZln8?e=wngebj)
+
+---
+
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado es Ruiz Soto, un estudiante universitario de 22 años que reside en Surco y cuenta con vehículo propio, el cual lleva al taller de forma mensual para asegurar su correcto funcionamiento y evitar inconvenientes. Al elegir un taller, prioriza principalmente la rapidez y la confianza, incluso por encima del precio, ya que busca soluciones eficientes y seguras sin riesgos de cambios indebidos de piezas. Valora experiencias donde el diagnóstico y la reparación se realizan el mismo día, pero ha tenido frustraciones relacionadas con retrasos en la entrega y falta de cumplimiento en los plazos prometidos. Considera que la rapidez es un factor clave, aunque está dispuesto a pagar más si el servicio es de calidad. Además, muestra un alto interés en el uso de tecnología, como aplicaciones que le permitan monitorear el estado de su vehículo en tiempo real, lo que optimizaría su tiempo. Finalmente, destaca la importancia de mejorar la comunicación constante con el mecánico y la transparencia en los costos como aspectos clave para una mejor experiencia en los talleres automotrices.
+</p>
+
+---
+
+**Evidencia:**
+
+![Entrevista Cliente - propietario de vehículo](docs/assets/chapter-2/interview-client-1.png)
 
 #### 2.2.3. Análisis de entrevistas
 

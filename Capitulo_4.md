@@ -1200,7 +1200,7 @@ En esta fase inicial, realizamos una lluvia de ideas para identificar todos los 
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s1.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s1.png)
 </div>
 
 <b>Step 2: Refine Domain Events</b>
@@ -1210,7 +1210,7 @@ Organizamos los eventos identificados en una línea de tiempo horizontal para es
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s2.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s2.png)
 </div>
 
 <b>Step 3: Track Causes (Process Modelling)</b>
@@ -1220,7 +1220,7 @@ En este paso, modelamos la causalidad de cada evento introduciendo <b>Actors</b>
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s3.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s3.png)
 </div>
 
 <b>Step 4: Find Aggregates & Bounded Contexts (Software Modelling)</b>
@@ -1230,7 +1230,7 @@ Finalmente, agrupamos los comandos y eventos alrededor de sus <b>Aggregates</b> 
 
 <div align="center">
 
-![alt text](docs/assets/chapter-4/event_storming_s4.jpg)
+![alt text](docs/assets/chapter-4/event_storming_s4.png)
 </div>
 
 #### 4.6.2. Software Architecture Context Diagram

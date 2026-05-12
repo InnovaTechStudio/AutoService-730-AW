@@ -389,17 +389,3 @@ Buscan mejorar organización, control de servicios y ofrecer mayor transparencia
 <p align="justify">
 Requieren herramientas más completas para gestionar operaciones.
 </p>
-
-<h4><i>Segmento que recibe el servicio (Usuario Final)</i></h4>
-
-<p><strong>3. Clientes (Propietarios de Vehículos)</strong></p>
-<ul>
-  <li>Buscan transparencia</li>
-  <li>Desean seguimiento en tiempo real</li>
-  <li>No tienen conocimientos técnicos</li>
-  <li>Valoran claridad y confianza</li>
-</ul>
-
-<p align="justify">
-Interactúan con la plataforma para consultar el estado del servicio y costos.
-</p>

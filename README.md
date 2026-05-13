@@ -5,7 +5,7 @@ Universidad Peruana de Ciencias Aplicadas<br>
 Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 **Ciclo:** 2026-10
 
-**AV1 – Sprint Review**
+**TB1 – Stage Review**
 
 **1ASI0730** Aplicaciones Web<br>
 **NRC:** 17953<br>
@@ -13,7 +13,7 @@ Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 
 **Nombre del startup:** InnovaTech<br>
 **Nombre del producto:** AutoService<br>
-Abril, 2026
+Mayo, 2026
 
 #### Relación de integrantes <!-- omit in toc -->
 
@@ -310,7 +310,8 @@ Abril, 2026
         <td valign="top">Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
         <td valign="top">
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Comuniqué de manera efectiva al equipo el flujo de trabajo basado en GitFlow, adaptando la explicación según el nivel técnico de cada integrante, resolviendo dudas en tiempo real y alineando a todos en el uso correcto de ramas y buenas prácticas. Además, guié reuniones donde se definieron user stories, epics y prioridades del product backlog, y expuse la arquitectura de software mediante diagramas C4 de forma clara, asegurando la comprensión tanto de perfiles técnicos como no técnicos.<br><br>TB1: Mi principal labor fue la configuración inicial de los repositorios del proyecto, así como la implementación y puesta en marcha de la Fake API. Además, participé en la configuración de la conexión entre el frontend y el servicio de datos, asegurando su correcta integración y validación en entorno de desarrollo y despliegue inicial.<br><br>
-          <b>Luis Miranda, Diego Andres</b> AV1: Se realizo el proceso completo de diseño UX/UI, incluyendo la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos en Figma aplicando la principios, elemntos, IA, etc. Asimismo, se explicaron los resultados obtenidos a partir de las entrevistas realizadas, tomando en cuentas las necesidades del usuarios.<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Participé activamente en la coordinación del diseño UX/UI del proyecto, promoviendo la comunicación constante y el intercambio de ideas dentro del equipo para tomar decisiones alineadas a las necesidades de los usuarios. Contribuí proponiendo soluciones de diseño basadas en los resultados obtenidos durante las entrevistas, fomentando un entorno de trabajo colaborativo en el que se consideraron diferentes perspectivas para mejorar la experiencia del usuario. Asimismo, apoyé en la organización y distribución de tareas relacionadas con la elaboración de wireframes, wireflows, mock-ups y prototipos interactivos, permitiendo avanzar de manera ordenada y eficiente hacia los objetivos establecidos.<br><br>
+          TB1: Contribuí al liderazgo compartido del equipo participando en la planificación y desarrollo de componentes frontend orientados al administrador y al sistema de seguimiento para clientes. Además, colaboré en la integración entre el frontend, el backend y la Fake API, apoyando la coordinación técnica entre los integrantes para asegurar la compatibilidad y funcionamiento del sistema. También promoví la mejora continua de la documentación y la correcta estructuración del proyecto, facilitando la organización del trabajo y el cumplimiento de los objetivos planteados.<br><br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Sustenté la arquitectura de software en el modelado del diagrama de clases y el modelo de base de datos, adaptando el lenguaje técnico para asegurar la comprensión del sistema. Además, conduje entrevistas a administradores de taller, demostrando escucha activa para extraer necesidades clave y validar supuestos del Lean UX.<br><br>
           <b>Pillaca Gonzales, Andy Saúl</b> AV1: Durante el desarrollo del proyecto, participé activamente en la elaboración del Capítulo V: Product Implementation, Validation & Deployment, específicamente en la sección 5.1 Software Configuration Management. Me encargué de organizar y documentar las herramientas utilizadas en el entorno de desarrollo, como Git, GitHub Pages, Visual Studio Code, Figma y Jira, detallando su finalidad y su aplicación dentro del proyecto. Asimismo, contribuí en la definición del proceso de gestión del código fuente, incluyendo la implementación de un flujo de trabajo basado en Git Flow, el uso de Conventional Commits y la aplicación de versionado semántico. También apoyé en la estructuración de las convenciones de codificación para HTML, CSS, JavaScript y C#, asegurando la estandarización y calidad del código del proyecto. Adicionalmente, participé en la creación de los wireframes de la landing page tanto en versión desktop como mobile, así como en el desarrollo de mockups, aportando en la definición de la experiencia de usuario. Finalmente, trabajé de manera colaborativa con el equipo, cumpliendo con los plazos establecidos y contribuyendo constantemente al avance del proyecto.<br><br>TB1: Durante el desarrollo del TB1, participé activamente en la documentación técnica del proyecto mediante la elaboración de comentarios y documentación en formato JSDoc para los distintos scripts implementados, facilitando la comprensión y mantenimiento del código por parte del equipo. Asimismo, contribuí en la creación y estructuración del README del proyecto, organizando información relacionada con la instalación, ejecución y flujo de trabajo colaborativo. Además, apoyé en la implementación del sistema de internacionalización (i18n), permitiendo la adaptación de la interfaz a múltiples idiomas y asegurando una experiencia más accesible para distintos tipos de usuarios. Estas actividades se realizaron en constante coordinación con el equipo, contribuyendo a mantener estándares de calidad y una comunicación técnica clara durante el Sprint.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Aporte individual: Me encargué del desarrollo del Capítulo I: Introducción, donde se definió el perfil de la startup, la descripción de la solución, el análisis del problema, los segmentos objetivo y el enfoque Lean UX del proyecto AutoService. Además, participé en el diseño del mockup de la Landing Page, orientado a presentar el producto de forma clara, atractiva y comercial para talleres automotrices. Posteriormente, apoyé en su implementación utilizando HTML, CSS y JavaScript, integrando secciones como el hero, funcionalidades principales, beneficios, precios, CTA y elementos visuales del sistema.
@@ -321,7 +322,8 @@ Abril, 2026
         <td valign="top">Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
         <td valign="top">
           <b>Lopez Monroy, Rodrigo Alfredo</b> AV1: Elaboré documentación clara y estructurada del flujo de trabajo en GitHub, incluyendo lineamientos sobre ramas, commits y pull requests, facilitando su comprensión para todo el equipo. Asimismo, redacté user stories, epics y el product backlog utilizando un lenguaje accesible y bien organizado, y documenté la arquitectura de software mediante diagramas C4 acompañados de descripciones comprensibles para distintos tipos de audiencia.<br><br>TB1: Otra de mis principales contribuciones estuvo relacionada con la coordinación y comunicación del equipo de desarrollo durante el Sprint. Se promovió el uso de GitHub como plataforma central de colaboración, asegurando que cada integrante trabajara bajo ramas independientes (feature/* y hotfix/*) y que los cambios fueran integrados mediante Pull Requests con revisiones previas.<br><br>
-          <b>Luis Miranda, Diego Andres</b> AV1: Se desarrolló la documentación, incluyendo el análisis de entrevistas para el levantamiento de requerimientos, la definición de historias de usuario y la elaboración de wireframes, mock-ups y prototipos. Se redactaron secciones técnicas relacionadas con principios de diseño, arquitectura de información, diseño inclusivo y decisiones UX/UI, manteniendo un lenguaje claro, estructurado y coherente.<br><br>
+          <b>Luis Miranda, Diego Andres</b> AV1: Mantuve una comunicación abierta y colaborativa con los integrantes del equipo durante el desarrollo de la documentación y del diseño UX/UI, contribuyendo a que las ideas y opiniones de todos fueran consideradas en la toma de decisiones. Participé en la planificación de actividades relacionadas con el análisis de entrevistas, definición de historias de usuario y elaboración de prototipos, priorizando el cumplimiento de metas y tiempos establecidos. Además, apoyé en la redacción de contenido técnico de manera clara y organizada, facilitando la comprensión y coordinación entre los miembros del equipo.<br><br>
+          TB1: Participé de manera colaborativa en el desarrollo de la interfaz frontend y en la implementación del sistema de tracking para clientes, coordinando tareas con el equipo para mantener coherencia en el desarrollo del proyecto. Asimismo, contribuí en la mejora de la documentación y en la estructuración del sistema, favoreciendo una organización más eficiente del trabajo. La comunicación constante y la disposición para apoyar en la integración con el backend y la Fake API permitieron cumplir los objetivos establecidos dentro de los plazos acordados.<br><br>
           <b>Mamani Vilca, Alan Jaivi</b> AV1: Documenté la arquitectura, del modelo del diagrama de clases, modelo de datos y hallazgos del Needfinding (User Personas, Empathy/Journey Maps) con precisión técnica y claridad. Utilicé terminología estándar y una estructura lógica para facilitar la implementación y la colaboración efectiva entre los roles de diseño y desarrollo.<br><br>
           <b>Pillaca Gonzales, Andy Saúl</b> AV1: Contribuí en la organización y documentación del Capítulo V, estructurando de manera clara las herramientas y procesos de desarrollo utilizados en el proyecto, lo que facilitó su comprensión por parte del equipo. Asimismo, apoyé en la planificación y ejecución de tareas relacionadas con la gestión del código fuente y despliegue, asegurando el uso adecuado de Git, GitHub y buenas prácticas de versionado. Además, participé en el diseño de wireframes y mockups de la landing page, coordinando con el equipo para mantener coherencia en la interfaz y cumplir con los objetivos planteados. Finalmente, cumplí con los plazos establecidos y mantuve una comunicación constante con el equipo, contribuyendo a un entorno de trabajo colaborativo y organizado.<br><br>TB1: Contribuí en la generación de un entorno de trabajo colaborativo mediante la documentación estandarizada del proyecto utilizando JSDoc y la elaboración del README general, lo que permitió centralizar información técnica y facilitar la incorporación y comprensión del sistema por parte de todos los integrantes. Asimismo, participé en la implementación del sistema de internacionalización (i18n), coordinando la organización de recursos y estructuras necesarias para soportar múltiples idiomas dentro de la aplicación. Además, mantuve una comunicación constante con el equipo para validar cambios y asegurar la correcta integración de las funcionalidades desarrolladas, cumpliendo con las tareas asignadas dentro de los plazos establecidos y contribuyendo al avance organizado del Sprint.<br><br>
           <b>Sanchez Cuadrado, Juan Antonio</b> AV1: Se elaboro documentacion y contribuí en la elaboración de la presentación final en Canva, organizando la información visualmente para facilitar la exposición del proyecto y mantener coherencia con la identidad gráfica de AutoService.
@@ -696,49 +698,73 @@ El Lean UX Process permite definir y validar la solución a partir de la compren
 
 ### 1.3. Segmentos objetivo
 
-<p align="justify">
-Se identifican los tipos de usuarios que interactúan con la solución.
-</p>
+---
 
-<h4><i>Segmentos que contratan nuestro servicio (Clientes del sistema)</i></h4>
+## Segmento 1: Mecánicos Independientes
 
-<p><strong>1. Mecánicos Independientes</strong></p>
-<ul>
-  <li>Trabajan de forma autónoma</li>
-  <li>Manejan pocos clientes</li>
-  <li>Bajo nivel de digitalización</li>
-  <li>Necesitan soluciones simples y económicas</li>
-</ul>
+Son trabajadores autónomos que brindan servicios de reparación y mantenimiento vehicular de manera independiente.
 
-<p align="justify">
-Buscan mejorar organización, control de servicios y ofrecer mayor transparencia.
-</p>
+### Variables demográficas y características
 
-<p><strong>2. Talleres Automotrices / Empresas</strong></p>
-<ul>
-  <li>Mayor volumen de trabajo</li>
-  <li>Varios mecánicos</li>
-  <li>Necesidad de control administrativo</li>
-  <li>Enfoque en eficiencia y competitividad</li>
-</ul>
+- Edad: 25 a 50 años
+- Ubicación: Zonas urbanas de Lima Metropolitana y principales ciudades del Perú
+- Nivel socioeconómico: B y C
+- Tamaño del negocio: 1 a 3 trabajadores
+- Nivel de digitalización: Bajo o medio
+- Ingresos variables según demanda de servicios
 
-<p align="justify">
-Requieren herramientas más completas para gestionar operaciones.
-</p>
+### Necesidades principales
 
-<h4><i>Segmento que recibe el servicio (Usuario Final)</i></h4>
+- Organizar citas y servicios
+- Llevar control de clientes y vehículos
+- Registrar costos y trabajos realizados
+- Mejorar la comunicación con sus clientes
+- Ofrecer mayor transparencia y confianza
 
-<p><strong>3. Clientes (Propietarios de Vehículos)</strong></p>
-<ul>
-  <li>Buscan transparencia</li>
-  <li>Desean seguimiento en tiempo real</li>
-  <li>No tienen conocimientos técnicos</li>
-  <li>Valoran claridad y confianza</li>
-</ul>
+### Mercado objetivo
 
-<p align="justify">
-Interactúan con la plataforma para consultar el estado del servicio y costos.
-</p>
+En Perú existe una gran cantidad de talleres pequeños y mecánicos independientes que aún manejan sus procesos de manera manual. Este segmento representa una oportunidad de digitalización debido al crecimiento del parque automotor y la necesidad de optimizar la atención al cliente.
+
+---
+
+## Segmento 2: Talleres Automotrices y Empresas de Servicio Vehicular PYMes
+
+Empresas dedicadas al mantenimiento y reparación automotriz con mayor volumen de operaciones y personal técnico.
+
+### Variables demográficas y características
+
+- Tipo de empresa: Micro y pequeñas empresas automotrices
+- Ubicación: Lima Metropolitana y ciudades con alta concentración vehicular
+- Número de trabajadores: 4 a 20 empleados
+- Cantidad de servicios diarios: Media y alta
+- Nivel de digitalización: Medio
+- Capacidad de inversión tecnológica: Media
+
+### Necesidades principales
+
+- Gestionar múltiples órdenes de servicio
+- Supervisar trabajo de varios mecánicos
+- Controlar historial de clientes y vehículos
+- Mejorar tiempos de atención
+- Generar reportes administrativos y operativos
+- Incrementar competitividad y eficiencia
+
+### Mercado objetivo
+
+El crecimiento del sector automotriz y la necesidad de modernización de talleres generan una demanda creciente por soluciones digitales de gestión. Este segmento busca herramientas que les permitan optimizar operaciones y diferenciarse de la competencia mediante una mejor experiencia de servicio.
+
+---
+
+## Mercado al que apunta la solución
+
+La propuesta se enfoca inicialmente en micro y pequeñas empresas automotrices y mecánicos independientes, debido a la alta concentración vehicular y demanda constante de servicios de mantenimiento.
+
+El mercado presenta potencial de crecimiento por:
+- Incremento del parque automotor en Perú
+- Baja digitalización de talleres tradicionales
+- Necesidad de mejorar control operativo y administrativo
+- Mayor exigencia de transparencia por parte de los clientes
+
 
 ---
 

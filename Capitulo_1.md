@@ -366,26 +366,22 @@ Se identifican los tipos de usuarios que interactúan con la solución.
 
 <h4><i>Segmentos que contratan nuestro servicio (Clientes del sistema)</i></h4>
 
-<p><strong>1. Mecánicos Independientes</strong></p>
-<ul>
-  <li>Trabajan de forma autónoma</li>
-  <li>Manejan pocos clientes</li>
-  <li>Bajo nivel de digitalización</li>
-  <li>Necesitan soluciones simples y económicas</li>
-</ul>
+Segmento 1: Mecánicos Independientes
+<table> <tr> <th>Variable</th> <th>Descripción</th> </tr> <tr> <td>Tipo de negocio</td> <td>Mecánicos independientes y talleres pequeños</td> </tr> <tr> <td>Ubicación</td> <td>Lima Metropolitana y principales ciudades del Perú</td> </tr> <tr> <td>Tamaño</td> <td>1 a 3 trabajadores</td> </tr> <tr> <td>Nivel de digitalización</td> <td>Bajo o intermedio</td> </tr> <tr> <td>Problemas principales</td> <td>Desorganización, pérdida de información, comunicación manual con clientes</td> </tr> <tr> <td>Capacidad de pago</td> <td>Baja a media</td> </tr> </table><br>
 
-<p align="justify">
-Buscan mejorar organización, control de servicios y ofrecer mayor transparencia.
-</p>
+Tamaño de mercado
+<p align="justify"> Según datos del Ministerio de Transportes y Comunicaciones y asociaciones automotrices en Perú, existe una alta presencia de talleres mecánicos informales y semi-formales en Lima y provincias. Se estima que miles de mecánicos independientes aún utilizan métodos manuales como cuadernos, Excel y WhatsApp para gestionar sus operaciones, representando una oportunidad importante para soluciones SaaS de bajo costo orientadas a digitalización. </p>
 
-<p><strong>2. Talleres Automotrices / Empresas</strong></p>
-<ul>
-  <li>Mayor volumen de trabajo</li>
-  <li>Varios mecánicos</li>
-  <li>Necesidad de control administrativo</li>
-  <li>Enfoque en eficiencia y competitividad</li>
-</ul>
+Segmento 2: Talleres Automotrices PYMEs
+<table> <tr> <th>Variable</th> <th>Descripción</th> </tr> <tr> <td>Tipo de negocio</td> <td>Talleres automotrices formales</td> </tr> <tr> <td>Ubicación</td> <td>Lima Metropolitana y ciudades urbanas</td> </tr> <tr> <td>Tamaño</td> <td>4 a 20 trabajadores</td> </tr> <tr> <td>Nivel de digitalización</td> <td>Intermedio</td> </tr> <tr> <td>Problemas principales</td> <td>Coordinación operativa, control de inventario, seguimiento de órdenes</td> </tr> <tr> <td>Capacidad de pago</td> <td>Media a alta</td> </tr> </table><br>
 
-<p align="justify">
-Requieren herramientas más completas para gestionar operaciones.
-</p>
+# Tamaño de mercado
+<p align="justify"> El crecimiento del parque automotor peruano y la necesidad de modernización de talleres generan una demanda creciente por plataformas de gestión automotriz. Muchas PYMEs del sector aún dependen de procesos manuales o herramientas genéricas como Excel, lo que abre oportunidades para soluciones especializadas enfocadas en eficiencia operativa y transparencia hacia el cliente. </p>
+
+# Mercado Objetivo
+TAM (Total Addressable Market)
+<p align="justify"> El mercado total está compuesto por talleres automotrices y mecánicos independientes del Perú que requieren herramientas de digitalización y gestión operativa. </p>
+SAM (Serviceable Available Market)
+<p align="justify"> AutoService se enfocará inicialmente en talleres y mecánicos ubicados en Lima Metropolitana y ciudades urbanas con acceso a internet y uso frecuente de smartphones. </p>
+SOM (Serviceable Obtainable Market)
+<p align="justify"> Durante la etapa inicial del proyecto, se espera captar talleres pequeños y medianos que actualmente utilizan métodos manuales de gestión y buscan mejorar la transparencia y organización de sus servicios. </p>

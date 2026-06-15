@@ -2383,6 +2383,69 @@ En cumplimiento con los criterios de validación de calidad, se presentan las ca
   <img src="docs/assets/deployment_render_success.png" alt="Render Web Service Deployment Evidence" width="80%">
 </div>
 
+##### 5.2.3.8. Team Collaboration Insights during Sprint
+
+<p align="justify">
+Durante el Sprint 3, el equipo mantuvo un flujo de trabajo colaborativo enfocado primordialmente en la implementación de los Web Services de AutoService utilizando C# y ASP.NET Core, así como en la actualización de la Web Application para lograr la integración completa. Para garantizar la organización del desarrollo y la estabilidad de la arquitectura, se aplicó estrictamente la estrategia GitFlow, utilizando ramas independientes para cada contexto delimitado (Bounded Context), funcionalidad o mejora implementada durante el Sprint.
+</p>
+
+<p align="justify">
+Cada integrante trabajó sobre ramas <i>feature/*</i> y <i>hotfix/*</i>, integrando posteriormente sus avances mediante Pull Requests hacia la rama <code>develop</code>. Luego de las validaciones de las pruebas de integración y revisiones de código correspondientes, los cambios fueron consolidados hacia la rama <code>main</code> para su despliegue automático hacia los entornos productivos, utilizando contenedores Docker en Render para el backend y Azure Static Web Apps para el frontend.
+</p>
+
+<p align="justify">
+La colaboración del equipo se evidenció principalmente en el diseño y desarrollo conjunto de los controladores RESTful, la implementación de la persistencia de datos con Entity Framework Core, la documentación interactiva con Swagger y la conexión exitosa entre el cliente web y los nuevos servicios. Asimismo, se aplicaron rigurosamente las convenciones de versionamiento utilizando <i>Conventional Commits</i>, permitiendo mantener una trazabilidad clara de cada cambio en la lógica de negocio y la infraestructura.
+</p>
+
+<p align="justify">
+A continuación, se presentan los analíticos y evidencias extraídas directamente de los repositorios del proyecto, las cuales reflejan la actividad constante, integración colaborativa y organización técnica del equipo durante el Sprint 3.
+</p>
+
+<div align="center">
+
+  <h5>Evidencia 1: Gráfico de contribuciones por integrante del equipo</h5>
+  <img src="docs/assets/sprint3_contributors_graph.png" alt="Sprint 3 Contributors Graph" width="80%">
+
+  <h5>Evidencia 2: Resumen de actividad del Sprint mediante GitHub Pulse</h5>
+  <img src="docs/assets/sprint3_pulse_activity.png"  alt="Sprint 3 Pulse Activity" width="80%">
+
+  <h5>Evidencia 3: Gestión colaborativa mediante Pull Requests y merges</h5>
+  <img src="docs/assets/sprint3_closed_pull_requests.png" alt="Sprint 3 Closed Pull Requests" width="80%">
+
+  <h5>Evidencia 4: Organización de ramas bajo estrategia GitFlow</h5>
+  <img src="docs/assets/sprint3_gitflow_branches.png" alt="Sprint 3 GitFlow Branches" width="80%">
+
+</div>
+
+<br>
+
+<p align="justify">
+Las evidencias presentadas demuestran que el equipo mantuvo una participación activa y distribuida durante todo el Sprint, registrando commits significativos, integraciones frecuentes y despliegues continuos hacia los entornos en la nube. Asimismo, el uso de Pull Requests permitió centralizar la revisión del código en C# y asegurar la consistencia del Domain-Driven Design (DDD) antes de cada integración hacia las ramas principales de los repositorios.
+</p>
+
+<p align="justify">
+Entre las actividades colaborativas más relevantes realizadas de forma conjunta durante este Sprint destacan:
+</p>
+
+<ul style="text-align: justify;">
+  <li>Desarrollo de los <i>Bounded Contexts</i> y estructuración de la lógica de negocio en C# y ASP.NET Core.</li>
+  <li>Implementación de la persistencia de datos relacional mediante migraciones de Entity Framework Core.</li>
+  <li>Documentación interactiva de los endpoints y contratos de datos mediante OpenAPI (Swagger).</li>
+  <li>Adaptación de los componentes del frontend para consumir los Web Services productivos y reemplazar la Fake API.</li>
+  <li>Configuración de la contenerización (Dockerfile), variables de entorno y políticas CORS.</li>
+  <li>Despliegue de los servicios en Render y sincronización continua con la aplicación en Azure.</li>
+</ul>
+
+<p align="justify">
+El repositorio principal utilizado para el trabajo colaborativo de la capa de servicios durante este Sprint fue:
+</p>
+
+<p align="center">
+  <code>
+    <a href="https://github.com/InnovaTechStudio/AutoService-730-AW-Backend" target="_blank">https://github.com/InnovaTechStudio/AutoService-730-AW-Backend</a>
+  </code>
+</p>
+
 <!--  PENDIENTE PARA ENTREGA FINAL TB2
 ### 5.3. Validation Interviews
 

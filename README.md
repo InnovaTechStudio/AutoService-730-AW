@@ -84,13 +84,13 @@ Mayo, 2026
           Mamani Vilca, Alan Jaivi<br>
           Sanchez Cuadrado, Juan Antonio
         </td>
-        <td>
-          Elaboración de la primera entrega formal del proyecto (Capítulos I al V).<br>
-          Incluye la definición del modelo de negocio (Lean UX),<br>
-          levantamiento de requerimientos (Needfinding, EventStorming,<br>
-          Product Backlog, User Stories) y el diseño del producto<br>
-          (Arquitectura de Información, DDD, C4 Model y Wireframes UX/UI).<br>
-          Asimismo, documenta la ejecución del Sprint 1, evidenciando<br>
+        <td style="text-align: left;">
+          Elaboración de la primera entrega formal del proyecto (Capítulos I al V).
+          Incluye la definición del modelo de negocio (Lean UX),
+          levantamiento de requerimientos (Needfinding, EventStorming,
+          Product Backlog, User Stories) y el diseño del producto
+          (Arquitectura de Información, DDD, C4 Model y Wireframes UX/UI).
+          Asimismo, documenta la ejecución del Sprint 1, evidenciando
           el despliegue de la Landing Page en GitHub Pages, la integración de<br>
           EmailJS y las métricas de colaboración del equipo utilizando GitFlow.
         </td>
@@ -105,26 +105,31 @@ Mayo, 2026
           Mamani Vilca, Alan Jaivi<br>
           Sanchez Cuadrado, Juan Antonio
         </td>
-        <td>
-          Elaboración de la segunda entrega formal del proyecto (Sprint 2).<br>
-          Incluye el desarrollo de la Web Application utilizando Vue.js y JavaScript,<br>
-          implementando vistas funcionales para la gestión de vehículos, órdenes de trabajo,<br>
-          seguimiento de clientes y administración operativa del sistema AutoService.<br><br>
-          Se integra una Fake REST API desplegada en Google Cloud Platform utilizando JSON Server,<br>
-          permitiendo el consumo de datos dinámicos mediante peticiones HTTP desde el frontend.<br>
-          Asimismo, se implementa el despliegue continuo del sistema mediante Azure Static Web Apps<br>
-          y GitHub Actions, garantizando actualizaciones automáticas del entorno productivo.<br><br>
-          Finalmente, se evidencia la aplicación de buenas prácticas de desarrollo colaborativo mediante GitFlow,<br>
+        <td style="text-align: left;">
+          Elaboración de la segunda entrega formal del proyecto (Sprint 2).
+          Incluye el desarrollo de la Web Application utilizando Vue.js y JavaScript,
+          implementando vistas funcionales para la gestión de vehículos, órdenes de trabajo,
+          seguimiento de clientes y administración operativa del sistema AutoService.
+          Se integra una Fake REST API desplegada en Google Cloud Platform utilizando JSON Server,
+          permitiendo el consumo de datos dinámicos mediante peticiones HTTP desde el frontend.
+          Asimismo, se implementa el despliegue continuo del sistema mediante Azure Static Web Apps
+          y GitHub Actions, garantizando actualizaciones automáticas del entorno productivo.
+          Finalmente, se evidencia la aplicación de buenas prácticas de desarrollo colaborativo mediante GitFlow,
           uso de ramas feature, integración por Pull Requests y despliegue de una versión funcional del sistema en producción.
         </td>
       </tr>
-      <!-- 
       <tr>
         <td>V3.0</td>
-        <td>--/--/2026</td>
+        <td>14/06/2026</td>
         <td>Lopez Monroy, Rodrigo Alfredo<br>Luis Miranda, Diego Andres<br>Mamani Vilca, Alan Jaivi<br>Pillaca Gonzales, Andy Saúl<br>Sanchez Cuadrado, Juan Antonio</td>
-        <td style="text-align: left;"><i>Pendiente</i></td>
+        <td style="text-align: left;">
+          Se incorpora la documentación completa del Desarrollo del Sprint 3, detallando la planificación, el Sprint Backlog y el cuadro de distribución de roles. 
+          Se añade la evidencia de desarrollo de los Web Services en C# y la actualización de la aplicación frontend, incluyendo las pruebas de integración y conectividad entre ambos componentes. 
+          Se incluye la documentación interactiva de los endpoints mediante OpenAPI Specification (Swagger) y el registro del despliegue en la plataforma en la nube. 
+          Finalmente, se anexan el diseño y registro de las entrevistas de validación con usuarios junto con la evaluación de usabilidad basada en heurísticas.
+        </td>
       </tr>
+      <!-- 
       <tr>
         <td>V4.0</td>
         <td>--/--/2026</td>
@@ -143,8 +148,10 @@ Mayo, 2026
 * **URL del Repositorio de Documentación en GitHub:** https://github.com/InnovaTechStudio/AutoService-730-AW
 * **URL del Repositorio de la Landing Page en GitHub:** https://github.com/InnovaTechStudio/AutoService-730-AW-Frontend
 * **URL del Repositorio del Frontend en GitHub:** https://github.com/InnovaTechStudio/Autoservice-landing-page-aw
+* **URL del Repositorio del Backend en GitHub:** https://github.com/InnovaTechStudio/AutoService-730-AW-Backend
 * **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 * **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+* **AV2:** - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
 * **Video Exposición TB1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQBTQfReoECqTIphGVdrvNsTAQgF7JwA5heulWsKFM8EedE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pQ9J9r
   
 ---
@@ -5718,39 +5725,917 @@ El repositorio principal utilizado para el trabajo colaborativo durante este Spr
   </code>
 </p>
 
-<!--  PENDIENTE PARA ENTREGA FINAL TB2
-### 5.3. Validation Interviews
+#### 5.2.3. Sprint 3
 
-#### 5.3.1. Diseño de Entrevistas
-[Pendiente]
+##### 5.2.3.1. Sprint Planning 3
 
-#### 5.3.2. Registro de Entrevistas
-[Pendiente]
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left;">
+    <thead>
+      <tr>
+        <th colspan="2" style="text-align: center; background-color: #f2f2f2; font-size: 1.2em; padding: 10px; border: 1px solid #ddd;">Sprint #3</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Planning Background</td>
+      </tr>
+      <tr>
+        <td style="width: 30%; font-weight: bold; padding: 10px; border: 1px solid #ddd;">Date</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">2026-06-03</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Time</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">10:00 AM</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Location</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Reunión presencial en la UPC. (Pabellón I, piso 6, cubículo 5)</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Prepared By</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">López Monroy, Rodrigo Alfredo</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Attendees (to planning meeting)</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Pillaca Gonzales, Andy Saúl / López Monroy, Rodrigo Alfredo / Luis Miranda, Diego Andres / Mamani Vilca, Alan Jaivi / Sanchez Cuadrado, Juan Antonio
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 2 Review Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          Durante el Sprint 2, el equipo logró desarrollar la aplicación web en el lado del cliente (Frontend), integrando exitosamente el consumo de datos a través de un entorno simulado (Fake REST API). Además, se configuró el flujo de integración y despliegue continuo hacia entornos de producción, logrando una versión interactiva para la gestión operativa del sistema.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 2 Retrospective Summary</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          El equipo destacó la eficiencia en el flujo de trabajo mediante ramas de características y Pull Requests. Como punto de mejora, se identificó la necesidad de definir los contratos de datos y la documentación OpenAPI (Swagger) antes de programar la lógica de negocio, garantizando así una conexión fluida y sin reprocesos entre el nuevo backend en C# y el frontend existente.
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" style="background-color: #fafafa; font-weight: bold; text-align: center; padding: 10px; border: 1px solid #ddd;">Sprint Goal & User Stories</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Goal</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          <strong>Our focus is on</strong> developing the backend Web Services, deploying them to a cloud platform, and establishing a successful connection with the updated frontend application.<br><br>
+          <strong>We believe it delivers</strong> a fully integrated and robust software solution that manages real business logic and persistent data, effectively replacing the temporary mock API environment.<br><br>
+          <strong>This will be confirmed when</strong> the frontend successfully communicates with the deployed backend endpoints, all services are documented via Swagger, and the end-to-end functionality is verified through usability evaluation interviews.
+        </td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sprint 3 Velocity</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">37 Story Points</td>
+      </tr>
+      <tr>
+        <td style="font-weight: bold; padding: 10px; border: 1px solid #ddd;">Sum of Story Points</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">
+          37 Story Points (US-11: 2, US-12: 3, US-25: 3, US-26: 2, US-27: 2, TS-03: 3, TS-05: 5, TS-06: 3, TS-07: 5, TS-08: 3, TS-09: 3, TS-12: 2).
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### 5.3.3. Evaluaciones según heurísticas
-[Pendiente]
+##### 5.2.3.2. Aspect Leaders and Collaborators
 
-### 5.4. Video About-the-Product
-[Pendiente]
--->
+En el presente Sprint 3, el alcance funcional y técnico se ha dividido en cuatro aspectos principales para garantizar una entrega eficiente y alineada con los requerimientos arquitectónicos y de validación:
+1. **Backend Development:** Desarrollo de los Web Services y lógica de negocio mediante ASP.NET Core y C#.
+2. **Backend Deployment:** Configuración de servicios en la nube y despliegue continuo de los Web Services.
+3. **Frontend Adaptations:** Ajustes en la aplicación cliente para el consumo de los nuevos endpoints reales.
+4. **Validation Interviews:** Diseño, ejecución y análisis de las entrevistas de validación y heurísticas con usuarios finales.
 
-<!--  PENDIENTE PARA ENTREGA FINAL TB2
-### 5.3. Validation Interviews
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: center;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: left;">Team Member (Last Name, First Name)</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">GitHub Username</th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Backend Development<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Backend Deployment<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Frontend Adaptations<br><small>Leader (L) / Collaborator (C)</small></th>
+        <th style="padding: 10px; border: 1px solid #ddd;">Validation Interviews<br><small>Leader (L) / Collaborator (C)</small></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">López Monroy, Rodrigo Alfredo</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">rodrigolopezu</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Luis Miranda, Diego Andres</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">andrewdmr</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Mamani Vilca, Alan Jaivi</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">alanmamaniv</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Pillaca Gonzales, Andy Saúl</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">apillacag</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: left;">Sanchez Cuadrado, Juan Antonio</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">juanasc05</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+        <td style="padding: 10px; border: 1px solid #ddd; font-weight: bold; color: #2e7d32;">L</td>
+        <td style="padding: 10px; border: 1px solid #ddd; color: #1976d2;">C</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-#### 5.3.1. Diseño de Entrevistas
-[Pendiente]
+##### 5.2.3.3. Sprint Backlog 3
 
-#### 5.3.2. Registro de Entrevistas
-[Pendiente]
+El presente Sprint Backlog detalla la descomposición técnica de las historias de usuario y técnicas seleccionadas para la tercera iteración del proyecto. El objetivo principal de este Sprint es desarrollar el Backend mediante servicios RESTful en C# con ASP.NET Core, establecer la persistencia de datos reales, conectar el Frontend actualizado con los nuevos endpoints y desplegar la solución en la nube para pruebas de integración. A continuación, se presenta la captura de nuestro tablero en Jira Software, seguida de la tabla de control de estado con la distribución de los Work-Items.
 
-#### 5.3.3. Evaluaciones según heurísticas
-[Pendiente]
+<div align="center">
+  <img src="docs/assets/sprint3_jira.png" alt="Sprint 3 Jira Board" width="80%">
+</div>
 
-### 5.4. Video About-the-Product
-[Pendiente]
--->
+<br>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 13px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #e0e0e0; font-weight: bold;">
+        <th style="padding: 10px; text-align: center; border: 1px solid #ddd;">Sprint #</th>
+        <th colspan="7" style="padding: 10px; text-align: left; border: 1px solid #ddd;">3</th>
+      </tr>
+      <tr style="background-color: #f2f2f2;">
+        <th colspan="2" style="text-align: center; border: 1px solid #ddd; padding: 10px;">User Story</th>
+        <th colspan="6" style="text-align: center; border: 1px solid #ddd; padding: 10px;">Work-Item / Task</th>
+      </tr>
+      <tr style="background-color: #fafafa; text-align: center;">
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 6%;">Id</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 15%;">Title</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 30%;">Description</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Estimation (Hours)</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 12%;">Assigned To</th>
+        <th style="border: 1px solid #ddd; padding: 5px; width: 8%;">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-11</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Actualizar estado del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-32</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Adaptación UI de estado</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Actualizar componentes frontend para enviar cambios de estado al nuevo API.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-33</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Endpoint PATCH estado</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear controlador en C# para actualizar la etapa del vehículo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-12</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar detalle del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-34</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Integración GET detalle</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Consumir el endpoint real para poblar la vista de detalles del vehículo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-35</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Lógica de negocio detalle</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Implementar servicio en backend que consolide datos de cliente y vehículo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-25</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar tareas del vehículo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-36</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Endpoint tareas por orden</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Exponer lista de tareas asociadas a una orden de trabajo específica.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-37</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Componente tareas cliente</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Desarrollar componente de solo lectura para el panel de cliente.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-26</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar fechas estimadas</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-38</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Cálculo de fechas API</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Lógica en backend para proyectar y retornar fechas de entrega.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-39</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Renderizado de fechas</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Formatear y mostrar fechas proyectadas en la vista de seguimiento.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">US-27</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Visualizar costos del servicio</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-40</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Agregación de costos</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Servicio para sumar costos de tareas planificadas en la orden.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-41</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">UI desglose de costos</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Mostrar tabla de presupuesto y total estimado en el panel de cliente.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-03</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Estructurar backend modular</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-42</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración de capas</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Separar el proyecto C# en Controllers, Services y Data.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-43</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Inyección de Dependencias</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Registrar servicios y repositorios en el contenedor IoC de ASP.NET Core.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-05</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Implementar persistencia de datos</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-44</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración EF Core</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Instalar Entity Framework Core y configurar la cadena de conexión.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-45</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Migraciones y Seed Data</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Generar la migración inicial de la base de datos y poblar datos base.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-06</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Gestionar relaciones entre entidades</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-46</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mapeo Fluent API</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Definir llaves primarias, foráneas y restricciones en el DbContext.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-47</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Repositorios de datos</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear clases para abstraer el acceso a datos y manejo de transacciones.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-07</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Consumir APIs externas</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-48</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configurar HttpClient</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Preparar HttpClient Factory para la comunicación con servicios externos.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-49</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Implementación Swagger</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Configurar OpenAPI Specification para exponer la documentación de la API.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-08</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Manejar respuestas de API</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-50</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Data Transfer Objects (DTOs)</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Crear estructuras para recibir y enviar datos de forma segura.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-51</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Serialización JSON</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Asegurar correcto parseo y validación de los datos entrantes.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Mamani, Alan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-09</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Implementar manejo de errores</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-52</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Middleware Excepciones</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Capturar errores no controlados a nivel global en la API.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">López, Rodrigo</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-53</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Formatos de error HTTP</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Estandarizar las respuestas 400 y 500 para el cliente web.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Sanchez, Juan</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px; text-align: center; font-weight: bold;">TS-12</td>
+        <td rowspan="2" style="border: 1px solid #ddd; padding: 8px;">Configurar hosting y dominio</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-54</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Despliegue del Web Service</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Publicar el backend C# en un entorno Cloud para consumo externo.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Luis, Diego</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">WI-55</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Configuración de CORS</td>
+        <td style="border: 1px solid #ddd; padding: 8px;"><i>Permitir las peticiones desde el origen del frontend desplegado.</i></td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td>
+        <td style="border: 1px solid #ddd; padding: 8px;">Pillaca, Andy</td>
+        <td style="border: 1px solid #ddd; padding: 8px; text-align: center; color: #2aac2a; font-weight: bold;">Done</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+##### 5.2.3.4. Development Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 3, el equipo se enfocó en la implementación funcional de los Web Services (Backend) utilizando C# y el marco de trabajo ASP.NET Core, logrando reemplazar exitosamente el entorno simulado (Fake API) empleado en la iteración anterior. Asimismo, se consolidó la arquitectura del software basada en Domain-Driven Design (DDD), estableciendo contextos delimitados (Bounded Contexts) claros y desacoplados para la gestión operativa del taller automotriz.<br>
+
+Entre los principales avances de este sprint se destacan la implementación de la persistencia de datos relacional mediante Entity Framework Core, la configuración de migraciones automáticas de la base de datos y la exposición de endpoints RESTful mediante controladores especializados para la gestión de inventario, órdenes de trabajo (Work Orders), vehículos (Fleet Management) y clientes. Además, se desarrollaron tareas de contenerización mediante Docker para asegurar el despliegue en la nube y se ejecutó la sincronización final con la interfaz de usuario (Frontend).<br>
+
+En la siguiente tabla se presentan commits que representan hitos clave del desarrollo de este sprint en el repositorio del backend:
+</p>
+
+<table style="width: 100%; border-collapse: collapse; text-align: justify;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">Repository</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Branch</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Id</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Commit Message Body</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Committed on (Date)</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/shared-persistence</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>5052eea</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add base structure for selected bounded contexts</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">05/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/inventory-management</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>8bd82ab</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">implement InventoryItemsController for inventory management API</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">07/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/workshop-operations-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>0217886</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add WorkOrder entity and methods</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">08/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/workshop-operations-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>3635a20</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add logical Task controller create, update, delete, patch</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">09/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/workshop-operations-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>4642489</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">task-workorder management AppDbContext and repositories implementation</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">09/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/fleet-management-bounded-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>12ff2ae</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat(fleet-management):</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add VehiclesController REST endpoint</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">10/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/customer-management-bounded-context</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>9d20ad1</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat(customer-management):</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add CustomerController REST endpoint</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">11/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/IAM</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>fd8de5f</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add IAM v.1.0</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">12/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>develop</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>476e366</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add Dockerfile start of deployment</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>develop</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>2702651</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">fix:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">add execution automatic migrations in Program.cs</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/06/2026</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>InnovaTechStudio/AutoService-730-AW-Backend</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>feature/final-backend-sync</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;"><code>b0378cc</code></td>
+      <td style="border: 1px solid #ddd; padding: 8px;">feat:</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">Final backend sync</td>
+      <td style="border: 1px solid #ddd; padding: 8px;">13/06/2026</td>
+    </tr>
+  </tbody>
+</table>
+
+##### 5.2.3.5. Execution Evidence for Sprint Review
+
+<p align="justify">
+Durante el Sprint 3, el equipo logró exitosamente la integración completa entre el Frontend actualizado y los nuevos Web Services desarrollados en C# con ASP.NET Core. Se reemplazó por completo la dependencia del entorno simulado (Fake API), permitiendo que la aplicación web consuma, registre y actualice datos reales alojados en una base de datos relacional. 
+<br><br>
+Los principales logros de ejecución incluyen la correcta visualización del detalle de los vehículos, el cálculo dinámico de costos y fechas estimadas de entrega, y la capacidad de actualizar el estado operativo de los vehículos en el taller, reflejando estos cambios en tiempo real en el panel del cliente.
+</p>
+
+<div align="center">
+  <h5>Captura de Integración: Vista de Detalle y Costos de Orden de Trabajo</h5>
+  <img src="docs/assets/execution_frontend_integration.png" alt="Frontend Integration with C# Backend" width="80%">
+</div>
+
+<br>
+
+<p align="justify">
+Para ilustrar la navegación y el correcto funcionamiento de estos flujos integrados, se ha preparado un video demostrativo. En el siguiente enlace se evidencia la interacción del usuario final con las nuevas funcionalidades y el consumo exitoso de los servicios desplegados:
+</p>
+
+<ul>
+  <li><b>Video de Ejecución (Sprint 3):</b> <a href="enlace_pendiente" target="_blank">Ver demostración de integración Front-Back</a></li>
+</ul>
+
+##### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+<p align="justify">
+Para garantizar la correcta adopción, mantenimiento y consumo de los Web Services desarrollados en el presente hito, se implementó la documentación interactiva de la API utilizando la especificación OpenAPI a través de la herramienta Swagger. Esta interfaz permite a los desarrolladores de las aplicaciones cliente visualizar de manera transparente la estructura de las rutas, los esquemas de los recursos y los parámetros requeridos para las solicitudes HTTP.
+<br><br>
+A continuación, se presenta el registro detallado y completo de las acciones implementadas en la arquitectura orientada a servicios del sistema AutoService:
+</p>
+
+<ul>
+  <li><b>Repositorio de Web Services:</b> <a href="https://github.com/InnovaTechStudio/AutoService-730-AW-Backend" target="_blank">AutoService-730-AW-Backend</a></li>
+  <li><b>Documentación Interactiva (Swagger UI):</b> <a href="https://autoservice-aw-backend.onrender.com/swagger/index.html" target="_blank">AutoService API v1 Documentation</a></li>
+</ul>
+
+<div align="center">
+  <table style="margin: auto; width: 100%; border-collapse: collapse; text-align: left; font-size: 12px; border: 1px solid #ddd;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 8px; border: 1px solid #ddd; text-align: center; width: 25%;">Endpoint / Verbo HTTP</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 30%;">Descripción de la Acción</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 25%;">Parámetros Requeridos</th>
+        <th style="padding: 8px; border: 1px solid #ddd; width: 20%;">Respuesta Esperada (JSON)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Autenticación y Acceso (Auth)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/sign-in</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Permite el inicio de sesión de usuarios registrados.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignInResource</code> (email, password).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Token de acceso.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/sign-up</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Registra una credencial de usuario con un rol y taller específico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignUpResource</code> (email, password, role, workshopId).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Usuario creado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/auth/register-workshop</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Registra un nuevo taller automotriz junto con su administrador base.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>SignUpWorkshopResource</code> (workshopName, email, password).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Taller registrado.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Gestión de Clientes (Customers)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/customers</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Crea un nuevo perfil de cliente en el taller.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateCustomerResource</code> (fullName, dni, email, phone).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Cliente guardado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/customers</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Recupera el listado completo de clientes registrados en el sistema.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Colección de clientes.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/customers/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Obtiene la información detallada de un cliente según su identificador único.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Datos de cliente.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/customers/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Actualiza los datos personales y de contacto de un cliente existente.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>UpdateCustomerResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Cliente modificado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>DELETE</strong><br><code>/api/v1/customers/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Elimina de forma lógica o física un cliente del sistema.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Confirmación de remoción.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Inventario de Repuestos (InventoryItems)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/inventoryitems</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Registra un nuevo artículo o repuesto en el almacén del taller.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateInventoryItemResource</code> (name, category, brand, unitPrice, stock, minStock, image).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Artículo registrado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/inventoryitems</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Obtiene todos los repuestos y materiales disponibles en el inventario.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Lista de inventario.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/inventoryitems/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Recupera los datos técnicos y stock actual de un repuesto específico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Detalle del artículo.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/inventoryitems/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Actualiza el stock, precio unitario o propiedades de un ítem de inventario.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>CreateInventoryItemResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Artículo actualizado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>DELETE</strong><br><code>/api/v1/inventoryitems/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Remueve un artículo del catálogo de repuestos.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Artículo eliminado.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Gestión de Mecánicos (Mechanics)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/mechanics</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Registra un nuevo miembro del equipo técnico o mecánico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateMechanicResource</code> (fullName, specialty, maxCapacity, email, password).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Mecánico creado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/mechanics</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Obtiene la nómina de mecánicos registrados y sus respectivas especialidades.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Lista de mecánicos.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/mechanics/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Recupera el perfil de un mecánico específico y su capacidad operativa.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Datos de mecánico.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/mechanics/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Modifica la especialidad, capacidad máxima o datos de contacto de un mecánico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>UpdateMechanicResource</code> (fullName, specialty, maxCapacity, email).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Mecánico actualizado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>DELETE</strong><br><code>/api/v1/mechanics/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Elimina el registro de un mecánico del personal activo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Mecánico eliminado.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Tareas Operativas (Tasks)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/tasks</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Asigna una nueva actividad técnica específica a una orden de trabajo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateTaskResource</code> (workOrderId, mechanicId, description, priority, estimatedTime, laborPrice).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Tarea creada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tasks</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Filtra y lista las tareas operativas asociadas a una orden o a un mecánico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Query:</b> <code>workOrderId</code> (integer), <code>mechanicId</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Colección de tareas.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/tasks/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Reemplaza integralmente las propiedades y la asignación técnica de una tarea.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>UpdateTaskResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Tarea modificada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PATCH</strong><br><code>/api/v1/tasks/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Efectúa cambios parciales en el estado, diagnóstico técnico o aprobaciones de una tarea.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>PatchTaskResource</code> (status, technicalDiagnosis, customerExplanation, internalObservation, evidenceRegistered, adminReviewStatus).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Campos actualizados.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>DELETE</strong><br><code>/api/v1/tasks/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Cancela y remueve una tarea operativa de la orden de trabajo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Tarea eliminada.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Seguimiento Público (Tracking)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/workorders</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Permite a un cliente consultar el estado general de su orden mediante el código de seguimiento único.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Query:</b> <code>trackingCode</code> (string).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Estado de orden.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/vehicles/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Monitorea la ubicación interna o etapa de reparación actual de un vehículo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Seguimiento de vehículo.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/tasks</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Recupera el progreso en tiempo real de las tareas de una determinada orden para el cliente.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Query:</b> <code>workOrderId</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Tareas en curso.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/customers/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Expone de forma segura las actualizaciones dirigidas al perfil de un cliente en particular.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Estado del cliente.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/tracking/workshops/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Muestra la información de disponibilidad y datos del taller de forma externa.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (string).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Detalle de taller.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Control de Flotas y Vehículos (Vehicles)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/vehicles</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Asocia y registra un nuevo vehículo a la cuenta de un cliente específico.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateVehicleResource</code> (plate, brand, model, year, color, status, image, customerId).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Vehículo guardado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/vehicles</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Devuelve la lista general de todos los vehículos registrados en el taller.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Lista de vehículos.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/vehicles/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Obtiene las características técnicas detalladas de un vehículo en particular.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Detalle de vehículo.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/vehicles/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Modifica de forma integral las características o el estado asignado de un vehículo.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>CreateVehicleResource</code>.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Vehículo modificado.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>DELETE</strong><br><code>/api/v1/vehicles/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Remueve la unidad automotriz del listado activo del sistema.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Vehículo eliminado.</td>
+      </tr>
+      <tr style="background-color: #fafafa; font-weight: bold;"><td colspan="4" style="padding: 6px; border: 1px solid #ddd;">Módulo de Órdenes de Trabajo (WorkOrders)</td></tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>POST</strong><br><code>/api/v1/workorders</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Abre un nuevo expediente u orden de servicio ligada a un vehículo y cliente.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Body:</b> <code>CreateWorkOrderResource</code> (vehicleId, customerId, mechanicId, description, estimatedDate).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Orden creada.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/workorders</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Lista la totalidad de órdenes de servicio registradas en la base de datos.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Ninguno.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Lista de órdenes.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>GET</strong><br><code>/api/v1/workorders/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Obtiene el desglose, diagnóstico, plazos y mecánicos encargados de una orden específica.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Detalle de la orden.</td>
+      </tr>
+      <tr>
+        <td style="padding: 6px; border: 1px solid #ddd; text-align: center;"><strong>PUT</strong><br><code>/api/v1/workorders/{id}</code></td>
+        <td style="padding: 6px; border: 1px solid #ddd;">Actualiza las verificaciones de control de calidad (limpieza, piezas, pruebas) y estado final de la orden.</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>Path:</b> <code>id</code> (integer)<br><b>Body:</b> <code>UpdateWorkOrderResource</code> (description, estimatedDate, price, status, tasksCompleted, sparePartsChecked, diagnosisValidated, cleaningDone, finalTestDone).</td>
+        <td style="padding: 6px; border: 1px solid #ddd;"><b>200 OK</b><br>Orden actualizada.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<br>
+
+<p align="justify">
+A continuación, se presentan las capturas correspondientes que evidencian la disponibilidad de la interfaz interactiva sobre el entorno real en la nube, demostrando la consistencia de los contratos de datos mapeados.
+</p>
+
+<div align="center">
+  <h5>Vista General de los Endpoints Documentados</h5>
+  <img src="docs/assets/swagger_general.png" alt="Swagger UI General View" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Detalle de Parámetros y Esquemas en Endpoint POST</h5>
+  <img src="docs/assets/swagger_endpoint_detail.png" alt="Swagger UI Endpoint Detail" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Prueba de Ejecución (Try it out) e Interacción con el API</h5>
+  <img src="docs/assets/swagger_tryitout.png" alt="Swagger UI Endpoint Try it out" width="80%">
+</div>
+
+##### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+<p align="justify">
+En el presente apartado se detallan los procesos técnicos y las configuraciones ejecutadas para el despliegue de los distintos componentes de la solución de software durante el Sprint 3. Las actividades abarcaron desde la configuración de recursos en proveedores en la nube hasta la automatización de los flujos de integración y despliegue continuo (CI/CD), asegurando la disponibilidad productiva de la Landing Page, la Aplicación Web (Frontend) y los Servicios Web (Backend).
+</p>
 
 ---
+
+###### A. Componentes Desplegados y Entornos Cloud
+
+<p align="justify">
+Para garantizar el correcto funcionamiento distribuido de la arquitectura, se gestionó la publicación de tres artefactos principales en diferentes proveedores en la nube:
+</p>
+
+<ul>
+  <li>
+    <b>Landing Page (Sitio Web Estático):</b> Alojada y distribuida mediante GitHub Pages, garantizando una entrega rápida de la página promocional del producto.
+    <br><b>URL:</b> <a href="https://innovatechstudio.github.io/Autoservice-landing-page-aw/" target="_blank">https://innovatechstudio.github.io/Autoservice-landing-page-aw/</a>
+  </li>
+  <li>
+    <b>Web Application (Frontend):</b> Desplegada en la plataforma Microsoft Azure utilizando el servicio Azure Static Web Apps, integrado con flujos automatizados de compilación.
+    <br><b>URL:</b> <a href="https://witty-meadow-063b9d310.7.azurestaticapps.net/login" target="_blank">https://witty-meadow-063b9d310.7.azurestaticapps.net/login</a>
+  </li>
+  <li>
+    <b>Web Services (Backend API):</b> Hospedados en la plataforma Cloud de Render mediante la construcción y ejecución de un contenedor Docker, exponiendo la lógica de negocio y la conexión a la base de datos.
+    <br><b>URL:</b> <a href="https://autoservice-aw-backend.onrender.com/swagger/index.html" target="_blank">https://autoservice-aw-backend.onrender.com/swagger/index.html</a>
+  </li>
+</ul>
+
+---
+
+###### B. Configuración Paso a Paso del Proceso de Despliegue
+
+<p align="justify">
+A continuación, se describen de manera secuencial los pasos realizados por el equipo de ingeniería para materializar el entorno productivo de la solución integral:
+</p>
+
+**Paso 1: Despliegue de la Landing Page (GitHub Pages)**
+<p align="justify">
+Se configuró el repositorio de la Landing Page para utilizar GitHub Pages. Desde la configuración del repositorio, se seleccionó la rama de producción y el directorio raíz para la publicación automática del HTML, CSS y JavaScript cada vez que se realiza una integración de cambios (Pull Request aprobado) en dicha rama.
+</p>
+
+**Paso 2: Automatización del Frontend en Azure Static Web Apps**
+<p align="justify">
+Para el componente cliente (Web Application), se provisionó un recurso dentro del portal de Azure. Este proceso generó automáticamente un archivo de flujo de trabajo (workflow) en GitHub Actions. Dicho flujo intercepta los cambios en la rama principal, instala las dependencias de Vue.js, compila los artefactos estáticos del lado del cliente y realiza el despliegue automático hacia los servidores de borde de Azure.
+</p>
+
+**Paso 3: Contenerización y Despliegue del Backend en Render**
+<p align="justify">
+Se estructuró un archivo <code>Dockerfile</code> en la raíz del proyecto ASP.NET Core para definir un entorno de compilación multi-etapa. Posteriormente, en el panel de administración de Render, se creó un recurso de tipo <i>Web Service</i> vinculado al repositorio del backend. Render automatiza la compilación de la imagen Docker ante cada actualización y expone el puerto HTTP configurado para producción, asegurando además la inyección de variables de entorno (como la cadena de conexión a la base de datos).
+</p>
+
+**Paso 4: Configuración de Políticas CORS**
+<p align="justify">
+Para permitir la correcta comunicación entre la Aplicación Web (alojada en Azure) y los Servicios Web (alojados en Render), se configuraron las políticas de Intercambio de Recursos de Origen Cruzado (CORS) en el archivo <code>Program.cs</code> del backend, autorizando explícitamente las peticiones HTTP provenientes del dominio de la aplicación web estática.
+</p>
+
+---
+
+###### C. Evidencias Gráficas de Despliegue Exitoso
+
+<p align="justify">
+En cumplimiento con los criterios de validación de calidad, se presentan las capturas correspondientes a los paneles de administración en la nube y repositorios, demostrando el estado activo y el correcto funcionamiento de los flujos de despliegue:
+</p>
+
+<div align="center">
+  <h5>Evidencia 1: Configuración Activa de GitHub Pages para la Landing Page</h5>
+  <img src="docs/assets/deployment_githubpages.png" alt="GitHub Pages Deployment Evidence" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Evidencia 2: Flujo de Compilación y Despliegue Exitoso en Azure (Frontend)</h5>
+  <img src="docs/assets/deployment_azure_success.png" alt="Azure Static Web Apps Deployment Evidence" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h5>Evidencia 3: Consola de Administración y Estado "Live" en Render (Backend)</h5>
+  <img src="docs/assets/deployment_render_success.png" alt="Render Web Service Deployment Evidence" width="80%">
+</div>
+
+<!--  PENDIENTE PARA ENTREGA FINAL TB2
+### 5.3. Validation Interviews
+
+#### 5.3.1. Diseño de Entrevistas
+[Pendiente]
+
+#### 5.3.2. Registro de Entrevistas
+[Pendiente]
+
+#### 5.3.3. Evaluaciones según heurísticas
+[Pendiente]
+
+### 5.4. Video About-the-Product
+[Pendiente]
+-->
 
 ## Conclusiones
 

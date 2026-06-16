@@ -6564,6 +6564,36 @@ Para garantizar el correcto funcionamiento distribuido de la arquitectura, se ge
     <b>Web Services (Backend API):</b> Hospedados en la plataforma Cloud de Render mediante la construcción y ejecución de un contenedor Docker, exponiendo la lógica de negocio y la conexión a la base de datos.
     <br><b>URL:</b> <a href="https://autoservice-aw-backend.onrender.com/swagger/index.html" target="_blank">https://autoservice-aw-backend.onrender.com/swagger/index.html</a>
   </li>
+  <br>
+
+  <p align="justify">
+A continuación, se presentan la configuracion para el despligue del backend Web Services en Render.
+</p>
+
+<div align="center">
+  <h5>Se implementó una estrategia DockerFile de construcción multi-etapa optimizada para producción, dividida en dos fases. La primera, Build para restaurar dependencias, copiar el código fuente y compilar la aplicación en modo Release, garantizando un proceso de construcción eficiente. La segunda, Runtime, donde únicamente se copian los archivos compilados necesarios para la ejecución. Además, se expone el puerto 10000 requerido por Render y se configura el ENTRYPOINT para iniciar el servidor web Kestrel ejecutando AutoServiceAW.API.dll, logrando una imagen final más pequeña, segura y optimizada para despliegue.</h5>
+  <img src="docs/assets/evidence-config/back-config0.png" alt="back-config" width="40%">
+</div>
+<div align="center">
+  <h5>Se enlazó el repositorio de GitHub y se definieron los parámetros esenciales de compilación. Se apuntó a la rama estable (main). Para Language se seleccionó el entorno de contenedores Docker para guiar correctamente al motor de Render hacia el subdirectorio donde reside la configuración de empaquetado del proyecto API.</h5>
+  <img src="docs/assets/evidence-config/back-config.png" alt="back-config" width="80%">
+</div>
+<br>
+<div align="center">
+  <h5>Configuración de la pestaña Variables de entorno para desacoplar datos sensibles del código fuente:</h5>
+  <img src="docs/assets/evidence-config/back-config3.png" alt="back-config" width="80%">
+</div>
+<br>
+<div align="center">
+  <h5>Se muestra el registro del historial de despliegue automatizado en Render. Muestra el flujo de integración continua. Se destaca el despliegue exitoso (Deploy live) del ajuste clave en el archivo Program.cs encargado del auto mapeo del sistema.</h5>
+  <img src="docs/assets/evidence-config/back-config2.png" alt="back-config" width="80%">
+</div>
+<br>
+<div align="center">
+  <h5>Vista final de la pestaña Data que valida el éxito de la arquitectura. Al iniciar el contenedor en Render, el ORM (Entity Framework Core) ejecutó de manera automática las migraciones pendientes, creando de forma física el historial de migraciones  y la estructura completa de tablas requeridas por los contextos de negocio del sistema.</h5>
+  <img src="docs/assets/evidence-config/back-config4.png" alt="back-config" width="80%">
+</div>
+<br>
 </ul>
 
 ---

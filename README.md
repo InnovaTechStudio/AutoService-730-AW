@@ -6750,31 +6750,38 @@ A continuación, se presentan las conclusiones derivadas del desarrollo de los p
 <p align="justify"><b>Conclusiones:</b></p>
 <ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
   <li style="margin-bottom: 0.8em;">
-    <strong>Validación del modelo de negocio:</strong> La aplicación de la metodología Lean UX y el proceso de Needfinding permitió corroborar una necesidad crítica en el sector de mantenimiento automotriz: la falta de transparencia y la ineficiencia en la comunicación entre los talleres y los propietarios de vehículos. AutoService se perfila como una solución viable y centrada en el usuario para resolver este "pain point" identificado en los segmentos objetivo.
+    <strong>Implementación Integral de la Solución:</strong> Se logró desarrollar e integrar exitosamente una arquitectura compuesta por un frontend en Vue.js y un backend en ASP.NET Core, permitiendo la comunicación entre ambas capas mediante servicios REST y garantizando el funcionamiento integral de la plataforma AutoService.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Solidez Arquitectónica:</strong> La utilización conjunta del EventStorming y el enfoque Domain-Driven Design (DDD) facilitó una transición estructurada desde la lógica de negocio hacia una arquitectura de software orientada a servicios (C4 Model). Esto asegura que el sistema sea escalable, mantenible y modular desde su concepción técnica inicial.
+    <strong>Arquitectura Escalable y Mantenible:</strong> La aplicación de Domain-Driven Design (DDD) y la organización mediante Bounded Contexts permitió estructurar adecuadamente los dominios del negocio, favoreciendo la mantenibilidad, modularidad y escalabilidad del sistema para futuras iteraciones.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Eficacia en el Desarrollo Ágil:</strong> La ejecución exitosa del Sprint 1, evidenciada en el despliegue automático de la Landing Page mediante GitHub Pages y la integración de EmailJS, demuestra una correcta adopción de prácticas de Software Configuration Management, control de versiones con GitFlow y entrega continua por parte del equipo.
+    <strong>Automatización y Despliegue Continuo:</strong> La integración de GitHub con Azure Static Web Apps y Render permitió automatizar los procesos de despliegue del frontend y backend, facilitando la entrega continua y asegurando la disponibilidad de la solución en entornos accesibles públicamente.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Gestion de Configuración robusta:</strong> La implementación de una gestión de configuración estructurada y estándares técnicos rigurosos permitió consolidar una base profesional para el desarrollo de AutoService. La adopción de la metodología GitFlow y arquitecturas modulares asegura que el proyecto sea una solución técnica viable y escalable, resolviendo la complejidad de integrar múltiples componentes bajo principios fundamentales de mantenibilidad y legibilidad internacional.
+    <strong>Persistencia y Gestión de Datos:</strong> La implementación de Entity Framework Core junto con las migraciones automáticas permitió establecer una capa de persistencia robusta, garantizando la correcta administración de la información y la evolución controlada de la base de datos del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Madurez en la Gestión del Desarrollo:</strong> El uso de GitFlow, Pull Requests, Conventional Commits y documentación mediante Swagger/OpenAPI contribuyó a mantener un proceso de desarrollo colaborativo, organizado y alineado con buenas prácticas de ingeniería de software.
   </li>
 </ul>
 
 <p align="justify"><b>Recomendaciones:</b></p>
 <ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
   <li style="margin-bottom: 0.8em;">
-    <strong>Mantenimiento de Estándares:</strong> Se recomienda mantener la rigurosidad en las ceremonias ágiles y en la revisión de Pull Requests para los siguientes sprints, garantizando que el código de la Web Application (Vue.js) y el Backend (ASP.NET Core) mantengan los estándares de calidad y convenciones definidos en la guía de estilos.
+    <strong>Fortalecimiento de la Seguridad:</strong> Se recomienda implementar mecanismos avanzados de autenticación, autorización y gestión de roles para garantizar la protección de los recursos y la información administrada por la plataforma.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Validación Temprana:</strong> Realizar pruebas de usabilidad tempranas utilizando el prototipo interactivo en Figma y la Landing Page desplegada para recolectar retroalimentación de usuarios reales antes de iniciar la programación masiva de los módulos operativos del Core Domain.
+    <strong>Incorporación de Pruebas Automatizadas:</strong> Se sugiere ampliar la cobertura de pruebas unitarias, de integración y de aceptación con el fin de incrementar la confiabilidad del sistema y facilitar futuras tareas de mantenimiento.
   </li>
   <li style="margin-bottom: 0.8em;">
-    <strong>Priorización Técnica:</strong> Se sugiere priorizar la implementación de la capa de seguridad (Identity & Access Management Management) y la configuración de la persistencia de datos en el inicio del Sprint 2, para establecer las bases de autenticación requeridas por los distintos actores (Administrador, Mecánico y Cliente) de la plataforma.
+    <strong>Monitoreo y Observabilidad:</strong> Resulta conveniente incorporar herramientas de monitoreo, registro de eventos y seguimiento de errores que permitan detectar incidencias de manera temprana y mejorar la estabilidad operativa de la solución.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Evolución Funcional de la Plataforma:</strong> Se recomienda continuar incorporando funcionalidades orientadas al negocio, tales como reportes, notificaciones automáticas, indicadores de desempeño e historial detallado de servicios para aumentar el valor ofrecido a los usuarios.
   </li>
 </ul>
+
 
 ---
 

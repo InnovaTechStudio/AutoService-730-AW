@@ -1308,55 +1308,50 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 </div>
 
 ### 4.7. Software Object-Oriented Design
-
 <p align="justify">
-  En esta sección se presenta el diseño orientado a objetos del sistema <strong>AutoService</strong>, 
-  alineado con los principios de <strong>Domain-Driven Design (DDD)</strong> y 
-  <strong>Clean Architecture</strong>.
+En esta sección se presenta el diseño orientado a objetos del sistema <strong>AutoService</strong>, alineado con los principios de <strong>Domain-Driven Design (DDD)</strong> y <strong>Clean Architecture</strong>.
 </p>
 
 <p align="justify">
-  Los diagramas de clases modelan la estructura estática de cada 
-  <strong>Bounded Context</strong> identificado en el <strong>Event Storming</strong>, 
-  asegurando una clara separación de responsabilidades, alta cohesión y bajo acoplamiento.
+Los diagramas de clases muestran los elementos de implementación de cada bounded context, incluyendo clases, interfaces, enumeraciones, atributos, métodos y sus scopes. También se detallan las relaciones entre elementos, con multiplicidad, dirección y nombres de rol cuando aplica.
 </p>
 
-
-
-<table>
-  <thead>
-    <tr>
-      <th>Característica</th>
-      <th>Descripción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Notación UML Estándar</td>
-      <td align="justify">Se utiliza la sintaxis oficial de diagramas de clases.</td>
-    </tr>
-    <tr>
-      <td>Visibilidad (Scope)</td>
-      <td align="justify">- private, + public, # protected – encapsulamiento.</td>
-    </tr>
-    <tr>
-      <td>Tipos de Datos C#</td>
-      <td align="justify">Guid, string, DateTime, decimal, bool, int – tipado nativo .NET.</td>
-    </tr>
-    <tr>
-      <td>Relaciones Explícitas</td>
-      <td align="justify">Nombre de rol, dirección de navegación y multiplicidad (1, 0..1, *).</td>
-    </tr>
-    <tr>
-      <td>Optimización para Persistencia</td>
-      <td align="justify">Entidades consolidadas para mapeo directo al modelo relacional de 16 tablas.</td>
-    </tr>
-    <tr>
-      <td>Patrones y Principios</td>
-      <td align="justify">SOLID (SRP, DIP), Repository, Factory, Strategy.</td>
-    </tr>
-  </tbody>
-</table>
+<div style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th>Característica</th>
+        <th>Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Notación UML Estándar</td>
+        <td style="text-align: justify;">Se utiliza la sintaxis oficial de diagramas de clases para representar clases, interfaces y enums.</td>
+      </tr>
+      <tr>
+        <td>Visibilidad (Scope)</td>
+        <td style="text-align: justify;">- private, + public, # protected – encapsulamiento de atributos y operaciones.</td>
+      </tr>
+      <tr>
+        <td>Miembros de Clase</td>
+        <td style="text-align: justify;">Atributos, métodos y constructores definidos con tipo de dato, scope y propósito.</td>
+      </tr>
+      <tr>
+        <td>Enumeraciones</td>
+        <td style="text-align: justify;">Estados, roles y tipos representados como enums en el modelo de dominio.</td>
+      </tr>
+      <tr>
+        <td>Relaciones Explícitas</td>
+        <td style="text-align: justify;">Asociaciones, agregaciones, composiciones y dependencias con multiplicidad y dirección.</td>
+      </tr>
+      <tr>
+        <td>Patrones y Principios</td>
+        <td style="text-align: justify;">SOLID, Repository, Factory, Strategy, Domain Events y separación clara de bounded contexts.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 
 #### 4.7.1. Class Diagrams
@@ -1364,135 +1359,159 @@ Este diagrama profundiza en el contenedor API RESTful para exponer los bloques e
 ##### Diagrama de Clases General - AutoService
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-autoservice.png"width="1000">
+<img src="docs/assets/chapter-4/class-diagrams/bounded-contexts-dc.png" width="1000">
 </div>
 
-
-##### Identity & Profile Context
+##### 1. Tenant Management Context
 
 ###### Responsabilidades Principales
-- Autenticación de usuarios mediante credenciales seguras (hash de contraseñas)
-- Gestión de roles y asignación a usuarios
-- Control de acceso multi-tenant mediante **WorkshopId**
-- Auditoría de asignación de roles (fecha de asignación)
+- Gestión centralizada de talleres (inquilinos) en la plataforma multi-taller SaaS
+- Registro y configuración de información de cada taller
+- Almacenamiento de ubicaciones y datos corporativos
+- Generación de identificadores únicos (tenant_id) para aislamiento de datos
 
 ###### Reglas de Negocio Clave
-- Cada usuario pertenece a un único taller (**WorkshopId**), asegurando aislamiento multi-tenant
-- Los roles disponibles son: **Admin**, **Mechanic**, **Client**
-- Un usuario puede tener múltiples roles simultáneamente
-- La asignación de roles registra la fecha para trazabilidad
-- Solo usuarios activos (**IsActive = true**) pueden autenticarse
+- Cada taller posee un tenant_id único que lo identifica en todo el sistema
+- Un taller puede tener una única dirección oficial registrada
+- El contexto expone puertos para crear, consultar y actualizar talleres
+- Es consumido por todos los demás contextos para garantizar multitenencia
+- Los índices optimizan búsquedas frecuentes por tenant_id
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-identity-&-profile-context.png"width="400">
+<img src="docs/assets/chapter-4/class-diagrams/tenant-management.png">
 </div>
 
-
-##### Workshop Operations Context (Core Domain)
+##### 2. Customer Management Context
 
 ###### Responsabilidades Principales
-- Gestión del ciclo de vida completo de las órdenes de trabajo
-- Registro y mantenimiento de información de clientes y vehículos
-- Desglose operativo de servicios en tareas asignables a mecánicos
-- Seguimiento del estado de servicios y auditoría de cambios
+- Registro y mantenimiento de información de clientes del taller
+- Almacenamiento de datos de identificación y contacto
+- Gestión de múltiples direcciones por cliente
+- Aislamiento de clientes por taller mediante workshop_id
+
+###### Reglas de Negocio Clave
+- Cada cliente está vinculado a un único taller (workshop_id)
+- El campo dni es único dentro del sistema para evitar duplicados
+- Un cliente puede tener múltiples direcciones registradas (relación 1-a-N)
+- Las restricciones de unicidad en email garantizan una única vía de contacto por cliente
+- El contexto expone puertos para crear, consultar, actualizar y eliminar clientes
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/customer-management.png">
+</div>
+
+##### 3. Fleet Management Context
+
+###### Responsabilidades Principales
+- Gestión del inventario de vehículos y sus características técnicas
+- Registro y seguimiento del historial de mantenimiento y servicios
+- Asociación de vehículos a clientes específicos
+- Control del estado operativo de cada unidad
+
+###### Reglas de Negocio Clave
+- Cada vehículo tiene una placa única (plate) que lo identifica
+- Un vehículo pertenece a un único cliente (customer_id)
+- Cada vehículo puede tener múltiples registros de servicio históricos
+- El contexto mantiene información de marca, modelo, año, color y estado
+- Los índices en plate y customer_id optimizan búsquedas operacionales
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/fleet-management.png">
+</div>
+
+##### 4. Staff Coordination Context
+
+###### Responsabilidades Principales
+- Registro y administración de información laboral de mecánicos
+- Gestión de horarios y turnos de trabajo
+- Control de disponibilidad y asignación de capacidad máxima
+- Coordinación de especialidades técnicas por mecánico
+
+###### Reglas de Negocio Clave
+- Cada mecánico está asociado a un taller específico (workshop_id)
+- Un mecánico puede tener múltiples franjas horarias (mechanic_schedule)
+- Las restricciones evitan solapamientos de turnos para el mismo mecánico
+- El campo max_capacity limita el número de tareas asignables simultáneamente
+- El contexto es consumido por workshop_operations para asignar tareas
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/staff-coordination.png">
+</div>
+
+##### 5. Inventory Management Context
+
+###### Responsabilidades Principales
+- Gestión centralizada de ítems de repuesto e insumos
+- Control de stock mínimo y disponibilidad de materiales
+- Administración de categorías y proveedores de repuestos
+- Generación automática de códigos SKU únicos
+
+###### Reglas de Negocio Clave
+- Cada ítem posee un sku único que lo identifica globalmente
+- Los ítems se agrupan en categorías para facilitar la búsqueda
+- El sistema registra el precio unitario y la cantidad en stock
+- Las restricciones de validación aseguran que unit_price >= 0 y stock >= 0
+- El contexto expone puertos para crear, consultar y actualizar ítems
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/inventory-management.png">
+</div>
+
+##### 6. IAM (Identity & Access Management) Context
+
+###### Responsabilidades Principales
+- Autenticación de usuarios mediante credenciales seguras
+- Gestión de roles y permisos para control de acceso
+- Generación y validación de tokens JWT para sesiones
+- Aislamiento multi-tenant mediante asociación usuario-taller
+
+###### Reglas de Negocio Clave
+- Cada usuario (User) está vinculado a un único taller (workshop_id)
+- Los roles disponibles incluyen: Admin, Mechanic, Client
+- Las contraseñas se almacenan como hashes seguros (pwd_hash)
+- Solo usuarios con permisos pueden acceder a módulos específicos
+- El contexto integra con tenantmanagement durante el registro de nuevas cuentas
+
+<div align="center">
+<img src="docs/assets/chapter-4/class-diagrams/iam.png">
+</div>
+
+##### 7. Workshop Operations Context (Core Domain)
+
+###### Responsabilidades Principales
+- Gestión del ciclo de vida completo de órdenes de trabajo
+- Modelado de tareas técnicas asignables a mecánicos
+- Registro y auditoría de cambios de estado
 - Generación de códigos de seguimiento para transparencia al cliente
 
 ###### Reglas de Negocio Clave
-- Cada orden de trabajo debe estar asociada a un vehículo y un taller
-- Los vehículos deben tener un único propietario (cliente) registrado
-- El estado de la orden sigue un flujo definido: **PENDING → IN_PROGRESS → COMPLETED → DELIVERED** (con soporte para **CANCELLED**)
-- Cada cambio de estado se registra en **StatusHistory** para auditoría
-- Cada orden genera un código de seguimiento único para consulta del cliente
-- El monto total de la orden se calcula a partir de los costos de sus tareas
+- Una orden de trabajo (WorkOrder) está asociada a un vehículo y cliente
+- El estado sigue un flujo: PENDING --> IN_PROGRESS --> COMPLETED --> DELIVERED (o CANCELLED)
+- Una orden puede contener múltiples tareas (Task) asignables a mecánicos
+- Cada cambio de estado se registra en el historial para auditoría
+- El monto total de la orden se calcula desde los ítems y tareas relacionadas
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-workshop-operations-context-core.png"width="800">
+<img src="docs/assets/chapter-4/class-diagrams/workshop-operations.png" >
 </div>
 
-
-##### Staff Management Context (Supporting Domain)
+##### 8. Public Tracking Context (Read-Only Interface)
 
 ###### Responsabilidades Principales
-- Registro y gestión de información laboral de mecánicos
-- Asignación y control de turnos de trabajo
-- Validación de conflictos de horarios
-- Cálculo de métricas laborales (ingresos semanales)
-- Verificación de disponibilidad del personal técnico
+- Provisión de datos públicos sobre el progreso de reparaciones
+- Integración de información de múltiples contextos sin autenticación requerida
+- Ensamblado de recursos de seguimiento visible al cliente final
+- Consumo de datos desde contextos operacionales
 
 ###### Reglas de Negocio Clave
-- Cada mecánico está asociado a un usuario del sistema (**UserId**) para autenticación
-- Un mecánico pertenece a un único taller (**WorkshopId**)
-- Los turnos de un mismo mecánico no pueden superponerse en el tiempo (**IsOverlapping()**)
-- El estado **IsActive** determina si el mecánico está disponible para asignación
-- Los tipos de turno son: **MORNING**, **AFTERNOON**, **NIGHT**, **OVERTIME**
+- Este contexto es solo lectura y no define entidades propias
+- Consume datos de Fleet Management, Customer Management, Tenant Management y Workshop Operations
+- La interfaz es accesible públicamente sin requerir token JWT
+- Agrupa información relacionada al vehículo, cliente y estado de orden en una vista consolidada
+- Facilita la transparencia operacional sin comprometer la seguridad de datos sensibles
 
 <div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-staff-management-context.png"width="300">
-</div>
-
-
-##### Billing & Payment Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Generación de facturas y comprobantes fiscales
-- Cálculo de subtotales, impuestos y totales
-- Gestión de ítems detallados por factura
-- Registro de pagos con múltiples métodos
-- Procesamiento y seguimiento de transacciones
-- Soporte para cancelación y reembolsos
-
-###### Reglas de Negocio Clave
-- Cada factura puede estar asociada a una orden de trabajo (relación opcional **0..1**)
-- Los totales se calculan automáticamente a partir de los ítems y la tasa de impuesto
-- Una factura puede recibir un solo pago (relación **0..1**), simplificando el modelo
-- Se soportan múltiples métodos de pago: **efectivo**, **tarjeta crédito/débito**, **transferencia**
-- Los pagos tienen un ciclo de vida: **PENDING → PROCESSING → COMPLETED / FAILED**
-- Las facturas pueden estar en estado: **DRAFT**, **ISSUED**, **PAID**, **CANCELLED** o **OVERDUE**
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-billing-&-payment-context.png"width="500">
-</div>
-
-
-##### Customer Tracking & Notification Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Registro de notificaciones enviadas a clientes
-- Envío de notificaciones a través de múltiples canales (Email, SMS, Push, WhatsApp)
-- Seguimiento del estado de entrega de notificaciones
-- Trazabilidad completa de la comunicación por cliente y orden de trabajo
-- Soporte para notificaciones automáticas basadas en eventos del sistema
-
-###### Reglas de Negocio Clave
-- Cada notificación se registra antes de ser enviada, garantizando trazabilidad
-- Las notificaciones se vinculan al cliente destinatario (**ClientId**)
-- Opcionalmente, una notificación puede asociarse a una orden de trabajo (**WorkOrderId**)
-- Los tipos de notificación incluyen: **actualización de estado**, **orden completada**, **pago recibido** y **recordatorios**
-- El sistema soporta múltiples canales: **Email**, **SMS**, **Push Notification** y **WhatsApp**
-- El ciclo de vida de una notificación es: **PENDING → SENT → DELIVERED / FAILED**
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-customer-tracking-&-notification-context.png"width="450">
-</div>
-
-
-##### Reporting & Analytics Context (Supporting Domain)
-
-###### Responsabilidades Principales
-- Generación de reportes bajo demanda o programada
-- Almacenamiento de metadata de reportes generados (tipo, rango de fechas, URL del archivo)
-- Exportación de reportes en múltiples formatos (PDF, Excel)
-- Trazabilidad de quién generó cada reporte y cuándo
-
-###### Regla de Negocio Clave
-- Los reportes pueden generarse por rango de fechas personalizado
-- Cada reporte está asociado a un taller específico (**WorkshopId**)
-- Los tipos de reporte disponibles son: ingresos diarios, productividad semanal, resumen mensual y desempeño de mecánicos
-- Los reportes generados se almacenan como archivos (PDF/Excel) con una URL de acceso
-- La lógica de cálculo de métricas se ejecuta al momento de generar el reporte, consultando datos en vivo
-
-<div align="center">
-<img src="docs/assets/chapter-4/class-diagrams/class-diagram-reporting-&-analytics-context.png"width="300">
+<img src="docs/assets/chapter-4/class-diagrams/public-tracking.png">
 </div>
 
 

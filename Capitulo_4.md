@@ -1363,19 +1363,31 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 </div>
 
 ##### 1. Tenant Management Context
+**Tenant Management Context**
 
-###### Responsabilidades Principales
-- Gestión centralizada de talleres (inquilinos) en la plataforma multi-taller SaaS
-- Registro y configuración de información de cada taller
-- Almacenamiento de ubicaciones y datos corporativos
-- Generación de identificadores únicos (tenant_id) para aislamiento de datos
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Cada taller posee un tenant_id único que lo identifica en todo el sistema
-- Un taller puede tener una única dirección oficial registrada
-- El contexto expone puertos para crear, consultar y actualizar talleres
-- Es consumido por todos los demás contextos para garantizar multitenencia
-- Los índices optimizan búsquedas frecuentes por tenant_id
+- Gestionar la información de los tenants (clientes organizacionales) dentro del sistema.
+- Mantener los datos básicos de cada tenant, como nombre e identificador único.
+- Permitir la creación y registro de nuevos tenants en la plataforma.
+- Proveer información de tenants a otros contextos que dependen de su configuración.
+- Garantizar el aislamiento lógico de la información por tenant dentro del sistema.
+
+**Reglas de Negocio Clave**
+
+- Cada tenant debe estar identificado de manera única mediante un TenantId.
+- El nombre del tenant debe ser obligatorio y no puede ser vacío.
+- Un tenant es la unidad base de aislamiento de datos dentro del sistema.
+- No se permite la creación de tenants duplicados con el mismo identificador.
+- La información de un tenant solo puede ser modificada a través de los casos de uso definidos por el sistema.
+- Las operaciones de persistencia deben garantizar consistencia mediante control transaccional.
+
+**Colaboración entre Componentes**
+
+- La entidad **Workshop** actúa como agregado raíz del contexto, representando la configuración básica del tenant dentro del sistema.
+- Los servicios de aplicación coordinan la creación de workshops/tenants y gestionan la lógica de negocio asociada.
+- Los repositorios encapsulan el acceso a datos y permiten persistir y recuperar la información del tenant sin exponer detalles de infraestructura.
+- La implementación de servicios utiliza repositorios y una unidad de trabajo para garantizar consistencia en las operaciones.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/tenant-management.png">
@@ -1383,18 +1395,29 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 
 ##### 2. Customer Management Context
 
-###### Responsabilidades Principales
-- Registro y mantenimiento de información de clientes del taller
-- Almacenamiento de datos de identificación y contacto
-- Gestión de múltiples direcciones por cliente
-- Aislamiento de clientes por taller mediante workshop_id
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Cada cliente está vinculado a un único taller (workshop_id)
-- El campo dni es único dentro del sistema para evitar duplicados
-- Un cliente puede tener múltiples direcciones registradas (relación 1-a-N)
-- Las restricciones de unicidad en email garantizan una única vía de contacto por cliente
-- El contexto expone puertos para crear, consultar, actualizar y eliminar clientes
+- Gestionar el ciclo de vida completo de los clientes registrados en la plataforma.
+- Centralizar el almacenamiento y recuperación de la información de clientes.
+- Proporcionar operaciones de creación, consulta, actualización y eliminación de registros de clientes.
+- Exponer funcionalidades de gestión de clientes mediante servicios accesibles a través de la API.
+- Garantizar la persistencia consistente de la información mediante mecanismos de control transaccional.
+
+**Reglas de Negocio Clave**
+
+- Cada cliente debe estar identificado de manera única dentro del sistema.
+- Toda modificación de la información de un cliente debe realizarse a través de los servicios definidos por el contexto.
+- Las operaciones de persistencia deben ejecutarse mediante repositorios especializados para mantener el desacoplamiento entre dominio e infraestructura.
+- Los cambios realizados sobre los datos de clientes deben confirmarse mediante una unidad de trabajo para asegurar la consistencia transaccional.
+- Las solicitudes externas relacionadas con clientes deben canalizarse a través de la capa de interfaces antes de acceder a la lógica de negocio.
+
+**Colaboración entre Componentes**
+
+- La gestión de clientes se centra en la entidad **Customer**, que representa la información principal del dominio.
+- Los servicios de aplicación coordinan los casos de uso relacionados con clientes y delegan las operaciones de persistencia a los repositorios correspondientes.
+- Los repositorios son responsables de almacenar y recuperar información de clientes desde la infraestructura de datos.
+- Los controladores exponen las funcionalidades del contexto mediante endpoints REST y actúan como punto de entrada para las solicitudes externas.
+- La consistencia de las operaciones se garantiza mediante un mecanismo de control transaccional basado en **Unit of Work**.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/customer-management.png">
@@ -1402,18 +1425,34 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 
 ##### 3. Fleet Management Context
 
-###### Responsabilidades Principales
-- Gestión del inventario de vehículos y sus características técnicas
-- Registro y seguimiento del historial de mantenimiento y servicios
-- Asociación de vehículos a clientes específicos
-- Control del estado operativo de cada unidad
+**Fleet Management Context**
 
-###### Reglas de Negocio Clave
-- Cada vehículo tiene una placa única (plate) que lo identifica
-- Un vehículo pertenece a un único cliente (customer_id)
-- Cada vehículo puede tener múltiples registros de servicio históricos
-- El contexto mantiene información de marca, modelo, año, color y estado
-- Los índices en plate y customer_id optimizan búsquedas operacionales
+**Responsabilidades Principales**
+
+- Gestionar la información central de los vehículos registrados en el sistema.
+- Mantener los datos técnicos, estado y características de cada vehículo.
+- Permitir la creación, actualización, consulta y eliminación de vehículos dentro del sistema.
+- Proveer información de vehículos a otros contextos como Workshop Operations y Customer Management.
+- Garantizar la consistencia y trazabilidad de la información del vehículo a lo largo de su ciclo de vida.
+
+**Reglas de Negocio Clave**
+
+- Cada vehículo debe estar identificado de forma única dentro del sistema.
+- Un vehículo debe estar asociado a un único propietario (cliente) en un momento determinado.
+- Los datos del vehículo solo pueden ser modificados a través de los casos de uso definidos por el sistema.
+- El estado del vehículo debe reflejar su condición actual dentro del sistema operativo.
+- No se permite la existencia de vehículos duplicados con el mismo identificador.
+- Los cambios en la información del vehículo deben ser persistidos de manera consistente mediante control transaccional.
+
+**Colaboración entre Componentes**
+
+- La entidad **Vehicle** actúa como agregado raíz del contexto y centraliza la información principal del dominio.
+- Los servicios de aplicación coordinan las operaciones de negocio relacionadas con vehículos y delegan la persistencia a los repositorios.
+- Los repositorios abstraen el acceso a datos y permiten almacenar y recuperar información del vehículo sin exponer detalles de infraestructura.
+- Los controladores REST exponen las funcionalidades del contexto y delegan la lógica de negocio a los servicios de aplicación.
+- Este contexto depende de información del contexto **Customer Management** para validar la relación entre vehículo y propietario.
+- Existe una interacción con el contexto de **Workshop Operations** para proporcionar información del vehículo en procesos de reparación y mantenimiento.
+- La consistencia de las operaciones se asegura mediante un mecanismo de unidad de trabajo que gestiona las transacciones.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/fleet-management.png">
@@ -1421,18 +1460,22 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 
 ##### 4. Staff Coordination Context
 
-###### Responsabilidades Principales
-- Registro y administración de información laboral de mecánicos
-- Gestión de horarios y turnos de trabajo
-- Control de disponibilidad y asignación de capacidad máxima
-- Coordinación de especialidades técnicas por mecánico
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Cada mecánico está asociado a un taller específico (workshop_id)
-- Un mecánico puede tener múltiples franjas horarias (mechanic_schedule)
-- Las restricciones evitan solapamientos de turnos para el mismo mecánico
-- El campo max_capacity limita el número de tareas asignables simultáneamente
-- El contexto es consumido por workshop_operations para asignar tareas
+- Gestionar la información de los mecánicos dentro del sistema de talleres.
+- Mantener los datos de identidad, especialidad, capacidad de trabajo y contacto de cada mecánico.
+- Asignar y mantener la relación de los mecánicos con el taller al que pertenecen.
+- Proveer información de disponibilidad y perfil de los mecánicos para la planificación operativa.
+- Permitir la creación, actualización, consulta y eliminación de registros de personal técnico.
+
+**Reglas de Negocio Clave**
+
+- Cada mecánico debe estar identificado de forma única dentro del sistema (por ejemplo, mediante correo electrónico).
+- Un mecánico solo puede pertenecer a un único taller en un momento determinado.
+- La capacidad de trabajo de un mecánico define la cantidad de tareas que puede asumir simultáneamente.
+- La especialidad del mecánico determina el tipo de tareas que puede realizar dentro del taller.
+- Los datos del mecánico solo pueden ser modificados a través de los casos de uso definidos por el sistema.
+- La eliminación de un mecánico debe respetar la integridad de las órdenes o tareas asociadas a su historial operativo.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/staff-coordination.png">
@@ -1440,18 +1483,29 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 
 ##### 5. Inventory Management Context
 
-###### Responsabilidades Principales
-- Gestión centralizada de ítems de repuesto e insumos
-- Control de stock mínimo y disponibilidad de materiales
-- Administración de categorías y proveedores de repuestos
-- Generación automática de códigos SKU únicos
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Cada ítem posee un sku único que lo identifica globalmente
-- Los ítems se agrupan en categorías para facilitar la búsqueda
-- El sistema registra el precio unitario y la cantidad en stock
-- Las restricciones de validación aseguran que unit_price >= 0 y stock >= 0
-- El contexto expone puertos para crear, consultar y actualizar ítems
+- Gestionar el catálogo de artículos e insumos disponibles en inventario.
+- Mantener información actualizada sobre existencias, precios y características de los productos.
+- Proporcionar operaciones de creación, consulta, actualización y eliminación de artículos de inventario.
+- Supervisar los niveles mínimos de stock para facilitar el control de abastecimiento.
+- Garantizar la persistencia consistente de la información de inventario.
+
+**Reglas de Negocio Clave**
+
+- Cada artículo de inventario debe poseer un identificador único dentro del sistema.
+- Los niveles de stock deben mantenerse actualizados después de cada operación autorizada.
+- El stock de un artículo no puede ser inferior a cero.
+- Toda modificación de los artículos debe realizarse mediante los servicios definidos por el contexto.
+- Las operaciones de persistencia deben ejecutarse a través de repositorios especializados para preservar el desacoplamiento entre dominio e infraestructura.
+
+**Colaboración entre Componentes**
+
+- La entidad **InventoryItem** representa cada artículo administrado por el inventario.
+- Los servicios de aplicación coordinan las operaciones de creación, actualización y eliminación de artículos.
+- Los repositorios son responsables de almacenar y recuperar información de inventario desde la infraestructura de datos.
+- Los servicios utilizan mecanismos de control transaccional para asegurar la consistencia de las operaciones.
+- Los controladores exponen funcionalidades de gestión de inventario mediante endpoints REST para consumo externo.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/inventory-management.png">
@@ -1459,56 +1513,96 @@ Los diagramas de clases muestran los elementos de implementación de cada bounde
 
 ##### 6. IAM (Identity & Access Management) Context
 
-###### Responsabilidades Principales
-- Autenticación de usuarios mediante credenciales seguras
-- Gestión de roles y permisos para control de acceso
-- Generación y validación de tokens JWT para sesiones
-- Aislamiento multi-tenant mediante asociación usuario-taller
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Cada usuario (User) está vinculado a un único taller (workshop_id)
-- Los roles disponibles incluyen: Admin, Mechanic, Client
-- Las contraseñas se almacenan como hashes seguros (pwd_hash)
-- Solo usuarios con permisos pueden acceder a módulos específicos
-- El contexto integra con tenantmanagement durante el registro de nuevas cuentas
+- Gestionar la autenticación y autorización de los usuarios del sistema.
+- Administrar el registro de usuarios y la validación de credenciales.
+- Proporcionar mecanismos seguros de inicio de sesión mediante tokens de autenticación.
+- Centralizar la gestión de roles y permisos asociados a cada usuario.
+- Garantizar la persistencia consistente de la información de identidad y acceso.
 
+**Reglas de Negocio Clave**
+
+- Cada usuario debe estar identificado de manera única mediante su correo electrónico.
+- Las contraseñas deben almacenarse utilizando mecanismos de cifrado o hashing seguro.
+- Solo los usuarios autenticados pueden acceder a recursos protegidos del sistema.
+- La generación de tokens de autenticación debe realizarse únicamente después de validar las credenciales del usuario.
+- Todas las operaciones de acceso a datos de usuarios deben realizarse mediante repositorios especializados.
+
+**Colaboración entre Componentes**
+
+- La entidad **User** representa la información principal de identidad dentro del dominio.
+- Los servicios de autenticación coordinan los procesos de registro e inicio de sesión.
+- Los repositorios gestionan la recuperación y persistencia de usuarios.
+- Los servicios de aplicación implementan la lógica de autenticación utilizando repositorios y mecanismos de configuración.
+- Los controladores exponen funcionalidades de autenticación mediante endpoints REST.
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/iam.png">
 </div>
 
 ##### 7. Workshop Operations Context (Core Domain)
 
-###### Responsabilidades Principales
-- Gestión del ciclo de vida completo de órdenes de trabajo
-- Modelado de tareas técnicas asignables a mecánicos
-- Registro y auditoría de cambios de estado
-- Generación de códigos de seguimiento para transparencia al cliente
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Una orden de trabajo (WorkOrder) está asociada a un vehículo y cliente
-- El estado sigue un flujo: PENDING --> IN_PROGRESS --> COMPLETED --> DELIVERED (o CANCELLED)
-- Una orden puede contener múltiples tareas (Task) asignables a mecánicos
-- Cada cambio de estado se registra en el historial para auditoría
-- El monto total de la orden se calcula desde los ítems y tareas relacionadas
+- Gestionar las órdenes de trabajo asociadas al mantenimiento y reparación de vehículos.
+- Administrar la ejecución de tareas técnicas dentro de cada orden de trabajo.
+- Registrar el uso de repuestos o piezas asociadas a las tareas realizadas.
+- Mantener el estado, seguimiento y trazabilidad de los trabajos realizados en el taller.
+- Coordinar la información entre vehículos, clientes y personal técnico involucrado en cada servicio.
+- Proveer información estructurada sobre el progreso de las reparaciones.
+
+**Reglas de Negocio Clave**
+
+- Cada orden de trabajo debe estar asociada a un único vehículo y cliente.
+- Una orden de trabajo puede contener múltiples tareas, pero cada tarea pertenece a una sola orden.
+- Cada tarea puede incluir múltiples repuestos utilizados durante su ejecución.
+- El estado de una orden de trabajo debe reflejar el progreso real del proceso de reparación.
+- No se pueden registrar tareas sin una orden de trabajo previamente creada.
+- El costo total de una orden de trabajo se calcula a partir de las tareas y los repuestos asociados.
+- Las actualizaciones de estado deben mantener trazabilidad histórica del proceso.
+- La modificación de tareas y órdenes debe realizarse únicamente mediante los casos de uso definidos por el sistema.
+
+**Colaboración entre Componentes**
+
+- Las órdenes de trabajo (**WorkOrder**) actúan como el agregado raíz que coordina todo el proceso de reparación dentro del contexto.
+- Las tareas (**Task**) representan unidades de trabajo que descomponen una orden en actividades técnicas específicas.
+- Los repuestos (**TaskPart**) se asocian a las tareas para reflejar el consumo de inventario durante la ejecución del servicio.
+- Los servicios de aplicación coordinan la creación, actualización y gestión de órdenes y tareas, asegurando la correcta aplicación de las reglas de negocio.
+- Los repositorios permiten la persistencia y consulta de órdenes de trabajo, tareas y repuestos sin exponer detalles de infraestructura.
+- Los controladores REST exponen las operaciones del contexto y delegan toda la lógica de negocio a los servicios de aplicación.
+- Este contexto interactúa con otros dominios como **Inventory Management**, **IAM** y **Staff Coordination** para obtener información de inventario, autenticación de usuarios y asignación de mecánicos.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/workshop-operations.png" >
 </div>
 
-##### 8. Public Tracking Context (Read-Only Interface)
+##### 8. Public Tracking Context
 
-###### Responsabilidades Principales
-- Provisión de datos públicos sobre el progreso de reparaciones
-- Integración de información de múltiples contextos sin autenticación requerida
-- Ensamblado de recursos de seguimiento visible al cliente final
-- Consumo de datos desde contextos operacionales
+**Responsabilidades Principales**
 
-###### Reglas de Negocio Clave
-- Este contexto es solo lectura y no define entidades propias
-- Consume datos de Fleet Management, Customer Management, Tenant Management y Workshop Operations
-- La interfaz es accesible públicamente sin requerir token JWT
-- Agrupa información relacionada al vehículo, cliente y estado de orden en una vista consolidada
-- Facilita la transparencia operacional sin comprometer la seguridad de datos sensibles
+- Proporcionar información consolidada sobre el estado y progreso de las órdenes de trabajo.
+- Integrar datos provenientes de vehículos, clientes, tareas y talleres para ofrecer una vista unificada del proceso de reparación.
+- Facilitar el seguimiento de servicios de manera accesible para usuarios externos.
+- Coordinar la recuperación de información desde múltiples repositorios y servicios de aplicación.
+- Exponer funcionalidades de consulta mediante una interfaz REST de solo lectura.
+
+**Reglas de Negocio Clave**
+
+- El contexto está orientado exclusivamente a operaciones de consulta y seguimiento; no realiza modificaciones sobre los datos operacionales.
+- La información presentada debe obtenerse de los contextos responsables de la gestión de órdenes de trabajo, vehículos, clientes, tareas y talleres.
+- Una orden de trabajo puede estar asociada a múltiples tareas, pero cada tarea pertenece a una única orden de trabajo.
+- Cada orden de trabajo debe estar vinculada a un único vehículo y a un único cliente.
+- Un taller puede gestionar múltiples órdenes de trabajo simultáneamente.
+- La información de seguimiento debe presentarse de forma consolidada para facilitar la visualización del estado actual del servicio.
+- El acceso a la información debe respetar las restricciones de visibilidad definidas para el seguimiento público de reparaciones.
+
+**Colaboración entre Contextos**
+
+- Consume información de órdenes de trabajo para obtener el estado general de la reparación.
+- Consulta información de vehículos para identificar el activo asociado al servicio.
+- Recupera información de clientes para contextualizar la orden de trabajo.
+- Utiliza datos de tareas para mostrar el progreso detallado de las actividades realizadas.
+- Integra información de talleres para identificar la ubicación o responsable de la ejecución del servicio.
 
 <div align="center">
 <img src="docs/assets/chapter-4/class-diagrams/public-tracking.png">

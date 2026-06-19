@@ -1577,60 +1577,149 @@ En esta sección se presenta el diseño de la base de datos relacional para el <
 
 #### 4.8.1. Database Diagrams
 
+<p align="justify">
+En esta sección se presenta el diseño de la base de datos relacional para el <strong>AutoService</strong>, alineado con los <strong>Bounded Contexts</strong> identificados en el análisis de <strong>Domain-Driven Design (DDD)</strong>. Aquí se explican los diagramas que muestran las tablas, columnas, claves primarias, foráneas y las relaciones entre objetos de datos.
+</p>
 
+#### Características Principales del Diseño
+
+<div style="overflow-x: auto;">
+  <table>
+    <thead>
+      <tr>
+        <th scope="col">Característica</th>
+        <th scope="col">Descripción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Motor de Base de Datos</td>
+        <td style="text-align: justify;">PostgreSQL 15+ / SQL Server 2019+ (según configuración del entorno).</td>
+      </tr>
+      <tr>
+        <td>Normalización</td>
+        <td style="text-align: justify;">Tercera Forma Normal (3NF) para eliminar redundancias y garantizar integridad referencial.</td>
+      </tr>
+      <tr>
+        <td>Claves Primarias</td>
+        <td style="text-align: justify;">Todas las tablas utilizan Guid/UUID como clave primaria para escalabilidad distribuida y evitar conflictos en entornos multi-tenant.</td>
+      </tr>
+      <tr>
+        <td>Claves Foráneas</td>
+        <td style="text-align: justify;">Relaciones explícitas con restricciones ON DELETE CASCADE o ON DELETE RESTRICT según la lógica de negocio y preservación de datos históricos.</td>
+      </tr>
+      <tr>
+        <td>Índices</td>
+        <td style="text-align: justify;">Índices en columnas de búsqueda frecuente (Plate, Email, OrderNumber, StatusEnum, WorkshopId) para optimizar consultas.</td>
+      </tr>
+      <tr>
+        <td>Soft Delete</td>
+        <td style="text-align: justify;">Columna IsActive o IsArchived en entidades críticas para preservación histórica sin eliminación física.</td>
+      </tr>
+      <tr>
+        <td>Auditoría Básica</td>
+        <td style="text-align: justify;">Columnas CreatedAt, UpdatedAt en tablas transaccionales para trazabilidad temporal.</td>
+      </tr>
+      <tr>
+        <td>Enumeraciones</td>
+        <td style="text-align: justify;">Campos INT con valores controlados para estados (WorkOrderStatus, PaymentStatus) garantizando consistencia de datos a nivel de aplicación.</td>
+      </tr>
+      <tr>
+        <td>Multi-tenancy</td>
+        <td style="text-align: justify;">Columna WorkshopId en tablas operativas para aislamiento lógico entre talleres (modelo SaaS), con políticas de Row-Level Security (RLS) opcionales.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+#### 4.8.1. Database Diagrams
 
 ##### Diagrama de Base de Datos General - AutoService
 
 <div align="center">
-
-![alt text](docs/assets/chapter-4/database-diagram/database-diagram-autoservice.png)
+<img src="docs/assets/chapter-4/database-diagram/global-database-diagram.png" width="1000">
 </div>
 
+<p align="justify;">
+El diagrama general muestra cómo se conectan los datos de los distintos bounded contexts mediante claves foráneas y cómo se garantiza la integridad referencial entre los módulos principales.
+</p>
 
-##### Identity & Profile Context
-Este contexto gestiona la autenticación, autorización y configuración multi-tenant del sistema.
+##### 1. Tenant Management Context
+
+<p align="justify;">
+Gestiona el registro y configuración de talleres (tenants) como entidades centrales en la plataforma SaaS. Cada taller tiene un workshop_id único, información corporativa y una dirección principal.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-identity-&-profile-context.png"width="600">
+<img src="docs/assets/chapter-4/database-diagram/db-tenant-management.png" width="600">
 </div>
 
+##### 2. Customer Management Context
 
-##### Workshop Operations Context (Core Domain)
-El núcleo del negocio: gestión de órdenes de trabajo, tareas y seguimiento.
+<p align="justify;">
+Administra clientes asociados a talleres específicos con datos de identificación personal, contacto y múltiples direcciones registradas. Cada cliente está vinculado a un workshop_id para garantizar multitenencia.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-workshop-operations-context-core.png"width="1000">
+<img src="docs/assets/chapter-4/database-diagram/db-customer-management.png" width="600">
 </div>
 
+##### 3. Fleet Management Context
 
-##### Staff Management Context (Supporting Domain)
-Administra el personal técnico, sus turnos y disponibilidad operativa.
+<p align="justify;">
+Registra información técnica de vehículos como placa, marca, modelo, año y color. Cada vehículo pertenece a un cliente y puede tener un historial de servicios asociados.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-staff-management-context.png"width="600">
+<img src="docs/assets/chapter-4/database-diagram/db-fleet-management.png" width="600">
 </div>
 
+##### 4. Staff Coordination Context
 
-##### Billing & Payment Context (Supporting Domain)
-Gestiona la facturación, comprobantes y registro de transacciones económicas.
+<p align="justify;">
+Organiza mecánicos por taller con información de contacto, especialidades y horarios de disponibilidad. Permite gestionar turnos y evitar solapamientos de asignaciones.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-billing-&-payment-context.png"width="800">
+<img src="docs/assets/chapter-4/database-diagram/db-staff-coordination.png" width="600">
 </div>
 
+##### 5. Inventory Management Context
 
-##### Customer Tracking & Notification Context (Supporting Domain)
-Facilita la comunicación proactiva con el cliente final y el seguimiento externo.
+<p align="justify;">
+Centraliza el control de repuestos e insumos con categorización, proveedores, SKU únicos y control de stock. Genera códigos de referencia para integración con órdenes de trabajo.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-tracking-&-notification-context.png"width="500">
+<img src="docs/assets/chapter-4/database-diagram/db-inventory-management.png" width="600">
 </div>
 
+##### 6. IAM (Identity & Access Management) Context
 
-##### Reporting & Analytics Context (Supporting Domain)
-El contexto de Reporting se alimenta de las siguientes tablas operativas distribuidas en otros Bounded Contexts como Customer & Assets Context
-Gestiona la información de clientes propietarios y sus vehículos registrados.
+<p align="justify;">
+Gestiona usuarios, roles, permisos y credenciales para autenticación y autorización. Cada usuario está vinculado a un taller específico asegurando el aislamiento multi-tenant.
+</p>
 
 <div align="center">
-<img src="docs/assets/chapter-4/database-diagram/database-diagram-customer-&-assets-context.png"width="350">
+<img src="docs/assets/chapter-4/database-diagram/db-iam.png" width="600">
+</div>
+
+##### 7. Workshop Operations Context (Core Domain)
+
+<p align="justify;">
+Núcleo operativo del sistema. Gestiona órdenes de trabajo (WorkOrder), tareas técnicas (Task), cambios de estado y auditoría de operaciones. Integra datos de vehículos, clientes, mecánicos e ítems de inventario.
+</p>
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/db-workshop-operations.png" width="1000">
+</div>
+
+##### 8. Public Tracking Context (Read-Only)
+
+<p align="justify;">
+Proporciona una interfaz pública sin autenticación para que clientes finales consulten el progreso de reparaciones. Consume datos desde Fleet Management, Customer Management y Workshop Operations sin exponer información sensible.
+</p>
+
+<div align="center">
+<img src="docs/assets/chapter-4/database-diagram/db-public-tracking.png" width="600">
 </div>

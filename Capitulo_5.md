@@ -2446,17 +2446,807 @@ El repositorio principal utilizado para el trabajo colaborativo de la capa de se
   </code>
 </p>
 
-<!--  PENDIENTE PARA ENTREGA FINAL TB2
 ### 5.3. Validation Interviews
 
 #### 5.3.1. Diseño de Entrevistas
-[Pendiente]
+
+<strong>SEGMENTO 1: Mecánicoos Independientes</strong>
+<ol>
+  <li>Después de ver la página de AutoService, ¿cuál seria tu comemtatio principal sobre el problema que resolvemos para talleres como el tuyo? ¿Qué elemento o frase de la página te llamó más la atención y por qué? 
+</li>
+  <li>Para crear una orden de trabajo, ¿dónde buscarías la opción? ¿Qué datos son los más importantes para empezar?</li>
+  <li>Al añadir una tarea y elegir materiales del inventario, ¿es fácil? ¿Qué información del material necesitas ver sí o sí?</li>
+  <li>Qué 3 indicadores del dashboard revisarías cada mañana? ¿Falta alguno?</li>
+  <li>Si te falta una pieza en medio de una reparación, ¿qué funcionalidad del inventario te ayudaría más?</li>
+  <li>¿Estarias dispuesto a pagar por un plan que ofrece el sistema? ¿Qué plan de precios (Gratis, Pro, Business) elegirías para tu taller?</li>
+  <li>¿Qué fue lo más confuso y lo más útil? Si cambiaras una cosa, ¿qué sería?</li>
+
+</ol>
+
+
+<p><strong>SEGMENTO 2: Dueños de Talleres</strong></p>
+<p><em>Este segmento evalúa el contexto del negocio, la percepción del Landing Page, la usabilidad de los flujos principales y la retroalimentación general sobre la solución propuesta.</em></p>
+<ol>
+  <li><strong>¿Podrías contarme brevemente cómo está organizado tu taller o empresa y qué tamaño tiene el equipo?</strong>
+    <br><em>Evalúa:</em> Contexto organizacional y tamaño del negocio para validar los segmentos de mercado objetivo.</li>
+  <li><strong>¿Qué herramienta(s) usan actualmente para gestionar clientes, vehículos y órdenes de trabajo?</strong>
+    <br><em>Evalúa:</em> Competencia actual y hábitos de trabajo para identificar oportunidades de diferenciación.</li>
+  <li><strong>¿Qué problema principal enfrentan al coordinar trabajos y comunicar el avance a los clientes?</strong>
+    <br><em>Evalúa:</em> Validación del problema central que AutoService busca resolver.</li>
+  <li><strong>¿Cuál crees que es el propósito principal del Landing Page de AutoService?</strong>
+    <br><em>Evalúa:</em> Claridad del mensaje y propuesta de valor transmitida en el Landing Page.</li>
+  <li><strong>¿Qué entendiste que ofrece AutoService?</strong>
+    <br><em>Evalúa:</em> Comprensión de las funcionalidades y beneficios clave de la plataforma.</li>
+  <li><strong>¿Te pareció claro cuál es el siguiente paso después de ver el Landing Page?</strong>
+    <br><em>Evalúa:</em> Efectividad del Call to Action y claridad del funnel de conversión.</li>
+  <li><strong>¿Qué parte del Landing Page te resultó más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de los elementos más valiosos para el usuario.</li>
+  <li><strong>¿Qué parte del Landing Page te pareció confusa o difícil de entender?</strong>
+    <br><em>Evalúa:</em> Detección de áreas de mejora en la comunicación y diseño del Landing Page.</li>
+  <li><strong>¿Cómo describirías el proceso de registro o acceso a la aplicación?</strong>
+    <br><em>Evalúa:</em> Intuición y facilidad del flujo de onboarding.</li>
+  <li><strong>¿Te parece claro qué datos debes ingresar para iniciar sesión o registrarte?</strong>
+    <br><em>Evalúa:</em> Claridad de los campos requeridos en el formulario de autenticación.</li>
+  <li><strong>Si quisieras crear una orden de trabajo, ¿sabes qué información debes ingresar?</strong>
+    <br><em>Evalúa:</em> Comprensión de los datos mínimos necesarios para crear una orden de trabajo.</li>
+  <li><strong>¿Te resulta fácil identificar dónde agregar cliente, vehículo y servicio?</strong>
+    <br><em>Evalúa:</em> Usabilidad de la navegación y jerarquía de información en la interfaz.</li>
+  <li><strong>¿Puedes ver con claridad el estado actual de una orden de trabajo?</strong>
+    <br><em>Evalúa:</em> Visibilidad y claridad del seguimiento de estados de las órdenes.</li>
+  <li><strong>¿Quedó claro cómo se actualiza el progreso de un trabajo?</strong>
+    <br><em>Evalúa:</em> Comprensión del flujo de actualización de tareas y su reflejo en el progreso.</li>
+  <li><strong>¿Entendiste cómo se notifica al cliente sobre el avance del servicio?</strong>
+    <br><em>Evalúa:</em> Claridad del sistema de notificaciones y comunicación con el cliente.</li>
+  <li><strong>¿Qué aspecto cambiarías primero para que la aplicación sea más útil?</strong>
+    <br><em>Evalúa:</em> Identificación de prioridades de mejora desde la perspectiva del dueño de taller.</li>
+  <li><strong>¿Usarías AutoService si estuviera disponible hoy? ¿Por qué?</strong>
+    <br><em>Evalúa:</em> Intención de uso y percepción general de valor de la solución.</li>
+</ol>
 
 #### 5.3.2. Registro de Entrevistas
-[Pendiente]
+
+#### Entrevista 1: Técnico Independiente
+
+- **Nombre:** David Klisman Paredes
+- **Edad:** 24
+- **Residencia:** Lima, Surco 
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:34 
+- **Duración:** 
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBDv0iKhKtESLAQ9iFYBZ-7Abkdhh1HzTCEaXD5VrUCK_0?e=fnTCzd)
+
+**Resumen:**
+<p style="text-align: justify;">
+Durante la entrevista, el participante identificó que la plataforma AutoService resuelve principalmente el desorden operativo y la pérdida de tiempo en los talleres, destacando la gestión centralizada de tareas, órdenes de trabajo e inventario. Valoró positivamente la propuesta de control y confianza transmitida en la landing page, así como la estructura visual de la plataforma. Sugirió hacer más visible la creación de órdenes de trabajo mediante accesos directos o favoritos, incorporar autocompletado para tareas repetitivas y facilitar la consulta rápida del stock de repuestos. Los indicadores más relevantes para él son la cantidad de vehículos en el taller, las entradas programadas y los ingresos generados. Respecto a los planes, optaría inicialmente por el plan gratuito para evaluar la herramienta antes de migrar a una opción superior según sus necesidades. Como mejora, recomendó implementar un modo oscuro y reforzar algunas funcionalidades relacionadas con la gestión de inventario y compras.
+</p>
+
+**Evidencia:**
+
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
+
+---
+#### Entrevista 2: Técnico Independiente
+
+- **Nombre:** Antenor Ayala
+- **Edad:** 32
+- **Residencia:** Ayacucho, Huamanga
+- **Ocupación:** Técnico Mecánico Automotriz  
+
+- **Inicio:** 0:24 
+- **Duración:** 8:40
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBXMt0MwDxHTrXJ1c65IOT7AcAH-dWDwYEQ1vPeY50nAzE?e=TIxuLC)
+
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado mostró una percepción muy positiva de AutoService, destacando que la plataforma puede ayudar a organizar mejor las tareas, el inventario y la gestión diaria del taller. Consideró que el sistema sería útil para complementar el trabajo manual y facilitar el control de repuestos y procesos. Como sugerencia principal, indicó que la plataforma debería ser más accesible y fácil de conocer para usuarios con poca experiencia en herramientas digitales, además de mejorar su difusión. Valoró especialmente la posibilidad de consultar inventarios y propuso funciones como la ubicación exacta de piezas dentro del taller y acceso rápido a proveedores cuando no haya stock disponible. Respecto a los planes, manifestó que inicialmente probaría una versión gratuita, pero estaría dispuesto a migrar al plan Pro si percibe beneficios claros y genera confianza. Finalmente, resaltó que la interfaz es atractiva, organizada e innovadora, aunque considera importante simplificar el acceso para usuarios menos familiarizados con la tecnología y ampliar las funcionalidades del plan básico.
+</p>
+
+**Evidencia:**
+
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m2.png)
+
+---
+#### Entrevista 3: Administrador
+
+- **Nombre y Apellido:** Juan Calisaya
+- **Edad:** 30 años
+- **Distrito de Residencia:** Santa Anita, Lima
+- **Ocupación:** Propietario y Administrador de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:01
+- **Duración:** 12:49
+
+**URL del Video (Microsoft Stream):**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQAKH0LwbS9hR6iCQO9yvjKpAQVicbqjpS3d1hd_KQnQm9o?e=3eALzP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+
+<p style="text-align: justify;">
+Juan Calisaya es propietario y administrador de un taller automotriz que cuenta con cuatro colaboradores y atiende entre 15 y 20 vehículos por semana. Actualmente gestiona la información mediante registros manuales, hojas de cálculo en Excel y comunicación con clientes a través de WhatsApp.
+
+Durante la validación, comprendió correctamente que AutoService es una solución orientada a la gestión digital de talleres automotrices, permitiendo centralizar la información de clientes, vehículos y órdenes de trabajo. Consideró que el Landing Page comunica adecuadamente la propuesta de valor y facilita la comprensión de los beneficios ofrecidos por la plataforma.
+
+Respecto a la aplicación, destacó la facilidad del proceso de registro y la organización intuitiva de los módulos. Logró identificar sin dificultad los procesos de registro de clientes, vehículos y órdenes de trabajo, así como los mecanismos de asignación de tareas y seguimiento de servicios. Asimismo, comprendió claramente los estados de avance de las órdenes de trabajo y el funcionamiento del sistema de notificaciones para mantener informados a los clientes.
+
+Como sugerencia de mejora, propuso incorporar reportes de productividad y estadísticas operativas para apoyar la toma de decisiones dentro del taller. Finalmente, manifestó que utilizaría AutoService debido a los beneficios relacionados con la centralización de la información, la mejora de la comunicación con los clientes y la optimización de los procesos administrativos.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin1.png)
+
+---
+#### Entrevista 4: Administrador
+
+- **Nombre y Apellido:** Sebastián Rojas
+- **Edad:** 24 años
+- **Distrito de Residencia:** Villa El Salvador, Lima
+- **Ocupación:** Administrador y Encargado de Logística de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:04
+- **Duración:** 10:55
+
+**URL del Video (Microsoft Stream):** 
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQDAeIojk9-qRp0t-QPDNmzpAb58CmafSrSigXD0jIsM48U?e=nucE9d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+
+<p style="text-align: justify;">
+Sebastián Rojas se desempeña como administrador y encargado de logística de un taller automotriz que atiende aproximadamente entre 15 y 20 vehículos por semana. Actualmente la gestión de información se realiza principalmente mediante hojas de cálculo en Excel, registros en WhatsApp y documentación física para respaldar procesos administrativos y operativos.
+
+Durante la evaluación del Landing Page, identificó correctamente que AutoService busca digitalizar y optimizar la gestión de talleres automotrices mediante herramientas que permiten organizar clientes, vehículos, órdenes de trabajo y procesos internos. Consideró que la propuesta de valor es clara y que la plataforma puede contribuir a reducir errores relacionados con el manejo de información y la coordinación de actividades.
+
+En la validación de la aplicación, destacó la simplicidad del proceso de registro y la facilidad para comprender el flujo de trabajo propuesto por el sistema. Logró identificar correctamente las etapas necesarias para registrar clientes, asociar vehículos y crear órdenes de trabajo. Asimismo, valoró positivamente la posibilidad de asignar tareas a los mecánicos, realizar seguimiento al avance de los servicios y mantener una visión centralizada de la operación del taller.
+
+Respecto al monitoreo de servicios, comprendió cómo se actualizan los estados de las órdenes de trabajo y cómo los avances registrados por los colaboradores pueden utilizarse para informar a los clientes sobre el progreso de sus vehículos. Consideró que esta funcionalidad mejora la transparencia y facilita la comunicación entre el taller y sus clientes.
+
+Como principal sugerencia de mejora, recomendó incorporar reportes avanzados relacionados con ingresos, productividad de colaboradores, rendimiento operativo y estadísticas para la toma de decisiones estratégicas. Finalmente, indicó que utilizaría AutoService debido a que ofrece una gestión más colaborativa, organizada y eficiente que las herramientas que emplea actualmente.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin2.png)
+
+
+---
+#### Entrevista 5: Administrador
+
+- **Nombre y Apellido:** Jaime Ruiz
+- **Edad:** 30 años
+- **Distrito de Residencia:** Puno, Puno
+- **Ocupación:** Dueño y Administrador de Taller Automotriz
+- **Fecha:** 18 de junio de 2026
+- **Inicio de la Entrevista:** 00:14
+- **Duración:** 15:18
+
+**URL del Video (Microsoft Stream):** 
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241e299_upc_edu_pe/IQASv_VScko6S7Lj2qfoNu1NASDn0X3oJZCkGj95LjlQ0j8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=FNLJy0)
+
+
+<p style="text-align: justify;">
+Jaime Ruiz es dueño y administrador de un taller automotriz ubicado en la ciudad de Puno. Su negocio atiende aproximadamente entre 15 y 20 vehículos por semana y cuenta con personal encargado de atención al cliente y actividades operativas relacionadas con el mantenimiento y reparación de vehículos. Actualmente, la gestión de la información se realiza principalmente mediante hojas de cálculo en Excel, comunicación por WhatsApp y registros manuales para el seguimiento de clientes y servicios.
+
+Durante la validación del Landing Page, el entrevistado identificó correctamente que AutoService es una plataforma orientada a mejorar la gestión y organización de talleres automotrices. Comprendió que la solución permite realizar un seguimiento más eficiente de los vehículos, mejorar la comunicación con los clientes y optimizar el control de los procesos internos del negocio. Asimismo, destacó especialmente la funcionalidad relacionada con el seguimiento de órdenes de trabajo y el monitoreo del estado de los vehículos, ya que considera que los clientes valoran conocer el progreso de los servicios realizados.
+
+Respecto a la aplicación web, indicó que el proceso de registro e inicio de sesión es sencillo, intuitivo y accesible para usuarios con conocimientos tecnológicos básicos. Señaló que los formularios presentan claramente la información requerida y permiten comprender fácilmente el flujo general de la plataforma.
+
+Durante la evaluación de los módulos principales, Jaime logró identificar correctamente el proceso para registrar clientes, asociar vehículos y generar órdenes de trabajo. Comprendió que la plataforma permite almacenar información relevante del cliente, incluyendo datos de contacto, información del vehículo y detalles relacionados con las fallas o servicios solicitados. Asimismo, destacó la posibilidad de asignar mecánicos responsables y realizar un seguimiento detallado de cada trabajo realizado.
+
+El entrevistado también valoró positivamente la organización de la información dentro de la plataforma, indicando que facilita el acceso a los datos de clientes recurrentes y contribuye a fortalecer la relación con ellos mediante un mejor control de los servicios realizados. Consideró que esta funcionalidad puede favorecer la fidelización de clientes y mejorar la calidad del servicio brindado por el taller.
+
+En relación con el monitoreo de órdenes de trabajo, manifestó que los estados de avance son claros y permiten identificar rápidamente si un servicio se encuentra pendiente, en proceso o finalizado. Además, destacó que esta información facilita la supervisión del trabajo realizado por los colaboradores y mejora la coordinación interna del taller.
+
+Respecto al flujo general de la aplicación, indicó que la estructura basada en clientes, vehículos y órdenes de trabajo resulta lógica y fácil de comprender. Consideró que la secuencia de operaciones refleja adecuadamente el proceso real que se sigue dentro de un taller automotriz y permite mantener un mejor control sobre cada servicio realizado.
+
+Como sugerencia de mejora, propuso incorporar reportes de productividad y estadísticas relacionadas con los servicios ejecutados, con el objetivo de apoyar la toma de decisiones y proporcionar una visión más completa del desempeño del negocio. Consideró que este tipo de información sería valiosa para optimizar la gestión operativa y administrativa del taller.
+
+Finalmente, Jaime Ruiz manifestó que utilizaría AutoService si estuviera disponible comercialmente, ya que considera que la plataforma le permitiría centralizar la información de clientes, colaboradores, vehículos y repuestos en un único sistema. Asimismo, destacó que la solución contribuiría a mejorar la comunicación con los clientes, reducir el tiempo destinado a tareas administrativas y aumentar la eficiencia de las operaciones diarias del taller.
+</p>
+
+**Evidencia:** 
+![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin3.png)
+
+
 
 #### 5.3.3. Evaluaciones según heurísticas
+**UX Heuristics & Principles Evaluation**  
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA		:** Ingeniería de Software  
+**CURSO		:** Aplicaciones Web  
+**SECCIÓN		:** 17953  
+**PROFESORES		:** Todos  
+**AUDITOR		:** PircaIndustries  
+**CLIENTE		:** Francia Torres, Jhony Manuel, Montoya Nina, Paula Fernanda, Palacios Tinoco Adrian Fernando, Ramos Hinostroza, Diego Antonio y Ramos Mera, Neo Daniel.
+
+## 
+
+## **SITE o APP A EVALUAR:**
+
+## AutoService
+
+## **TAREAS A EVALUAR:**
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Landing Page  
+2. Registro e Inicio Sesión  
+3. Panel Principal  
+4. Clientes  
+5. Vehículos  
+6. Inventario y Repuestos
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Notificaciones  
+2. Configuraciones de accesibilidad
+
+## **ESCALA DE SEVERIDAD:**
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
+
+| *Nivel* | *Descripción* |
+| :---- | :---- |
+| *1* | *Problema superficial: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.* |
+| *2* | *Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente reléase* |
+| *3* | *Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.* |
+| *4* | *Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.* |
+
+## **TABLA RESUMEN:**
+
+| *\#* | *Problema* | *Escala de severidad* | *Heurística/Principio violada(o)* |
+| :---: | ----- | :---: | ----- |
+| 1 | Logotipo de tamaño muy reducido en encabezado y pie de página | 2 | Diseño estético y minimalista |
+| 2 | Imagen descentrada con margen inferior desproporcionado | 1 | Diseño estético y minimalista |
+| 3 | Inconsistencia en la altura de los botones de navegación | 1 | Heurística 4: Consistencia y estándares |
+| 4 | Botones de navegación (flechas) inactivos | 3 | Control y libertad del usuario |
+| 5 | Envío de formulario sin validación de campos vacíos | 3 | Prevención de errores |
+| 6 | Falta de traducción en el título del portal de seguimiento | 2 | Consistencia y estándares |
+| 7 | Texto del marcador de posición (placeholder) cortado | 2 | Diseño estético y minimalista |
+| 8 | Ausencia de logotipo o nombre comercial en vistas de autenticación | 2 | Reconocimiento antes que recuerdo |
+| 9 | Ausencia de mensajes de error al enviar formularios vacíos | 3 | Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores |
+| 10 | Duplicidad de registros por falta de control de peticiones simultáneas en el formulario de creación de vehículo | 3 | Usability: “Prevención de errores” y “Visibilidad del estado del sistema” |
+| 11 | Distorsión visual y recorte inadecuado en la previsualización de la imagen del vehículo | 2 | Usability: “Relación entre el sistema y el mundo real” y “Estética y diseño minimalista” |
+| 12 | Ausencia de mensajes de validación y feedback visual ante el envío de campos obligatorios vacíos | 3 | Usability: “Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores” y “Visibilidad del estado del sistema” |
+| 13 | Presencia de etiquetas de traducción sin procesar (raw keys) en la pantalla de detalle del vehículo | 2 | Information Architecture: “Rotulado” |
+| 14 | Duplicidad en el registro de clientes debido a la falta de bloqueo en peticiones simultáneas del formulario de registro de cliente | 3 | Usability: “Prevención de errores” y “Visibilidad del estado del sistema” |
+| 15 | Presencia de claves de localización rotas (raw translation keys) en modales de edición y eliminación de clientes | 2 | Information Architecture: “Rotulado” |
+| 16 | Despliegue de errores críticos mediante diálogos de alerta nativos del navegador | 2 | Usability: “Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores” y “Consistencia y estándares”. |
+| 17 | Sobreposición de los inputs para ingresar nuevo artículo | 2 | Diseño estético y minimalista |
+| 18 | Overflow en el formulario no controlado | 2 | Diseño estético y minimalista |
+| 19 | Internacionalización a medias | 2 | Relación entre el sistema y el mundo real  |
+| 20 | Interfaz duplicada y sin respetar espacios | 2 | Prevención de errores (Heurística \#5) / Flexibilidad y eficiencia de uso (Heurística \#7)  |
+| 21 | Selector de filtrado por mecánico vacío y sin estado inicial claro | 2 | Prevención de errores (Heurística \#5) / Visibilidad del estado del sistema (Heurística \#1)   |
+| 22 | Falta de control de estados vacíos (Empty States) cuantitativos en el Panel Principal | 1 | Reconocimiento antes que recuerdo (Heurística \#6) / Estética y diseño minimalista (Heurística \#8) |
+
+## 
+
+## **DESCRIPCIÓN DE PROBLEMAS:**
+
+**PROBLEMA \#1: Logotipo de tamaño muy reducido en encabezado y pie de página**
+
+Severidad: 2
+
+Heurística violada: Diseño estético y minimalista 
+
+Problema: El logotipo de la empresa presenta dimensiones muy reducidas, lo que dificulta su correcta apreciación tanto en el encabezado (header) como en el pie de página (footer) de la plataforma.
+
+<img width="886" height="125" alt="Image" src="https://github.com/user-attachments/assets/6ec32309-fc93-4185-b245-c90197783347" />
+
+<img width="886" height="158" alt="Image" src="https://github.com/user-attachments/assets/e6df9516-42a5-4174-82be-12c511c1b39a" />
+
+Recomendación; Aumentar el tamaño y la proporción del logotipo para asegurar la legibilidad y reforzar la identidad visual de la marca en todas las pantallas.
+
+**PROBLEMA \#2: Imagen descentrada con margen inferior desproporcionado**
+
+Severidad: 1
+
+Heurística violada: Diseño estético y minimalista
+
+Problema: La imagen ilustrativa en la sección que presenta el problema y la solución no se encuentra centrada, presentando un espacio vacío desproporcionado en su parte inferior. 
+
+<img width="886" height="513" alt="Image" src="https://github.com/user-attachments/assets/7f93766f-ae09-4e4c-b704-0298f31a0ee7" />
+
+Recomendación;  Ajustar los estilos CSS de la imagen y su contenedor para asegurar una alineación simétrica y eliminar el espacio residual innecesario. 
+
+**PROBLEMA \#3: Inconsistencia en la altura de los botones de navegación**
+
+Severidad: 1
+
+Heurística violada: Consistencia y estándares
+
+Problema: Los botones de acción ubicados en la barra de navegación ("Login" y el selector de idioma "ES") presentan alturas diferentes, lo cual rompe la consistencia visual de la interfaz. 
+
+<img width="886" height="60" alt="Image" src="https://github.com/user-attachments/assets/f3aee22c-2183-4fd5-b700-894959929e0e" />
+
+Recomendación;  Homogeneizar las dimensiones (altura y padding) de todos los elementos interactivos dentro de la barra de navegación para mantener un estándar visual.
+
+**PROBLEMA \#4: Botones de navegación (flechas) inactivos**
+
+Severidad: 3
+
+Heurística violada: Control y libertad del usuario
+
+Problema: En la sección "Designed for simplicity and real workshop needs", los controles de navegación (flechas direccionales) no ejecutan ninguna acción ni retroalimentación al ser presionados por el usuario.
+
+<img width="886" height="431" alt="Image" src="https://github.com/user-attachments/assets/2a6e9455-9df3-4585-b81c-2fb520d574f5" />
+
+Recomendación;  Implementar la interactividad correspondiente al carrusel de imágenes, o en su defecto, ocultar dichos controles hasta que la funcionalidad esté completamente desarrollada. 
+
+**PROBLEMA \#5: Envío de formulario sin validación de campos vacíos**
+
+Severidad: 3
+
+Heurística violada: Prevención de errores
+
+Problema: El formulario de contacto permite el envío de datos completamente vacíos, mostrando erróneamente un mensaje modal de confirmación exitosa ("Message sent\!"). 
+
+<img width="886" height="629" alt="Image" src="https://github.com/user-attachments/assets/66448cbf-e6ec-4c29-99d4-2affc1d5563c" />
+
+Recomendación;  Establecer validaciones obligatorias en los campos del formulario y deshabilitar el botón de envío ("Send Message") hasta que todos los datos requeridos sean ingresados correctamente.
+
+**PROBLEMA \#6: Falta de traducción en el título del portal de seguimiento**
+
+Severidad: 2
+
+Heurística violada: Consistencia y estándares
+
+Problema: Al interactuar con el inicio de sesión y seleccionar el idioma inglés ("EN"), al navegar hacia la sección "Are you a customer of the workshop?", el título principal ("Portal de Seguimiento") permanece en español, generando inconsistencia en la localización.
+
+<img width="427" height="661" alt="Image" src="https://github.com/user-attachments/assets/610b7426-d2fd-4a2b-a707-54d841c2aac9" />
+
+<img width="700" height="488" alt="Image" src="https://github.com/user-attachments/assets/76651783-e552-49c0-8f9a-710498b98bd3" />
+
+Recomendación;  Revisar y asegurar que las variables de internacionalización (i18n) cubran la totalidad de los elementos de texto en las vistas cuando se alterna entre idiomas.
+
+**PROBLEMA \#7: Texto del marcador de posición (placeholder) cortado**
+
+Severidad: 2
+
+Heurística violada: Diseño estético y minimalista
+
+Problema: En el portal de seguimiento, el texto indicativo (placeholder) dentro del campo de texto en la versión en español excede el límite visible y se recorta ("Ingresa el código de tu orc...").
+
+<img width="886" height="663" alt="Image" src="https://github.com/user-attachments/assets/3ec813cd-f8b0-4596-96ab-f5195d080521" />
+
+Recomendación;  Reducir la longitud del texto del marcador de posición o incrementar el ancho del campo de entrada para garantizar que las instrucciones sean completamente visibles.
+
+**PROBLEMA \#8: Ausencia de logotipo o nombre comercial en vistas de autenticación**
+
+Severidad: 2
+
+Heurística violada: Reconocimiento antes que recuerdo
+
+Problema: Las pantallas destinadas al inicio de sesión y al registro carecen de elementos de identidad corporativa, no encontrándose presente ni el logotipo ni el nombre del producto de manera explícita. 
+
+<img width="886" height="473" alt="Image" src="https://github.com/user-attachments/assets/b52d4341-41e6-42de-b894-7f70b301f2bb" />
+
+Recomendación;  Incorporar el logotipo o el nombre comercial de la plataforma en la parte superior del formulario de autenticación para otorgar contexto inmediato al usuario. 
+
+**PROBLEMA \#9: Ausencia de mensajes de error al enviar formularios vacíos**
+
+Severidad: 3
+
+Heurística violada: Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores
+
+Problema: Al accionar los botones de confirmación en las vistas de inicio de sesión y registro sin haber completado la información, el sistema omite generar mensajes de advertencia o retroalimentación visual sobre la obligatoriedad de los campos.
+
+<img width="575" height="639" alt="Image" src="https://github.com/user-attachments/assets/2dd73106-8c96-4486-8ddd-73c0a5d14a11" /><img width="575" height="639" alt="Image" src="https://github.com/user-attachments/assets/cf280474-9c46-4400-82fb-f8fa4aec52f9" />
+
+Recomendación;  Añadir mensajes de error explícitos adyacentes a los campos vacíos (por ejemplo, textos en color rojo) y aplicar estilos de error en los bordes de las cajas de texto cuando la validación falla.
+
+**PROBLEMA \#10: Duplicidad de registros por falta de control de peticiones simultáneas en el formulario de creación de vehículo**
+
+Severidad: 3
+
+Heurística violada: Usabilidad \- “Prevención de errores” y “Visibilidad del estado del sistema” 
+
+Problema: Al hacer clic en el botón "Guardar" del modal de creación de vehículo, el sistema experimenta un tiempo de latencia sin ofrecer retroalimentación visual inmediata. Durante este intervalo, la interfaz mantiene el botón interactivo y el modal abierto. Si el usuario hace clic múltiples veces por frustración o incertidumbre, la aplicación procesa cada pulsación de manera independiente, lo que resulta en la inserción de registros duplicados en el listado de vehículos (como se observa con las dos tarjetas idénticas de placa 12345678 asociadas a Juan Pérez).
+
+<img width="865" height="414" alt="Image" src="https://github.com/user-attachments/assets/10c267d1-4c5e-45e1-9212-a0713a8180e0" />
+
+<img width="868" height="415" alt="Image" src="https://github.com/user-attachments/assets/106f6773-94e1-4f98-9b37-9be9d8187260" />
+
+Recomendación:  Implementar un estado de carga visual en el botón "Guardar" al recibir el primer clic (por ejemplo, mostrando un indicador giratorio o spinner y cambiando el texto a "Guardando..."). De manera simultánea, se debe deshabilitar temporalmente el botón "Guardar" y el botón "Cancelar" para evitar interacciones repetidas mientras se procesa la solicitud. El modal solo debe cerrarse una vez que el flujo se haya completado con éxito, refrescando la vista principal.
+
+**PROBLEMA \#11: Distorsión visual y recorte inadecuado en la previsualización de la imagen del vehículo**
+
+Severidad: 2
+
+Heurística violada: Usabilidad \- “Relación entre el sistema y el mundo real” y “Estética y diseño minimalista”
+
+Problema: Al adjuntar una imagen del vehículo en el formulario de creación, la caja de previsualización de la interfaz no respeta el formato o relación de aspecto original de la fotografía. El contenedor obliga a la imagen a ajustarse a un formato extremadamente apaisado y recortado (solo visible como una franja del cielo en la primera captura). Esta distorsión dificulta que el usuario verifique visualmente si cargó la fotografía correcta antes de guardarla.
+
+<img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/39b2bce0-783e-44a6-9b43-53078f972989" />
+
+Recomendación:  Ajustar el contenedor de la imagen en la interfaz del frontend para que mantenga una relación de aspecto estándar (como 16:9 o 4:3) y aplique técnicas de escalado que aseguren que el automóvil quede centrado y completamente visible dentro de la caja de previsualización sin recortarse de forma drástica. Se sugiere añadir un botón para "Reemplazar imagen" o "Eliminar" directamente en la miniatura de previsualización.
+
+**PROBLEMA \#12: Ausencia de mensajes de validación y feedback visual ante el envío de campos obligatorios vacíos**
+
+Severidad: 3
+
+Heurística violada: Usabilidad \- “Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores” y “Visibilidad del estado del sistema”
+
+Problema: Cuando el usuario hace clic en el botón "Guardar" sin haber completado los campos requeridos marcados con asterisco rojo (Cliente propietario \* y Placa \*), la interfaz bloquea el registro del vehículo (comportamiento correcto), pero no proporciona ninguna indicación visual del error. El usuario no recibe notificaciones de texto, resaltados en rojo en los campos vacíos ni mensajes flotantes que indiquen qué información falta completar, lo cual genera incertidumbre sobre si el botón funciona correctamente.
+
+<img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/bbd128be-b01b-48c3-b7c6-2fde8415e44b" />
+
+Recomendación:  Al presionar "Guardar", si existen campos obligatorios vacíos, la interfaz debe cancelar el envío, enfocar automáticamente el primer campo con error, resaltar los bordes de los campos vacíos en color de advertencia (rojo) y mostrar un mensaje descriptivo inmediatamente debajo de ellos (ej. "Este campo es obligatorio"). Opcionalmente, se puede mostrar una alerta emergente (toast notification) en la esquina superior del panel indicando al usuario que revise el formulario.
+
+**PROBLEMA \#13: Presencia de etiquetas de traducción sin procesar (raw keys) en la pantalla de detalle del vehículo**
+
+Severidad: 2
+
+Heurística violada: Arquitectura de la Información \- “Rotulado”
+
+Problema: En la ficha informativa del propietario del vehículo, la etiqueta correspondiente al correo electrónico se muestra en la pantalla como common.email en lugar de una etiqueta amigable y legible para el usuario en su respectivo idioma (como "Correo electrónico" o "Email"). Esto denota una falta de localización en el frontend y reduce la calidad visual del producto ante el administrador.
+
+<img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/5b2ad70c-824d-45e5-aef5-07b2101a6b78" />
+
+Recomendación:  Reemplazar el identificador técnico de la cadena de traducción (common.email) en el frontend por su valor localizado correspondiente en español ("Correo electrónico") e inglés ("Email"), asegurando que la interfaz resuelva correctamente las propiedades del diccionario de traducción antes de renderizar la vista.
+
+**PROBLEMA \#14: Duplicidad en el registro de clientes debido a la falta de bloqueo en peticiones simultáneas del formulario de registro de cliente**
+
+Severidad: 3
+
+Heurística violada: Usabilidad \- “Prevención de errores” y “Visibilidad del estado del sistema”
+
+Problema: Al guardar un nuevo cliente ("Jhon Hernandez"), el botón "Guardar" no se deshabilita ni muestra un indicador de carga durante el proceso de almacenamiento. Si el usuario realiza múltiples clics consecutivos en el botón antes de que el servidor responda, la interfaz ejecuta múltiples peticiones de inserción. Esto se evidencia en la vista del listado de clientes, donde aparecen tres registros idénticos con el mismo DNI y datos de contacto creados en el mismo instante.
+
+<img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/7953bbdc-d90c-4199-b16b-e3c435c87538" /><img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/c74db998-1185-4316-9963-5d25731d543d" />
+
+Recomendación: Deshabilitar los botones de acción ("Guardar" y "Cancelar") inmediatamente después del primer clic y añadir un indicador de carga (spinner) en el interior del botón principal. El formulario debe limpiarse y cerrarse de manera automática solo cuando se confirme que la petición de guardado ha sido exitosa.
+
+**PROBLEMA \#15: Presencia de claves de localización rotas (raw translation keys) en modales de edición y eliminación de clientes**
+
+Severidad: 2
+
+Heurística violada: Arquitectura de la Información \- “Rotulado”
+
+Problema: Al interactuar con el módulo de clientes, varios textos clave de la interfaz no se renderizan correctamente y exponen nombres de variables del sistema en lugar de texto en lenguaje natural. Se identifican las siguientes etiquetas rotas:
+
+* **Modal de edición:** “customers.form.editTitle” (Título) y “customers.form.update” (Botón de confirmación).  
+* **Modal de eliminación:** “customers.delete.title” (Título), “customers.delete.description” (Descripción), “customers.delete.cancel” (Botón de cancelar) y “customers.delete.confirm” (Botón de confirmar). Esto afecta negativamente la confianza del usuario final en la madurez técnica de la aplicación.
+
+<img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/974629b8-ff29-4144-9f80-498b240f1c24" /><img width="886" height="425" alt="Image" src="https://github.com/user-attachments/assets/468d6d47-7ab1-4cd7-a9b1-bee3ec08a2b0" />
+
+Recomendación: Configurar y mapear adecuadamente las claves correspondientes en los archivos de localización de idiomas del frontend (español e inglés). Asegurar que la librería de traducción se inicialice antes de renderizar estos modales dinámicos.
+
+**PROBLEMA \#16: Despliegue de errores críticos mediante diálogos de alerta nativos del navegador**
+
+Severidad: 2
+
+Heurística violada: Usabilidad \- “Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores” y “Consistencia y estándares”.
+
+Problema: Cuando ocurre un fallo técnico al intentar eliminar un cliente (por ejemplo, "Jhon Hernandez"), la interfaz de usuario delega el manejo del error a una alerta emergente nativa del navegador (window.alert) que muestra el mensaje genérico "Error al eliminar el cliente". Este tipo de alertas bloquean toda la interacción del navegador, tienen un aspecto visual ajeno a la línea gráfica de la aplicación y carecen de un formato amigable que sugiera al usuario cómo solucionar el problema o por qué ocurrió.
+
+<img width="886" height="440" alt="Image" src="https://github.com/user-attachments/assets/b2d85c36-5142-4c27-89bf-a93b76aa43f2" />
+
+Recomendación: Reemplazar el cuadro de alerta nativo por un componente de notificación del sistema integrado dentro de la aplicación (toast banner o una alerta modal estilizada con los colores del sistema de diseño). El mensaje debe ser descriptivo e indicar una razón clara (ej. "No se pudo eliminar el cliente porque tiene vehículos o servicios activos asociados").
+
+**PROBLEMA \#17: Sobreposición de los inputs para ingresar nuevo artículo**
+
+Severidad: 2
+
+Heurística violada: Diseño estético y minimalista
+
+Problema: Al tratar de crear un nuevo artículo, el apartado de texto para la marca está sobrepuesto en el de categoría, lo cual no resulta un problema que imposibilite al usuario ingresar los datos, sin embargo, a nivel de diseño y estético es necesario encargarse de ello.
+
+<img width="713" height="969" alt="Image" src="https://github.com/user-attachments/assets/cbfa8155-e38e-4c54-9640-0fc1773bee09" />
+
+Recomendación:
+
+Manejar el diseño flexible y las media queries del formulario para que el ingreso de la información sea más óptimo.
+
+**PROBLEMA \#18: Overflow en el formulario no controlado**
+
+Severidad: 2
+
+Heurística violada: Diseño estético y minimalista
+
+Problema: El input para el stock mínimo está saliéndose de los límites del formulario, lo que está ocasionando a su vez un scroll innecesario que está sobreponiéndose al contenedor de imagen del material.
+
+<img width="584" height="144" alt="Image" src="https://github.com/user-attachments/assets/7bd77a6e-4547-41e9-8f18-a2db2d1f2d2d" />
+
+<img width="533" height="723" alt="Image" src="https://github.com/user-attachments/assets/21848e28-2d74-4c40-bb4d-45de5c732da5" />
+
+<img width="563" height="202" alt="Image" src="https://github.com/user-attachments/assets/7033fa9b-9bb2-4e58-9c08-2a7ecdf7402c" />
+
+Recomendación:
+
+Controlar el espacio dirigido para cada apartado del formulario y mantener la flexibilidad con las media queries por posibles cambios de resolución en la pantalla.
+
+**PROBLEMA \#19: Internacionalización a medias**
+
+Severidad: 2
+
+Heurística violada: Relación entre el sistema y el mundo real 
+
+Problema: Aún existen zonas en las que la información no está recogiendo de forma correcta la traducción hacia los lenguajes de la página y solo está mostrando la dirección. Esto, para el usuario objetivo, podría resultar un problema de comprensión ya que no sabría qué es lo que la página está tratando de comunicar y es necesaria su revisión.
+
+<img width="526" height="706" alt="Image" src="https://github.com/user-attachments/assets/f41baf42-eaba-4900-84b1-fd74ab448630" />
+
+<img width="309" height="156" alt="Image" src="https://github.com/user-attachments/assets/81a15c2f-dc26-4d8c-919e-e49e7924a476" />
+
+Recomendación:
+
+Revisar minuciosamente la información con internacionalización y verificar que todos los textos se estén mostrando de forma exitosa en la página.
+
+**PROBLEMA \#20: Interfaz duplicada y sin respetar espacios**
+
+Severidad: 2
+
+Heurística violada: Prevención de errores (Heurística \#5) / Flexibilidad y eficiencia de uso (Heurística \#7) 
+
+Problema: En el campo "Cuenta de Mecánico", el usuario ya ingresó un correo electrónico completo (manolito.rojas@gmail.com), pero la interfaz duplica el dominio mostrando un texto fijo abajo (@gmail.com). Esto confunde al usuario sobre si debe ingresar el correo completo o solo el usuario, además de sugerir un formato rígido (nombre+apellido) que limita el uso de correos corporativos o de otros proveedores. Ademas, al terminar con el formulario las palabras salen del contenedor
+
+<img width="552" height="869" alt="Image" src="https://github.com/user-attachments/assets/eed70cfc-5b0c-4215-adfd-6070b17e103d" />
+
+<img width="642" height="552" alt="Image" src="https://github.com/user-attachments/assets/86a8750d-b25d-4d3a-8646-39de606b1a29" />
+
+Recomendación: Eliminar la etiqueta estática `@gmail.com` externa al campo. Permitir que el usuario ingrese libremente cualquier dirección de correo electrónico válida y cambiar el texto de ayuda por algo más flexible, como: *"Ingrese el correo electrónico del mecánico"*. Agregar también algun acortador de frases cuando la cadena sea demasiado larga para que no sobrepase el espacio asignado.
+
+**PROBLEMA \#20: Duplicidad en tabla**
+
+Severidad: 1
+
+Heurística violada: Consistencia y estándares (Heurística \#4) 
+
+Problema: En la tabla de la sección "Tareas de la Orden", la cabecera presenta una columna duplicada. La etiqueta **"Materiales"** aparece dos veces (como tercera y quinta columna), lo que genera confusión visual y desorganización en la presentación de los datos. 
+
+<img width="886" height="431" alt="Image" src="https://github.com/user-attachments/assets/829a1c23-51ee-4eeb-9e70-163aeb16f142" />
+
+Recomendación: Revisar el componente de la tabla para eliminar la columna duplicada de **"Materiales"** o, en caso de que corresponda a un dato distinto, corregir el texto de la cabecera con el nombre correcto (por ejemplo: "Cantidad", "Acciones", etc.). 
+
+**PROBLEMA \#21: Selector de filtrado por mecánico vacío y sin estado inicial claro** 
+
+Severidad: 2
+
+Heurística violada: Prevención de errores (Heurística \#5) / Visibilidad del estado del sistema (Heurística \#1) 
+
+Problema: En la vista del "Tablero de tareas" (versión en español), al desplegar el filtro de "Mecánico", la lista desplegable muestra el mensaje *"No available options"* en inglés, a pesar de que el sistema está configurado en español. Además, el selector se muestra completamente en blanco sin un texto instructivo inicial (como "Seleccionar mecánico"), lo que genera incertidumbre sobre si existen mecánicos registrados en el sistema o si se trata de un fallo de carga de datos.
+
+<img width="886" height="405" alt="Image" src="https://github.com/user-attachments/assets/f807c0eb-98b2-4377-ba18-a4a774f7f723" />
+
+Recomendación: Implementar un estado por defecto legible para el selector (por ejemplo, "Todos los mecánicos" o "Seleccionar..."). Asimismo, asegurar que los mensajes de las listas vacías estén correctamente internacionalizados con vue-i18n para cambiar dinámicamente a "No hay opciones disponibles" cuando el idioma seleccionado sea el español. 
+
+**PROBLEMA \#22: Falta de control de estados vacíos (Empty States) cuantitativos en el Panel Principal** 
+
+Severidad: 1
+
+Heurística violada: Reconocimiento antes que recuerdo (Heurística \#6) / Estética y diseño minimalista (Heurística \#8)
+
+Problema: En el "Panel Principal del Taller", los contenedores destinados a mostrar los gráficos de "Ingresos semanales", "Actividad reciente" y "Servicios frecuentes" se renderizan completamente vacíos y desproporcionados cuando no hay datos registrados en el sistema. La gráfica muestra un eje numérico vertical flotando sin barras ni referencias temporales claras en el eje X, mientras que las secciones inferiores carecen de un mensaje aclaratorio o ilustración amigable, dejando cajas grises desoladas.
+
+<img width="1949" height="894" alt="Image" src="https://github.com/user-attachments/assets/736dcbe0-9265-433b-96fc-eb1d58abb956" /> 
+
+Recomendación: Implementar componentes de "Empty State" controlados. Cuando los arreglos de datos de las órdenes o ingresos estén vacíos, se debe ocultar el lienzo de la gráfica o la tabla vacía y, en su lugar, mostrar un texto sutil con un diseño limpio que indique al usuario algo como: *"No hay actividad registrada esta semana. Las métricas aparecerán cuando crees tu primera orden de trabajo"*.
+
+### 5.4. Video About-the-Product
 [Pendiente]
+
+
+## Conclusiones
+
+### Conclusiones y Recomendaciones
+
+<p align="justify">
+A continuación, se presentan las conclusiones derivadas del desarrollo de los primeros cinco capítulos del proyecto AutoService, así como las recomendaciones estratégicas para la continuidad de los siguientes Sprints:
+</p>
+
+<p align="justify"><b>Conclusiones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Implementación Integral de la Solución:</strong> Se logró desarrollar e integrar exitosamente una arquitectura compuesta por un frontend en Angular y un backend en Spring Boot, permitiendo la comunicación entre ambas capas mediante servicios REST y garantizando el funcionamiento integral de la plataforma.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Arquitectura Escalable y Mantenible:</strong> La aplicación de Domain-Driven Design (DDD) y la organización mediante Bounded Contexts permitió estructurar adecuadamente los dominios del negocio, favoreciendo la mantenibilidad, modularidad y escalabilidad del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Automatización y Despliegue Continuo:</strong> La integración de GitHub con las plataformas de despliegue permitió automatizar los procesos de construcción y publicación de la aplicación, facilitando la entrega continua y la disponibilidad del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Persistencia y Gestión de Datos:</strong> La implementación de una base de datos relacional mediante Spring Data JPA permitió garantizar la persistencia y gestión consistente de la información del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Madurez en la Gestión del Desarrollo:</strong> El uso de GitFlow, Pull Requests, Conventional Commits y documentación de APIs contribuyó a mantener un proceso de desarrollo colaborativo, organizado y alineado con buenas prácticas de ingeniería de software.
+  </li>
+</ul>
+
+<p align="justify"><b>Recomendaciones:</b></p>
+<ul style="text-align: justify; margin-top: 0.5em; margin-bottom: 1.5em; padding-left: 1.5em;">
+  <li style="margin-bottom: 0.8em;">
+    <strong>Fortalecimiento de la Seguridad:</strong> Implementar mecanismos avanzados de autenticación, autorización y gestión de roles para garantizar la protección de los recursos de la plataforma.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Incorporación de Pruebas Automatizadas:</strong> Ampliar la cobertura de pruebas unitarias, de integración y de aceptación para incrementar la confiabilidad del sistema.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Monitoreo y Observabilidad:</strong> Incorporar herramientas de monitoreo, registro de eventos y seguimiento de errores para mejorar la estabilidad operativa de la solución.
+  </li>
+  <li style="margin-bottom: 0.8em;">
+    <strong>Evolución Funcional:</strong> Continuar incorporando funcionalidades y mejoras basadas en la retroalimentación de los usuarios y las necesidades del negocio.
+  </li>
+</ul>
+
+
+---
+
+## Bibliografía
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Angular Team. (2024). <i>Angular Documentation</i>. Google. <a href="https://angular.io/docs" target="_blank">https://angular.io/docs</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brandolini, A. (2021). <i>Introducing EventStorming: An act of deliberate collective learning</i>. Leanpub. <a href="https://leanpub.com/introducing_eventstorming" target="_blank">https://leanpub.com/introducing_eventstorming</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Brown, S. (2020). <i>The C4 model for visualising software architecture</i>. C4 Model. <a href="https://c4model.com/" target="_blank">https://c4model.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Cucumber. (s.f.). <i>Gherkin Reference: Syntax and Keywords</i>. <a href="https://cucumber.io/docs/gherkin/" target="_blank">https://cucumber.io/docs/gherkin/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  EmailJS. (2024). <i>EmailJS Official Documentation</i>. <a href="https://www.emailjs.com/docs/" target="_blank">https://www.emailjs.com/docs/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Evans, E. (2003). <i>Domain-Driven Design: Tackling Complexity in the Heart of Software</i>. Addison-Wesley Professional. <a href="https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/" target="_blank">https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  GitHub. (2024). <i>GitHub Actions and GitHub Pages Documentation</i>. <a href="https://docs.github.com/" target="_blank">https://docs.github.com/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Gothelf, J., & Seiden, J. (2021). <i>Lean UX: Designing Great Products with Agile Teams</i> (3.ª ed.). O'Reilly Media. <a href="https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/" target="_blank">https://www.oreilly.com/library/view/lean-ux-3rd/9781492048596/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Spring Framework. (2024). <i>Spring Boot Reference Guide</i>. VMware. <a href="https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/" target="_blank">https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Swagger. (s.f.). <i>OpenAPI Specification and Documentation Tools</i>. <a href="https://swagger.io/" target="_blank">https://swagger.io/</a>
+</p>
+
+<p align="justify" style="margin-left: 2em; text-indent: -2em; margin-bottom: 0.8em;">
+  Velneo. (2023). <i>Por qué usar un software de gestión ERP en talleres mecánicos</i>. <a href="https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/" target="_blank">https://velneo.com/blog/software-gestion-erp-talleres-mecanicos/</a>
+</p>
+
+---
+
+## Anexos
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo A: Guía de Entrevistas por Segmento</h3>
+</div>
+
+<p align="justify">
+A continuación, se presentan las guías de preguntas estructuradas utilizadas durante el proceso de <i>Requirements Elicitation</i> para los tres segmentos objetivo del proyecto. Estas preguntas fueron diseñadas para identificar puntos de dolor, procesos actuales y expectativas de los usuarios.
+</p>
+
+<p><strong>Segmento 1: Mecánicos Independientes</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuánto tiempo llevas trabajando como mecánico? ¿Podrías contarme cómo es un día típico en tu trabajo dentro del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo registras actualmente la información de tus clientes, vehículos y trabajos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuáles son los principales problemas que enfrentas al gestionar los trabajos del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo informas a tus clientes sobre el estado de sus vehículos?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan seguido te llaman o escriben clientes para preguntar por el estado de su auto?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Crees que tus clientes confían en el servicio que brindas? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Llevas un historial de los trabajos realizados por vehículo o cliente?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te ayude a organizar tus trabajos y mostrar el progreso al cliente, ¿la usarías? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidad te sería más útil en una herramienta digital para tu trabajo diario?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 2: Talleres Automotrices - Empresas</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cuántas personas trabajan en su taller y cómo están organizadas sus funciones?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo gestionan actualmente los clientes, vehículos y órdenes de trabajo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué problemas tienen al coordinar el trabajo entre mecánicos o áreas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo hacen seguimiento al estado de cada vehículo en reparación?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tienen algún sistema para medir ingresos, servicios realizados o rendimiento del taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Cómo se comunican con los clientes sobre el avance del servicio?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Han tenido problemas de desconfianza o reclamos por parte de clientes?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera un sistema que te permita gestionar tu taller y mostrar a tus clientes el progreso en tiempo real, ¿lo usarías?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">9</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué funcionalidades consideras indispensables en un sistema de gestión para talleres?</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Segmento 3: Clientes - Propietarios de vehículos</strong></p>
+<table style="width: 100%; border-collapse: collapse; margin-bottom: 1.5em;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ddd; padding: 8px;">#</th>
+      <th style="border: 1px solid #ddd; padding: 8px;">Pregunta de Entrevista</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td><td style="border: 1px solid #ddd; padding: 8px;">¿Podrías contarme sobre la última vez que llevaste tu vehículo a un taller? ¿Qué servicio necesitabas?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">2</td><td style="border: 1px solid #ddd; padding: 8px;">Durante el servicio, ¿cómo te informaban sobre el estado de tu vehículo?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td><td style="border: 1px solid #ddd; padding: 8px;">¿Tuviste alguna duda o preocupación mientras tu auto estaba en el taller? ¿Cuál fue?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">4</td><td style="border: 1px solid #ddd; padding: 8px;">¿Alguna vez has sentido desconfianza hacia un taller? ¿Qué situación generó eso?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">5</td><td style="border: 1px solid #ddd; padding: 8px;">¿Te gustaría poder ver el progreso de la reparación de tu auto en tiempo real desde tu celular o computadora? ¿Por qué?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">6</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tipo de información te gustaría ver mientras tu vehículo está en el taller?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">7</td><td style="border: 1px solid #ddd; padding: 8px;">¿Qué tan cómodo te sientes usando plataformas digitales o aplicaciones para consultar información de servicios?</td></tr>
+    <tr><td style="border: 1px solid #ddd; padding: 8px; text-align: center;">8</td><td style="border: 1px solid #ddd; padding: 8px;">Si existiera una plataforma que te permita ver el estado de tu vehículo, costos y trabajos realizados, ¿la usarías? ¿Qué te gustaría que incluya?</td></tr>
+  </tbody>
+</table>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo B: Gestión del Product Backlog en Jira Software</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Product Backlog de AutoService</i>. Atlassian Jira Software. <a href="https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1" target="_blank">https://innovatechstudio.atlassian.net/jira/software/projects/ASS/boards/1</a>
+</p>
+
+<p align="justify">
+Se presenta la gestión de historias de usuario, épicas y tareas técnicas mediante la herramienta Jira Software. El tablero refleja la priorización de los ítems del backlog y el estado de avance de las tareas planificadas para el Sprint 1.
+</p>
+
+<div align="center">
+  <img src="docs/assets/anexos_jira.png" alt="Jira Product Backlog Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo C: Prototipado y Diseño de Interfaces en Figma</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>Design System y Mockups de AutoService</i>. Figma. <a href="https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW?node-id=1-2&t=aYBkJzt0CQrAU6qH-1" target="_blank">https://www.figma.com/design/rOJ6k8HLfI85lI8Xsik6TN/AUTOSERVICE-AW</a>
+</p>
+
+<p align="justify">
+Se adjunta el diseño de alta fidelidad de la plataforma, incluyendo el Design System (colores, tipografías y componentes), los wireframes y los mockups interactivos que definen la experiencia de usuario (UX) y la interfaz (UI) de AutoService.
+</p>
+
+<div align="center">
+  <h5>Captura del Diseño de Interfaces - Figma</h5>
+  <img src="docs/assets/anexos_figma.png" alt="Figma UI/UX Design Screenshot" width="80%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3 style="border-bottom: none;">Anexo D: Modelado de Dominio y Flujos en Miro</h3>
+</div>
+
+<p align="justify">
+<b>Referencia:</b> InnovaTech Studio. (2026). <i>EventStorming y User Flows de AutoService</i>. Miro. <a href="https://miro.com/welcomeonboard/ME8rSzFiTWh0M3k1SC80N0RZelVpKzBCdk5LNTZsTzhDSEJORE4ybE5ta25rUVd1ZFVNZndDS1ExZm0xSkdNVHFuc3E3QTN1QzQrcFFzYnUrYzN1NE5HTFdLQ1ZtbnNpYUN3cWJiblZ5dVdCQS9rY3dnSjlBdnNPSDh4Tk41alBnbHpza3F6REdEcmNpNEFOMmJXWXBBPT0hdjE=?share_link_id=615806054520" target="_blank">Enlace al tablero interactivo en Miro</a>
+</p>
+
+<p align="justify">
+Se presenta el modelado colaborativo del dominio del negocio mediante la técnica de EventStorming, así como los diagramas de flujo de usuario (User Flows) que detallan la navegación lógica para los distintos actores del sistema.
+</p>
+
+<div align="center">
+  <h5>Captura del Tablero de Modelado - Miro</h5>
+  <img src="docs/assets/anexos_miro.png" alt="Miro EventStorming Screenshot" width="80%">
+</div>
 
 ### 5.4. Video About-the-Product
 [Pendiente]

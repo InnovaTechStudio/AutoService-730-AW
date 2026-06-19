@@ -6829,7 +6829,8 @@ El repositorio principal utilizado para el trabajo colaborativo de la capa de se
 <ol>
   <li>Después de ver la página de AutoService, ¿cuál seria tu comemtatio principal sobre el problema que resolvemos para talleres como el tuyo? ¿Qué elemento o frase de la página te llamó más la atención y por qué? 
 </li>
-  <li>Para crear una orden de trabajo, ¿dónde buscarías la opción? ¿Qué datos son los más importantes para empezar?</li>
+  <li>Para crear una tarea de trabajo asignado por tu administrador, ¿Cómo empezarías, que necesitarías añadir o modificar de la plataforma?
+</li>
   <li>Al añadir una tarea y elegir materiales del inventario, ¿es fácil? ¿Qué información del material necesitas ver sí o sí?</li>
   <li>Qué 3 indicadores del dashboard revisarías cada mañana? ¿Falta alguno?</li>
   <li>Si te falta una pieza en medio de una reparación, ¿qué funcionalidad del inventario te ayudaría más?</li>
@@ -6880,13 +6881,13 @@ El repositorio principal utilizado para el trabajo colaborativo de la capa de se
 
 #### 5.3.2. Registro de Entrevistas
 
-#### Entrevista 1: Técnico Independiente
+#### Entrevista 1: Técnico 
 
 - **Nombre:** David Klisman Paredes
 - **Edad:** 24
 - **Residencia:** Lima, Surco 
 - **Ocupación:** Técnico Mecánico Automotriz  
-
+- **Fecha:** 18 de junio de 2026  
 - **Inicio:** 0:34 
 - **Duración:** 6:13 
 
@@ -6902,13 +6903,13 @@ Durante la entrevista, el participante identificó que la plataforma AutoService
 ![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m1.png)
 
 ---
-#### Entrevista 2: Técnico Independiente
+#### Entrevista 2: Técnico 
 
 - **Nombre:** Antenor Ayala
 - **Edad:** 32
 - **Residencia:** Ayacucho, Huamanga
 - **Ocupación:** Técnico Mecánico Automotriz  
-
+- **Fecha:** 18 de junio de 2026  
 - **Inicio:** 0:24 
 - **Duración:** 8:40
 
@@ -6923,7 +6924,34 @@ El entrevistado mostró una percepción muy positiva de AutoService, destacando 
 **Evidencia:**
 ![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m2.png)
 
-#### Entrevista 3: Administrador
+---
+
+#### Entrevista 3: Técnico Independiente
+
+- **Nombre:** Robinson Quispe
+- **Edad:** 34
+- **Residencia:** Ayacucho, Huamanga
+- **Ocupación:** Técnico Mecánico Automotriz
+- **Fecha:** 18 de junio de 2026  
+- **Inicio:** 0:27
+- **Duración:** 8:43
+
+**Link:**  
+[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20241d185_upc_edu_pe/IQBsTXiVzGj0T4r3UmIWg72qAQV_Vxicstb--0zfx1geFyM?e=TbJcnD)
+
+**Resumen:**
+<p style="text-align: justify;">
+El entrevistado Robinson destacó que la plataforma resuelve problemas relacionados con la organización de tareas, el control de inventario y la optimización del tiempo dentro del taller. Consideró que la plataforma es intuitiva, amigable y fácil de utilizar, especialmente para asignar tareas y gestionar el trabajo de los mecánicos. Valoró la posibilidad de visualizar el stock disponible, la compatibilidad de los repuestos con los vehículos y el seguimiento del avance de las órdenes de trabajo. Entre los indicadores más importantes mencionó el estado de los vehículos en reparación, el control de inventario y las tareas pendientes, sugiriendo además incluir métricas de ingresos y facturación. También resaltó la utilidad de las alertas automáticas de stock para evitar faltantes de piezas. Respecto a los planes, indicó que elegiría el plan Pro debido al volumen de trabajo de su taller, aunque le gustaría entender mejor el valor diferencial del plan Business. Como observación final, señaló que la plataforma le parece bien estructurada y útil, aunque considera importante comprender mejor el flujo operativo cuando se maneje un volumen elevado de órdenes y vehículos.
+
+</p>
+
+**Evidencia:**
+
+![Entrevista Tencnico Taller](docs/assets/interview-validate/inter-validate-m3.png)
+
+---
+
+#### Entrevista 4: Administrador
 
 - **Nombre y Apellido:** Juan Calisaya
 - **Edad:** 30 años
@@ -6952,7 +6980,7 @@ Como sugerencia de mejora, propuso incorporar reportes de productividad y estad�
 ![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin1.png)
 
 ---
-#### Entrevista 4: Administrador
+#### Entrevista 5: Administrador
 
 - **Nombre y Apellido:** Sebastián Rojas
 - **Edad:** 24 años
@@ -6982,7 +7010,7 @@ Como principal sugerencia de mejora, recomendó incorporar reportes avanzados re
 ![Entrevista Administrador](docs/assets/interview-validate/inter-validate-admin2.png)
 
 ---
-#### Entrevista 5: Administrador
+#### Entrevista 6: Administrador
 
 - **Nombre y Apellido:** Jaime Ruiz
 - **Edad:** 30 años

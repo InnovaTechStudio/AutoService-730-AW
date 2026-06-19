@@ -7424,7 +7424,15 @@ Problema: En el "Panel Principal del Taller", los contenedores destinados a most
 Recomendación: Implementar componentes de "Empty State" controlados. Cuando los arreglos de datos de las órdenes o ingresos estén vacíos, se debe ocultar el lienzo de la gráfica o la tabla vacía y, en su lugar, mostrar un texto sutil con un diseño limpio que indique al usuario algo como: *"No hay actividad registrada esta semana. Las métricas aparecerán cuando crees tu primera orden de trabajo"*.
 
 ### 5.4. Video About-the-Product
-[Pendiente]
+<p align="justify">
+En esta sección se presenta el video promocional About the Product, cuyo objetivo es mostrar de manera general la propuesta de valor del proyecto, destacando su modelo de negocio, principales funcionalidades y beneficios para los usuarios. Asimismo, el video incluye demostraciones de interacción con el producto y testimonios obtenidos de los segmentos objetivo, permitiendo evidenciar la utilidad y aceptación de la solución desarrollada. Como parte de las actividades de difusión y validación, el material audiovisual fue publicado en Microsoft Stream y YouTube, además de ser integrado en la Landing Page del proyecto para facilitar su acceso y visualización.
+</p>
+
+<img width="1949" height="894" alt="Image" src="docs/assets/about-the-product/about-the-product-microsoft.png"/> 
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202418823_upc_edu_pe/IQAZeRfN5THKTZ4gH67wnRdDAeXYRPueuC--BVWIOeffMK0?e=AgD0A5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D" target="_blank">About the product - microsoft</a><br><br>
+
+<img width="1949" height="894" alt="Image" src="docs/assets/about-the-product/video-about-the-product-youtube.png"/> 
+<a href="https://www.youtube.com/watch?v=nUoxB-65Uhs" target="_blank">About the product - youtube</a><br><br>
 
 
 ## Conclusiones

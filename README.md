@@ -170,13 +170,14 @@ Mayo, 2026
 * **URL del Repositorio del Backend:** https://github.com/InnovaTechStudio/AutoService-730-AW-Backend
 * **URL del Frontend Desplegado:** https://witty-meadow-063b9d310.7.azurestaticapps.net/login
 * **URL de la documentación del Backend (Swagger):** https://autoservice-aw-backend.onrender.com/swagger/index.html
-* **Video Exposición AV2:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQCcZqipZElDRYOlaQbb-7vWAcHi-9QSWgXuInegyY3M1ro?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7L0NGJ
+* **Video Exposición TB2:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQBZkXgMR8GMTKtg3cvLmLEqAZl1i9JvGQDm8U_U8cDPdgc?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ljwUx9
 * **Video About The Team:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202421866_upc_edu_pe/IQBJYc7p_QnuQYkOFlpJHVjaAbDue6U-ZWCLUn4CP1a5TNo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v8d97P
 
 ## Project Report Collaboration Insights <!-- omit in toc -->
 * **AV1:** - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
 * **TB1:** - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
 * **AV2:** - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+* **TB2:** - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   
 ---
 
@@ -342,7 +343,6 @@ Mayo, 2026
       - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
         - [A. Validación del Entorno Productivo](#a-validación-del-entorno-productivo)
         - [B. Actualización Continua de la Aplicación](#b-actualización-continua-de-la-aplicación)
-        - [C. Evidencias de Validación del Entorno](#c-evidencias-de-validación-del-entorno)
       - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
@@ -354,14 +354,6 @@ Mayo, 2026
     - [Entrevista 5: Administrador](#entrevista-5-administrador)
     - [Entrevista 6: Administrador](#entrevista-6-administrador)
     - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [](#)
-- [**SITE o APP A EVALUAR:**](#site-o-app-a-evaluar)
-- [AutoService](#autoservice)
-- [**TAREAS A EVALUAR:**](#tareas-a-evaluar)
-- [**ESCALA DE SEVERIDAD:**](#escala-de-severidad)
-- [**TABLA RESUMEN:**](#tabla-resumen)
-- [](#-1)
-- [**DESCRIPCIÓN DE PROBLEMAS:**](#descripción-de-problemas)
   - [5.4. Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
   - [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
@@ -7471,13 +7463,6 @@ Las siguientes evidencias muestran la correcta implementación del mecanismo de 
 <br>
 
 <div align="center">
-  <h5>Registro de Usuario y Autenticación desde el Frontend</h5>
-  <img src="docs/assets/frontend_signup_login.png" alt="Frontend IAM" width="80%">
-</div>
-
-<br>
-
-<div align="center">
   <h5>Verificación del Token JWT en las Solicitudes HTTP</h5>
   <img src="docs/assets/frontend_jwt_console.png" alt="JWT Console Validation" width="80%">
 </div>
@@ -7516,37 +7501,6 @@ Durante esta etapa se verificó el correcto funcionamiento de todos los componen
 Las mejoras implementadas durante este Sprint fueron publicadas utilizando la infraestructura CI/CD previamente configurada. Cada integración aprobada sobre la rama principal generó automáticamente una nueva versión de la aplicación, permitiendo verificar la correcta propagación de los cambios sin afectar la estabilidad del entorno de producción.
 </p>
 
----
-
-###### C. Evidencias de Validación del Entorno
-
-<div align="center">
-
-<h5>Evidencia 1: Ejecución exitosa del flujo CI/CD posterior a la integración del módulo IAM</h5>
-
-<img src="docs/assets/deployment_pipeline_sprint4.png" width="80%">
-
-</div>
-
-<br>
-
-<div align="center">
-
-<h5>Evidencia 2: Aplicación desplegada ejecutando correctamente la autenticación mediante JWT</h5>
-
-<img src="docs/assets/deployment_iam_validation.png" width="80%">
-
-</div>
-
-<br>
-
-<div align="center">
-
-<h5>Evidencia 3: Backend desplegado respondiendo correctamente a solicitudes autenticadas</h5>
-
-<img src="docs/assets/deployment_backend_health.png" width="80%">
-
-</div>
 
 ##### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -7855,13 +7809,11 @@ Finalmente, Jaime Ruiz manifestó que utilizaría AutoService si estuviera dispo
 **AUDITOR		:** PircaIndustries  
 **CLIENTE		:** Francia Torres, Jhony Manuel, Montoya Nina, Paula Fernanda, Palacios Tinoco Adrian Fernando, Ramos Hinostroza, Diego Antonio y Ramos Mera, Neo Daniel.
 
-## 
+## **SITE o APP A EVALUAR:** <!-- omit in toc -->
 
-## **SITE o APP A EVALUAR:**
+## AutoService <!-- omit in toc -->
 
-## AutoService
-
-## **TAREAS A EVALUAR:**
+## **TAREAS A EVALUAR:** <!-- omit in toc -->
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
 
@@ -7877,7 +7829,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 1. Notificaciones  
 2. Configuraciones de accesibilidad
 
-## **ESCALA DE SEVERIDAD:**
+## **ESCALA DE SEVERIDAD:** <!-- omit in toc -->
 
 *Los errores serán puntuados tomando en cuenta la siguiente escala de severidad*
 
@@ -7888,7 +7840,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | *3* | *Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta.* |
 | *4* | *Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento.* |
 
-## **TABLA RESUMEN:**
+## **TABLA RESUMEN:** <!-- omit in toc -->
 
 | *\#* | *Problema* | *Escala de severidad* | *Heurística/Principio violada(o)* |
 | :---: | ----- | :---: | ----- |
@@ -7915,9 +7867,7 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 | 21 | Selector de filtrado por mecánico vacío y sin estado inicial claro | 2 | Prevención de errores (Heurística \#5) / Visibilidad del estado del sistema (Heurística \#1)   |
 | 22 | Falta de control de estados vacíos (Empty States) cuantitativos en el Panel Principal | 1 | Reconocimiento antes que recuerdo (Heurística \#6) / Estética y diseño minimalista (Heurística \#8) |
 
-## 
-
-## **DESCRIPCIÓN DE PROBLEMAS:**
+## **DESCRIPCIÓN DE PROBLEMAS:** <!-- omit in toc -->
 
 **PROBLEMA \#1: Logotipo de tamaño muy reducido en encabezado y pie de página**
 

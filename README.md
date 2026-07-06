@@ -13,7 +13,7 @@ Facultad de Ingenería, Carrera de Ingeniería de Software<br>
 
 **Nombre del startup:** InnovaTech<br>
 **Nombre del producto:** AutoService<br>
-Mayo, 2026
+Julio, 2026
 
 #### Relación de integrantes <!-- omit in toc -->
 
